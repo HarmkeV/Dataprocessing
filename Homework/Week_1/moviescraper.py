@@ -27,12 +27,45 @@ def extract_movies(dom):
     - Runtime (only a number!)
     """
 
-    # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
-    # HIGHEST RATED MOVIES
-    # NOTE: FOR THIS EXERCISE YOU ARE ALLOWED (BUT NOT REQUIRED) TO IGNORE
-    # UNICODE CHARACTERS AND SIMPLY LEAVE THEM OUT OF THE OUTPUT.
+    list_actor_title = dom.find_all("a")
+    actor = []
+    actor_movie = []
+    title = []
+    list_ratings = dom.find_all("div")
+    ratings = []
+    list_time = dom.find_all("span")
+    year = []
+    runtime = []
 
-    return []   # REPLACE THIS LINE AS WELL IF APPROPRIATE
+    for name in list_actor_title:
+        # title
+        if "title" in name.get("href") and "adv_li_tt" in name.get("href"):
+            title.append(name.string)
+            if len(title) > 1:
+                actor.append(actor_movie)
+                actor_movie = []
+        # actor
+        elif "name" in name.get("href") and "adv_li_st" in name.get("href"):
+            actor_movie.append(name.string)
+
+
+    for rating in list_ratings:
+        # ratings
+        if type(rating) != str and rating.get('data-value') != None:
+            rate = rating.get("data-value")
+            ratings.append(rate)
+
+    for time in list_time:
+        # year
+        if time.get("class") is not None and "lister-item-year" in time.get("class"):
+            year.append(time.string)
+
+        # runtime
+        if time.get("class") is not None and "runtime" in time.get("class"):
+            runtime.append(time.string)
+
+    print([actor, title, ratings, year, runtime])
+    return [actor, title, ratings, year, runtime]
 
 
 def save_csv(outfile, movies):
@@ -51,6 +84,7 @@ def simple_get(url):
     If the content-type of response is some kind of HTML/XML, return the
     text content, otherwise return None
     """
+
     try:
         with closing(get(url, stream=True)) as resp:
             if is_good_response(resp):
