@@ -48,6 +48,8 @@ def extract_movies(dom):
         elif "name" in name.get("href") and "adv_li_st" in name.get("href"):
             actor_movie.append(name.string)
 
+        # make sure last actors are appended to list of actors as well
+        actor.append(actor_movie)
 
     for rating in list_ratings:
         # ratings
@@ -64,8 +66,7 @@ def extract_movies(dom):
         if time.get("class") is not None and "runtime" in time.get("class"):
             runtime.append(time.string)
 
-    print([actor, title, ratings, year, runtime])
-    return [actor, title, ratings, year, runtime]
+    return [title, ratings, year, actor, runtime]
 
 
 def save_csv(outfile, movies):
@@ -75,8 +76,10 @@ def save_csv(outfile, movies):
     writer = csv.writer(outfile)
     writer.writerow(['Title', 'Rating', 'Year', 'Actors', 'Runtime'])
 
-    # ADD SOME CODE OF YOURSELF HERE TO WRITE THE MOVIES TO DISK
-
+    # print new row for every movie
+    for movie in range(len(movies[0])):
+        writer.writerow([movies[0][movie], movies[1][movie], movies[2][movie],\
+        movies[3][movie], movies[4][movie]])
 
 def simple_get(url):
     """
@@ -124,4 +127,4 @@ if __name__ == "__main__":
 
     # write the CSV file to disk (including a header)
     with open(OUTPUT_CSV, 'w', newline='') as output_file:
-        save_csv(output_file, movies) 
+        save_csv(output_file, movies)

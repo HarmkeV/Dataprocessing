@@ -16,5 +16,8 @@ END_YEAR = 2018
 # Global dictionary for the data
 data_dict = {str(key): [] for key in range(START_YEAR, END_YEAR)}
 
+# visualize plot
+plt.show()
+
 if __name__ == "__main__":
     print(data_dict)
