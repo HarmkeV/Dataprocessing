@@ -58,7 +58,7 @@ def extract_movies(dom):
     # iterate over every piece of html between <div> and </div>
     for rating in list_ratings:
         # ratings
-        if type(rating) != str and rating.get('data-value') != None:
+        if type(rating) is not str and rating.get('data-value') is not None:
             rate = rating.get("data-value")
             ratings.append(rate)
 
