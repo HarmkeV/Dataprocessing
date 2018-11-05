@@ -27,6 +27,7 @@ def extract_movies(dom):
     - Runtime (only a number!)
     """
 
+    # create lists for each header of column, plus additional for temp use
     list_actor_title = dom.find_all("a")
     actor = []
     actor_movie = []
@@ -37,10 +38,13 @@ def extract_movies(dom):
     year = []
     runtime = []
 
+    # iterate over every piece of html between <a> and </a>
     for name in list_actor_title:
         # title
         if "title" in name.get("href") and "adv_li_tt" in name.get("href"):
             title.append(name.string)
+
+            # ensure actors are in an additional list to group them per movie
             if len(title) > 1:
                 actor.append(actor_movie)
                 actor_movie = []
@@ -51,12 +55,14 @@ def extract_movies(dom):
     # make sure last actors are appended to list of actors as well
     actor.append(actor_movie)
 
+    # iterate over every piece of html between <div> and </div>
     for rating in list_ratings:
         # ratings
         if type(rating) != str and rating.get('data-value') != None:
             rate = rating.get("data-value")
             ratings.append(rate)
 
+    # iterate over every piece of html between <span> and </span>
     for time in list_time:
         # year
         if time.get("class") is not None and "lister-item-year" in time.get("class"):

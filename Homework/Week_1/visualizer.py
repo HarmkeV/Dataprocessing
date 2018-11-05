@@ -18,23 +18,28 @@ data_dict = {str(key): [] for key in range(START_YEAR, END_YEAR)}
 
 if __name__ == "__main__":
     with open("movies.csv", newline='') as csvfile:
-      # read the file as a dictionary for each row ({header : value})
+
+      # read the file as a dictionary for each row and append year and date to dict
       reader = csv.DictReader(csvfile)
       for row in reader:
           data_dict[row["Year"]].append(float(row["Rating"]))
-    print(data_dict)
-    # visualize plot
+
+    # create lists for x and y axis in plot
     x = []
     y = []
 
-    for i in data_dict:
-        value = data_dict[i]
+    # iterate per year
+    for year in data_dict:
+        value = data_dict[year]
         average_rating = sum(value)/len(value)
-        x.append(i)
+        x.append(year)
         y.append(average_rating)
 
+    # visualize plot
     plt.plot(x,y)
     plt.title('Average rating of movies per year')
     plt.ylabel('average rating')
-    plt.ylabel('year of origin')
+    plt.xlabel('year')
+
+    # ensure plot is shown
     plt.show()
