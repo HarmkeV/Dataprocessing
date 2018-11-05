@@ -48,8 +48,8 @@ def extract_movies(dom):
         elif "name" in name.get("href") and "adv_li_st" in name.get("href"):
             actor_movie.append(name.string)
 
-        # make sure last actors are appended to list of actors as well
-        actor.append(actor_movie)
+    # make sure last actors are appended to list of actors as well
+    actor.append(actor_movie)
 
     for rating in list_ratings:
         # ratings
