@@ -60,7 +60,7 @@ def extract_movies(dom):
     for time in list_time:
         # year
         if time.get("class") is not None and "lister-item-year" in time.get("class"):
-            year.append(time.string)
+            year.append(time.string.strip("()")[-4:])
 
         # runtime
         if time.get("class") is not None and "runtime" in time.get("class"):
