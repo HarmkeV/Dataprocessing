@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
     # visualize plot
     plt.plot(x,y, color="red")
-    plt.title('Average rating of movies per year')
+    plt.title('Average rating of movies per year from 2008 to 2018')
     plt.ylabel('average rating')
     plt.xlabel('year')
 
