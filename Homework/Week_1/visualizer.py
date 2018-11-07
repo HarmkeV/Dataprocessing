@@ -36,7 +36,7 @@ if __name__ == "__main__":
         y.append(average_rating)
 
     # visualize plot
-    plt.plot(x,y)
+    plt.plot(x,y, color="red")
     plt.title('Average rating of movies per year')
     plt.ylabel('average rating')
     plt.xlabel('year')
