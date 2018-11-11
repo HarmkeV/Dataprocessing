@@ -135,10 +135,9 @@ def five_number_summary(df):
 
 
 def output(data_dict):
-    
+    with open("output.json", "w")
+        json.dump(output)
 
-    json_string = json.dumps(data_dict)
-    print(json_string)
 
 if __name__ == "__main__":
 
