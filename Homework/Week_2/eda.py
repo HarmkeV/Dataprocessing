@@ -91,6 +91,7 @@ def create_df(data_dict):
                                 columns=['Region', 'Pop. Density (per sq. mi.)',
                                 'Infant mortality (per 1000 births)',
                                 'GDP ($ per capita) dollars'])
+
     return df
 
 
