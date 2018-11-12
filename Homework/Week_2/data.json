@@ -1,1 +1,1292 @@
-{"Afghanistan ": ["ASIA (EX. NEAR EAST)         ", "48,0", 163.07, 700], "Albania ": ["EASTERN EUROPE                     ", "124,6", 21.52, 4500], "Algeria ": ["NORTHERN AFRICA                    ", "13,8", 31.0, 6000], "American Samoa ": ["OCEANIA                            ", "290,4", 9.27, 8000], "Andorra ": ["WESTERN EUROPE                     ", "152,1", 4.05, 19000], "Angola ": ["SUB-SAHARAN AFRICA                 ", "9,7", 191.19, 1900], "Anguilla ": ["LATIN AMER. & CARIB    ", "132,1", 21.03, 8600], "Antigua & Barbuda ": ["LATIN AMER. & CARIB    ", "156,0", 19.46, 11000], "Argentina ": ["LATIN AMER. & CARIB    ", "14,4", 15.18, 11200], "Armenia ": ["C.W. OF IND. STATES ", "99,9", 23.28, 3500], "Australia ": ["OCEANIA                            ", "2,6", 4.69, 29000], "Austria ": ["WESTERN EUROPE                     ", "97,7", 4.66, 30000], "Azerbaijan ": ["C.W. OF IND. STATES ", "91,9", 81.74, 3400], "Bahamas, The ": ["LATIN AMER. & CARIB    ", "21,8", 25.21, 16700], "Bahrain ": ["NEAR EAST                          ", "1050,5", 17.27, 16900], "Bangladesh ": ["ASIA (EX. NEAR EAST)         ", "1023,4", 62.6, 1900], "Barbados ": ["LATIN AMER. & CARIB    ", "649,5", 12.5, 15700], "Belarus ": ["C.W. OF IND. STATES ", "49,6", 13.37, 6100], "Belgium ": ["WESTERN EUROPE                     ", "340,0", 4.68, 29100], "Belize ": ["LATIN AMER. & CARIB    ", "12,5", 25.69, 4900], "Benin ": ["SUB-SAHARAN AFRICA                 ", "69,8", 85.0, 1100], "Bermuda ": ["NORTHERN AMERICA                   ", "1241,0", 8.53, 36000], "Bhutan ": ["ASIA (EX. NEAR EAST)         ", "48,5", 100.44, 1300], "Bolivia ": ["LATIN AMER. & CARIB    ", "8,2", 53.11, 2400], "Bosnia & Herzegovina ": ["EASTERN EUROPE                     ", "88,0", 21.05, 6100], "Botswana ": ["SUB-SAHARAN AFRICA                 ", "2,7", 54.58, 9000], "Brazil ": ["LATIN AMER. & CARIB    ", "22,1", 29.61, 7600], "British Virgin Is. ": ["LATIN AMER. & CARIB    ", "151,0", 18.05, 16000], "Brunei ": ["ASIA (EX. NEAR EAST)         ", "65,8", 12.61, 18600], "Bulgaria ": ["EASTERN EUROPE                     ", "66,6", 20.55, 7600], "Burkina Faso ": ["SUB-SAHARAN AFRICA                 ", "50,7", 97.57, 1100], "Burma ": ["ASIA (EX. NEAR EAST)         ", "69,8", 67.24, 1800], "Burundi ": ["SUB-SAHARAN AFRICA                 ", "290,7", 69.29, 600], "Cambodia ": ["ASIA (EX. NEAR EAST)         ", "76,7", 71.48, 1900], "Cameroon ": ["SUB-SAHARAN AFRICA                 ", "36,5", 68.26, 1800], "Canada ": ["NORTHERN AMERICA                   ", "3,3", 4.75, 29800], "Cape Verde ": ["SUB-SAHARAN AFRICA                 ", "104,4", 47.77, 1400], "Cayman Islands ": ["LATIN AMER. & CARIB    ", "173,4", 8.19, 35000], "Central African Rep. ": ["SUB-SAHARAN AFRICA                 ", "6,9", 91.0, 1100], "Chad ": ["SUB-SAHARAN AFRICA                 ", "7,7", 93.82, 1200], "Chile ": ["LATIN AMER. & CARIB    ", "21,3", 8.8, 9900], "China ": ["ASIA (EX. NEAR EAST)         ", "136,9", 24.18, 5000], "Colombia ": ["LATIN AMER. & CARIB    ", "38,3", 20.97, 6300], "Comoros ": ["SUB-SAHARAN AFRICA                 ", "318,4", 74.93, 700], "Congo, Dem. Rep. ": ["SUB-SAHARAN AFRICA                 ", "26,7", 94.69, 700], "Congo, Repub. of the ": ["SUB-SAHARAN AFRICA                 ", "10,8", 93.86, 700], "Costa Rica ": ["LATIN AMER. & CARIB    ", "79,8", 9.95, 9100], "Cote d'Ivoire ": ["SUB-SAHARAN AFRICA                 ", "54,8", 90.83, 1400], "Croatia ": ["EASTERN EUROPE                     ", "79,5", 6.84, 10600], "Cuba ": ["LATIN AMER. & CARIB    ", "102,7", 6.33, 2900], "Denmark ": ["WESTERN EUROPE                     ", "126,5", 4.56, 31100], "Djibouti ": ["SUB-SAHARAN AFRICA                 ", "21,2", 104.13, 1300], "Dominica ": ["LATIN AMER. & CARIB    ", "91,4", 14.15, 5400], "Dominican Republic ": ["LATIN AMER. & CARIB    ", "188,5", 32.38, 6000], "East Timor ": ["ASIA (EX. NEAR EAST)         ", "70,8", 47.41, 500], "Ecuador ": ["LATIN AMER. & CARIB    ", "47,8", 23.66, 3300], "Egypt ": ["NORTHERN AFRICA                    ", "78,8", 32.59, 4000], "El Salvador ": ["LATIN AMER. & CARIB    ", "324,3", 25.1, 4800], "Equatorial Guinea ": ["SUB-SAHARAN AFRICA                 ", "19,3", 85.13, 2700], "Eritrea ": ["SUB-SAHARAN AFRICA                 ", "39,5", 74.87, 700], "Estonia ": ["BALTICS                            ", "29,3", 7.87, 12300], "Ethiopia ": ["SUB-SAHARAN AFRICA                 ", "66,3", 95.32, 700], "Faroe Islands ": ["WESTERN EUROPE                     ", "33,8", 6.24, 22000], "Fiji ": ["OCEANIA                            ", "49,6", 12.62, 5800], "Finland ": ["WESTERN EUROPE                     ", "15,5", 3.57, 27400], "France ": ["WESTERN EUROPE                     ", "111,3", 4.26, 27600], "French Guiana ": ["LATIN AMER. & CARIB    ", "2,2", 12.07, 8300], "French Polynesia ": ["OCEANIA                            ", "65,9", 8.44, 17500], "Gabon ": ["SUB-SAHARAN AFRICA                 ", "5,3", 53.64, 5500], "Gambia, The ": ["SUB-SAHARAN AFRICA                 ", "145,3", 72.02, 1700], "Gaza Strip ": ["NEAR EAST                          ", "3968,8", 22.93, 600], "Georgia ": ["C.W. OF IND. STATES ", "66,9", 18.59, 2500], "Germany ": ["WESTERN EUROPE                     ", "230,9", 4.16, 27600], "Ghana ": ["SUB-SAHARAN AFRICA                 ", "93,6", 51.43, 2200], "Gibraltar ": ["WESTERN EUROPE                     ", "3989,7", 5.13, 17500], "Greece ": ["WESTERN EUROPE                     ", "81,0", 5.53, 20000], "Greenland ": ["NORTHERN AMERICA                   ", "0,0", 15.82, 20000], "Grenada ": ["LATIN AMER. & CARIB    ", "260,8", 14.62, 5000], "Guadeloupe ": ["LATIN AMER. & CARIB    ", "254,4", 8.6, 8000], "Guam ": ["OCEANIA                            ", "316,1", 6.94, 21000], "Guatemala ": ["LATIN AMER. & CARIB    ", "112,9", 35.93, 4100], "Guernsey ": ["WESTERN EUROPE                     ", "838,6", 4.71, 20000], "Guinea ": ["SUB-SAHARAN AFRICA                 ", "39,4", 90.37, 2100], "Guinea-Bissau ": ["SUB-SAHARAN AFRICA                 ", "39,9", 107.17, 800], "Guyana ": ["LATIN AMER. & CARIB    ", "3,6", 33.26, 4000], "Haiti ": ["LATIN AMER. & CARIB    ", "299,4", 73.45, 1600], "Honduras ": ["LATIN AMER. & CARIB    ", "65,4", 29.32, 2600], "Hong Kong ": ["ASIA (EX. NEAR EAST)         ", "6355,7", 2.97, 28800], "Hungary ": ["EASTERN EUROPE                     ", "107,3", 8.57, 13900], "India ": ["ASIA (EX. NEAR EAST)         ", "333,2", 56.29, 2900], "Indonesia ": ["ASIA (EX. NEAR EAST)         ", "127,9", 35.6, 3200], "Iran ": ["ASIA (EX. NEAR EAST)         ", "41,7", 41.58, 7000], "Iraq ": ["NEAR EAST                          ", "61,3", 50.25, 1500], "Ireland ": ["WESTERN EUROPE                     ", "57,8", 5.39, 29600], "Isle of Man ": ["WESTERN EUROPE                     ", "131,9", 5.93, 21000], "Israel ": ["NEAR EAST                          ", "305,8", 7.03, 19800], "Italy ": ["WESTERN EUROPE                     ", "193,0", 5.94, 26700], "Japan ": ["ASIA (EX. NEAR EAST)         ", "337,4", 3.26, 28200], "Jersey ": ["WESTERN EUROPE                     ", "785,2", 5.24, 24800], "Jordan ": ["NEAR EAST                          ", "64,0", 17.35, 4300], "Kazakhstan ": ["C.W. OF IND. STATES ", "5,6", 29.21, 6300], "Kenya ": ["SUB-SAHARAN AFRICA                 ", "59,6", 61.47, 1000], "Kiribati ": ["OCEANIA                            ", "130,0", 48.52, 800], "Korea, North ": ["ASIA (EX. NEAR EAST)         ", "191,8", 24.04, 1300], "Korea, South ": ["ASIA (EX. NEAR EAST)         ", "496,0", 7.05, 17800], "Kuwait ": ["NEAR EAST                          ", "135,7", 9.95, 19000], "Kyrgyzstan ": ["C.W. OF IND. STATES ", "26,3", 35.64, 1600], "Latvia ": ["BALTICS                            ", "35,2", 9.55, 10200], "Lebanon ": ["NEAR EAST                          ", "372,5", 24.52, 4800], "Lesotho ": ["SUB-SAHARAN AFRICA                 ", "66,6", 84.23, 3000], "Liberia ": ["SUB-SAHARAN AFRICA                 ", "27,3", 128.87, 1000], "Libya ": ["NORTHERN AFRICA                    ", "3,4", 24.6, 6400], "Liechtenstein ": ["WESTERN EUROPE                     ", "212,4", 4.7, 25000], "Lithuania ": ["BALTICS                            ", "55,0", 6.89, 11400], "Luxembourg ": ["WESTERN EUROPE                     ", "183,5", 4.81, 55100], "Macau ": ["ASIA (EX. NEAR EAST)         ", "16183,0", 4.39, 19400], "Macedonia ": ["EASTERN EUROPE                     ", "80,9", 10.09, 6700], "Madagascar ": ["SUB-SAHARAN AFRICA                 ", "31,7", 76.83, 800], "Malawi ": ["SUB-SAHARAN AFRICA                 ", "109,8", 103.32, 600], "Maldives ": ["ASIA (EX. NEAR EAST)         ", "1196,7", 56.52, 3900], "Mali ": ["SUB-SAHARAN AFRICA                 ", "9,5", 116.79, 900], "Malta ": ["WESTERN EUROPE                     ", "1266,5", 3.89, 17700], "Marshall Islands ": ["OCEANIA                            ", "5,1", 29.45, 1600], "Martinique ": ["LATIN AMER. & CARIB    ", "396,5", 7.09, 14400], "Mauritania ": ["SUB-SAHARAN AFRICA                 ", "3,1", 70.89, 1800], "Mauritius ": ["SUB-SAHARAN AFRICA                 ", "608,3", 15.03, 11400], "Mayotte ": ["SUB-SAHARAN AFRICA                 ", "538,1", 62.4, 2600], "Mexico ": ["LATIN AMER. & CARIB    ", "54,5", 20.91, 9000], "Micronesia, Fed. St. ": ["OCEANIA                            ", "153,9", 30.21, 2000], "Moldova ": ["C.W. OF IND. STATES ", "132,0", 40.42, 1800], "Monaco ": ["WESTERN EUROPE                     ", "16271,5", 5.43, 27000], "Mongolia ": ["ASIA (EX. NEAR EAST)         ", "1,8", 53.79, 1800], "Montserrat ": ["LATIN AMER. & CARIB    ", "92,5", 7.35, 3400], "Morocco ": ["NORTHERN AFRICA                    ", "74,4", 41.62, 4000], "Mozambique ": ["SUB-SAHARAN AFRICA                 ", "24,6", 130.79, 1200], "Namibia ": ["SUB-SAHARAN AFRICA                 ", "2,5", 48.98, 7200], "Nauru ": ["OCEANIA                            ", "632,7", 9.95, 5000], "Nepal ": ["ASIA (EX. NEAR EAST)         ", "192,2", 66.98, 1400], "Netherlands ": ["WESTERN EUROPE                     ", "397,1", 5.04, 28600], "Netherlands Antilles ": ["LATIN AMER. & CARIB    ", "231,0", 10.03, 11400], "New Caledonia ": ["OCEANIA                            ", "11,5", 7.72, 15000], "New Zealand ": ["OCEANIA                            ", "15,2", 5.85, 21600], "Nicaragua ": ["LATIN AMER. & CARIB    ", "43,0", 29.11, 2300], "Niger ": ["SUB-SAHARAN AFRICA                 ", "9,9", 121.69, 800], "Nigeria ": ["SUB-SAHARAN AFRICA                 ", "142,7", 98.8, 900], "N. Mariana Islands ": ["OCEANIA                            ", "172,9", 7.11, 12500], "Norway ": ["WESTERN EUROPE                     ", "14,2", 3.7, 37800], "Oman ": ["NEAR EAST                          ", "14,6", 19.51, 13100], "Pakistan ": ["ASIA (EX. NEAR EAST)         ", "206,2", 72.44, 2100], "Palau ": ["OCEANIA                            ", "44,9", 14.84, 9000], "Panama ": ["LATIN AMER. & CARIB    ", "40,8", 20.47, 6300], "Papua New Guinea ": ["OCEANIA                            ", "12,3", 51.45, 2200], "Paraguay ": ["LATIN AMER. & CARIB    ", "16,0", 25.63, 4700], "Peru ": ["LATIN AMER. & CARIB    ", "22,0", 31.94, 5100], "Philippines ": ["ASIA (EX. NEAR EAST)         ", "298,2", 23.51, 4600], "Poland ": ["EASTERN EUROPE                     ", "123,3", 8.51, 11100], "Portugal ": ["WESTERN EUROPE                     ", "114,8", 5.05, 18000], "Puerto Rico ": ["LATIN AMER. & CARIB    ", "284,8", 8.24, 16800], "Qatar ": ["NEAR EAST                          ", "77,4", 18.61, 21500], "Reunion ": ["SUB-SAHARAN AFRICA                 ", "312,9", 7.78, 5800], "Romania ": ["EASTERN EUROPE                     ", "93,9", 26.43, 7000], "Russia ": ["C.W. OF IND. STATES ", "8,4", 15.39, 8900], "Rwanda ": ["SUB-SAHARAN AFRICA                 ", "328,4", 91.23, 1300], "Saint Helena ": ["SUB-SAHARAN AFRICA                 ", "18,2", 19.0, 2500], "Saint Kitts & Nevis ": ["LATIN AMER. & CARIB    ", "149,9", 14.49, 8800], "Saint Lucia ": ["LATIN AMER. & CARIB    ", "273,5", 13.53, 5400], "St Pierre & Miquelon ": ["NORTHERN AMERICA                   ", "29,0", 7.54, 6900], "Saint Vincent and the Grenadines ": ["LATIN AMER. & CARIB    ", "303,0", 14.78, 2900], "Samoa ": ["OCEANIA                            ", "60,1", 27.71, 5600], "San Marino ": ["WESTERN EUROPE                     ", "479,5", 5.73, 34600], "Sao Tome & Principe ": ["SUB-SAHARAN AFRICA                 ", "193,2", 43.11, 1200], "Senegal ": ["SUB-SAHARAN AFRICA                 ", "61,1", 55.51, 1600], "Serbia ": ["EASTERN EUROPE                     ", "106,3", 12.89, 2200], "Sierra Leone ": ["SUB-SAHARAN AFRICA                 ", "83,7", 143.64, 500], "Singapore ": ["ASIA (EX. NEAR EAST)         ", "6482,2", 2.29, 23700], "Slovakia ": ["EASTERN EUROPE                     ", "111,4", 7.41, 13300], "Slovenia ": ["EASTERN EUROPE                     ", "99,2", 4.45, 19000], "Solomon Islands ": ["OCEANIA                            ", "19,4", 21.29, 1700], "Somalia ": ["SUB-SAHARAN AFRICA                 ", "13,9", 116.7, 500], "South Africa ": ["SUB-SAHARAN AFRICA                 ", "36,2", 61.81, 10700], "Spain ": ["WESTERN EUROPE                     ", "80,0", 4.42, 22000], "Sri Lanka ": ["ASIA (EX. NEAR EAST)         ", "308,2", 14.35, 3700], "Sudan ": ["SUB-SAHARAN AFRICA                 ", "16,5", 62.5, 1900], "Suriname ": ["LATIN AMER. & CARIB    ", "2,7", 23.57, 400000], "Swaziland ": ["SUB-SAHARAN AFRICA                 ", "65,5", 69.27, 4900], "Sweden ": ["WESTERN EUROPE                     ", "20,0", 2.77, 26800], "Switzerland ": ["WESTERN EUROPE                     ", "182,2", 4.39, 32700], "Syria ": ["NEAR EAST                          ", "102,0", 29.53, 3300], "Taiwan ": ["ASIA (EX. NEAR EAST)         ", "640,3", 6.4, 23400], "Tajikistan ": ["C.W. OF IND. STATES ", "51,2", 110.76, 1000], "Tanzania ": ["SUB-SAHARAN AFRICA                 ", "39,6", 98.54, 600], "Thailand ": ["ASIA (EX. NEAR EAST)         ", "125,7", 20.48, 7400], "Togo ": ["SUB-SAHARAN AFRICA                 ", "97,7", 66.61, 1500], "Tonga ": ["OCEANIA                            ", "153,3", 12.62, 2200], "Trinidad & Tobago ": ["LATIN AMER. & CARIB    ", "207,9", 24.31, 9500], "Tunisia ": ["NORTHERN AFRICA                    ", "62,2", 24.77, 6900], "Turkey ": ["NEAR EAST                          ", "90,2", 41.04, 6700], "Turkmenistan ": ["C.W. OF IND. STATES ", "10,3", 73.08, 5800], "Turks & Caicos Is ": ["LATIN AMER. & CARIB    ", "49,2", 15.67, 9600], "Tuvalu ": ["OCEANIA                            ", "454,2", 20.03, 1100], "Uganda ": ["SUB-SAHARAN AFRICA                 ", "119,5", 67.83, 1400], "Ukraine ": ["C.W. OF IND. STATES ", "77,4", 20.34, 5400], "United Arab Emirates ": ["NEAR EAST                          ", "31,4", 14.51, 23200], "United Kingdom ": ["WESTERN EUROPE                     ", "247,6", 5.16, 27700], "United States ": ["NORTHERN AMERICA                   ", "31,0", 6.5, 37800], "Uruguay ": ["LATIN AMER. & CARIB    ", "19,5", 11.95, 12800], "Uzbekistan ": ["C.W. OF IND. STATES ", "61,0", 71.1, 1700], "Vanuatu ": ["OCEANIA                            ", "17,1", 55.16, 2900], "Venezuela ": ["LATIN AMER. & CARIB    ", "28,2", 22.2, 4800], "Vietnam ": ["ASIA (EX. NEAR EAST)         ", "256,1", 25.95, 2500], "Virgin Islands ": ["LATIN AMER. & CARIB    ", "56,9", 8.03, 17200], "West Bank ": ["NEAR EAST                          ", "419,9", 19.62, 800], "Yemen ": ["NEAR EAST                          ", "40,6", 61.5, 800], "Zambia ": ["SUB-SAHARAN AFRICA                 ", "15,3", 88.29, 800], "Zimbabwe ": ["SUB-SAHARAN AFRICA                 ", "31,3", 67.69, 1900]}
+{
+    "Afghanistan ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "48,0",
+        "Infant mortality (per 1000 births)": 163.07,
+        "GDP ($ per capita) dollars": 700
+    },
+    "Albania ": {
+        "Region": "EASTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "124,6",
+        "Infant mortality (per 1000 births)": 21.52,
+        "GDP ($ per capita) dollars": 4500
+    },
+    "Algeria ": {
+        "Region": "NORTHERN AFRICA",
+        "Pop. Density (per sq. mi.)": "13,8",
+        "Infant mortality (per 1000 births)": 31.0,
+        "GDP ($ per capita) dollars": 6000
+    },
+    "American Samoa ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "290,4",
+        "Infant mortality (per 1000 births)": 9.27,
+        "GDP ($ per capita) dollars": 8000
+    },
+    "Andorra ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "152,1",
+        "Infant mortality (per 1000 births)": 4.05,
+        "GDP ($ per capita) dollars": 19000
+    },
+    "Angola ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "9,7",
+        "Infant mortality (per 1000 births)": 191.19,
+        "GDP ($ per capita) dollars": 1900
+    },
+    "Anguilla ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "132,1",
+        "Infant mortality (per 1000 births)": 21.03,
+        "GDP ($ per capita) dollars": 8600
+    },
+    "Antigua & Barbuda ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "156,0",
+        "Infant mortality (per 1000 births)": 19.46,
+        "GDP ($ per capita) dollars": 11000
+    },
+    "Argentina ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "14,4",
+        "Infant mortality (per 1000 births)": 15.18,
+        "GDP ($ per capita) dollars": 11200
+    },
+    "Armenia ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "99,9",
+        "Infant mortality (per 1000 births)": 23.28,
+        "GDP ($ per capita) dollars": 3500
+    },
+    "Australia ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "2,6",
+        "Infant mortality (per 1000 births)": 4.69,
+        "GDP ($ per capita) dollars": 29000
+    },
+    "Austria ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "97,7",
+        "Infant mortality (per 1000 births)": 4.66,
+        "GDP ($ per capita) dollars": 30000
+    },
+    "Azerbaijan ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "91,9",
+        "Infant mortality (per 1000 births)": 81.74,
+        "GDP ($ per capita) dollars": 3400
+    },
+    "Bahamas, The ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "21,8",
+        "Infant mortality (per 1000 births)": 25.21,
+        "GDP ($ per capita) dollars": 16700
+    },
+    "Bahrain ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "1050,5",
+        "Infant mortality (per 1000 births)": 17.27,
+        "GDP ($ per capita) dollars": 16900
+    },
+    "Bangladesh ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "1023,4",
+        "Infant mortality (per 1000 births)": 62.6,
+        "GDP ($ per capita) dollars": 1900
+    },
+    "Barbados ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "649,5",
+        "Infant mortality (per 1000 births)": 12.5,
+        "GDP ($ per capita) dollars": 15700
+    },
+    "Belarus ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "49,6",
+        "Infant mortality (per 1000 births)": 13.37,
+        "GDP ($ per capita) dollars": 6100
+    },
+    "Belgium ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "340,0",
+        "Infant mortality (per 1000 births)": 4.68,
+        "GDP ($ per capita) dollars": 29100
+    },
+    "Belize ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "12,5",
+        "Infant mortality (per 1000 births)": 25.69,
+        "GDP ($ per capita) dollars": 4900
+    },
+    "Benin ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "69,8",
+        "Infant mortality (per 1000 births)": 85.0,
+        "GDP ($ per capita) dollars": 1100
+    },
+    "Bermuda ": {
+        "Region": "NORTHERN AMERICA",
+        "Pop. Density (per sq. mi.)": "1241,0",
+        "Infant mortality (per 1000 births)": 8.53,
+        "GDP ($ per capita) dollars": 36000
+    },
+    "Bhutan ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "48,5",
+        "Infant mortality (per 1000 births)": 100.44,
+        "GDP ($ per capita) dollars": 1300
+    },
+    "Bolivia ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "8,2",
+        "Infant mortality (per 1000 births)": 53.11,
+        "GDP ($ per capita) dollars": 2400
+    },
+    "Bosnia & Herzegovina ": {
+        "Region": "EASTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "88,0",
+        "Infant mortality (per 1000 births)": 21.05,
+        "GDP ($ per capita) dollars": 6100
+    },
+    "Botswana ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "2,7",
+        "Infant mortality (per 1000 births)": 54.58,
+        "GDP ($ per capita) dollars": 9000
+    },
+    "Brazil ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "22,1",
+        "Infant mortality (per 1000 births)": 29.61,
+        "GDP ($ per capita) dollars": 7600
+    },
+    "British Virgin Is. ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "151,0",
+        "Infant mortality (per 1000 births)": 18.05,
+        "GDP ($ per capita) dollars": 16000
+    },
+    "Brunei ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "65,8",
+        "Infant mortality (per 1000 births)": 12.61,
+        "GDP ($ per capita) dollars": 18600
+    },
+    "Bulgaria ": {
+        "Region": "EASTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "66,6",
+        "Infant mortality (per 1000 births)": 20.55,
+        "GDP ($ per capita) dollars": 7600
+    },
+    "Burkina Faso ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "50,7",
+        "Infant mortality (per 1000 births)": 97.57,
+        "GDP ($ per capita) dollars": 1100
+    },
+    "Burma ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "69,8",
+        "Infant mortality (per 1000 births)": 67.24,
+        "GDP ($ per capita) dollars": 1800
+    },
+    "Burundi ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "290,7",
+        "Infant mortality (per 1000 births)": 69.29,
+        "GDP ($ per capita) dollars": 600
+    },
+    "Cambodia ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "76,7",
+        "Infant mortality (per 1000 births)": 71.48,
+        "GDP ($ per capita) dollars": 1900
+    },
+    "Cameroon ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "36,5",
+        "Infant mortality (per 1000 births)": 68.26,
+        "GDP ($ per capita) dollars": 1800
+    },
+    "Canada ": {
+        "Region": "NORTHERN AMERICA",
+        "Pop. Density (per sq. mi.)": "3,3",
+        "Infant mortality (per 1000 births)": 4.75,
+        "GDP ($ per capita) dollars": 29800
+    },
+    "Cape Verde ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "104,4",
+        "Infant mortality (per 1000 births)": 47.77,
+        "GDP ($ per capita) dollars": 1400
+    },
+    "Cayman Islands ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "173,4",
+        "Infant mortality (per 1000 births)": 8.19,
+        "GDP ($ per capita) dollars": 35000
+    },
+    "Central African Rep. ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "6,9",
+        "Infant mortality (per 1000 births)": 91.0,
+        "GDP ($ per capita) dollars": 1100
+    },
+    "Chad ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "7,7",
+        "Infant mortality (per 1000 births)": 93.82,
+        "GDP ($ per capita) dollars": 1200
+    },
+    "Chile ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "21,3",
+        "Infant mortality (per 1000 births)": 8.8,
+        "GDP ($ per capita) dollars": 9900
+    },
+    "China ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "136,9",
+        "Infant mortality (per 1000 births)": 24.18,
+        "GDP ($ per capita) dollars": 5000
+    },
+    "Colombia ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "38,3",
+        "Infant mortality (per 1000 births)": 20.97,
+        "GDP ($ per capita) dollars": 6300
+    },
+    "Comoros ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "318,4",
+        "Infant mortality (per 1000 births)": 74.93,
+        "GDP ($ per capita) dollars": 700
+    },
+    "Congo, Dem. Rep. ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "26,7",
+        "Infant mortality (per 1000 births)": 94.69,
+        "GDP ($ per capita) dollars": 700
+    },
+    "Congo, Repub. of the ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "10,8",
+        "Infant mortality (per 1000 births)": 93.86,
+        "GDP ($ per capita) dollars": 700
+    },
+    "Costa Rica ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "79,8",
+        "Infant mortality (per 1000 births)": 9.95,
+        "GDP ($ per capita) dollars": 9100
+    },
+    "Cote d'Ivoire ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "54,8",
+        "Infant mortality (per 1000 births)": 90.83,
+        "GDP ($ per capita) dollars": 1400
+    },
+    "Croatia ": {
+        "Region": "EASTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "79,5",
+        "Infant mortality (per 1000 births)": 6.84,
+        "GDP ($ per capita) dollars": 10600
+    },
+    "Cuba ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "102,7",
+        "Infant mortality (per 1000 births)": 6.33,
+        "GDP ($ per capita) dollars": 2900
+    },
+    "Denmark ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "126,5",
+        "Infant mortality (per 1000 births)": 4.56,
+        "GDP ($ per capita) dollars": 31100
+    },
+    "Djibouti ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "21,2",
+        "Infant mortality (per 1000 births)": 104.13,
+        "GDP ($ per capita) dollars": 1300
+    },
+    "Dominica ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "91,4",
+        "Infant mortality (per 1000 births)": 14.15,
+        "GDP ($ per capita) dollars": 5400
+    },
+    "Dominican Republic ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "188,5",
+        "Infant mortality (per 1000 births)": 32.38,
+        "GDP ($ per capita) dollars": 6000
+    },
+    "East Timor ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "70,8",
+        "Infant mortality (per 1000 births)": 47.41,
+        "GDP ($ per capita) dollars": 500
+    },
+    "Ecuador ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "47,8",
+        "Infant mortality (per 1000 births)": 23.66,
+        "GDP ($ per capita) dollars": 3300
+    },
+    "Egypt ": {
+        "Region": "NORTHERN AFRICA",
+        "Pop. Density (per sq. mi.)": "78,8",
+        "Infant mortality (per 1000 births)": 32.59,
+        "GDP ($ per capita) dollars": 4000
+    },
+    "El Salvador ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "324,3",
+        "Infant mortality (per 1000 births)": 25.1,
+        "GDP ($ per capita) dollars": 4800
+    },
+    "Equatorial Guinea ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "19,3",
+        "Infant mortality (per 1000 births)": 85.13,
+        "GDP ($ per capita) dollars": 2700
+    },
+    "Eritrea ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "39,5",
+        "Infant mortality (per 1000 births)": 74.87,
+        "GDP ($ per capita) dollars": 700
+    },
+    "Estonia ": {
+        "Region": "BALTICS",
+        "Pop. Density (per sq. mi.)": "29,3",
+        "Infant mortality (per 1000 births)": 7.87,
+        "GDP ($ per capita) dollars": 12300
+    },
+    "Ethiopia ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "66,3",
+        "Infant mortality (per 1000 births)": 95.32,
+        "GDP ($ per capita) dollars": 700
+    },
+    "Faroe Islands ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "33,8",
+        "Infant mortality (per 1000 births)": 6.24,
+        "GDP ($ per capita) dollars": 22000
+    },
+    "Fiji ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "49,6",
+        "Infant mortality (per 1000 births)": 12.62,
+        "GDP ($ per capita) dollars": 5800
+    },
+    "Finland ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "15,5",
+        "Infant mortality (per 1000 births)": 3.57,
+        "GDP ($ per capita) dollars": 27400
+    },
+    "France ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "111,3",
+        "Infant mortality (per 1000 births)": 4.26,
+        "GDP ($ per capita) dollars": 27600
+    },
+    "French Guiana ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "2,2",
+        "Infant mortality (per 1000 births)": 12.07,
+        "GDP ($ per capita) dollars": 8300
+    },
+    "French Polynesia ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "65,9",
+        "Infant mortality (per 1000 births)": 8.44,
+        "GDP ($ per capita) dollars": 17500
+    },
+    "Gabon ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "5,3",
+        "Infant mortality (per 1000 births)": 53.64,
+        "GDP ($ per capita) dollars": 5500
+    },
+    "Gambia, The ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "145,3",
+        "Infant mortality (per 1000 births)": 72.02,
+        "GDP ($ per capita) dollars": 1700
+    },
+    "Gaza Strip ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "3968,8",
+        "Infant mortality (per 1000 births)": 22.93,
+        "GDP ($ per capita) dollars": 600
+    },
+    "Georgia ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "66,9",
+        "Infant mortality (per 1000 births)": 18.59,
+        "GDP ($ per capita) dollars": 2500
+    },
+    "Germany ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "230,9",
+        "Infant mortality (per 1000 births)": 4.16,
+        "GDP ($ per capita) dollars": 27600
+    },
+    "Ghana ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "93,6",
+        "Infant mortality (per 1000 births)": 51.43,
+        "GDP ($ per capita) dollars": 2200
+    },
+    "Gibraltar ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "3989,7",
+        "Infant mortality (per 1000 births)": 5.13,
+        "GDP ($ per capita) dollars": 17500
+    },
+    "Greece ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "81,0",
+        "Infant mortality (per 1000 births)": 5.53,
+        "GDP ($ per capita) dollars": 20000
+    },
+    "Greenland ": {
+        "Region": "NORTHERN AMERICA",
+        "Pop. Density (per sq. mi.)": "0,0",
+        "Infant mortality (per 1000 births)": 15.82,
+        "GDP ($ per capita) dollars": 20000
+    },
+    "Grenada ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "260,8",
+        "Infant mortality (per 1000 births)": 14.62,
+        "GDP ($ per capita) dollars": 5000
+    },
+    "Guadeloupe ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "254,4",
+        "Infant mortality (per 1000 births)": 8.6,
+        "GDP ($ per capita) dollars": 8000
+    },
+    "Guam ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "316,1",
+        "Infant mortality (per 1000 births)": 6.94,
+        "GDP ($ per capita) dollars": 21000
+    },
+    "Guatemala ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "112,9",
+        "Infant mortality (per 1000 births)": 35.93,
+        "GDP ($ per capita) dollars": 4100
+    },
+    "Guernsey ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "838,6",
+        "Infant mortality (per 1000 births)": 4.71,
+        "GDP ($ per capita) dollars": 20000
+    },
+    "Guinea ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "39,4",
+        "Infant mortality (per 1000 births)": 90.37,
+        "GDP ($ per capita) dollars": 2100
+    },
+    "Guinea-Bissau ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "39,9",
+        "Infant mortality (per 1000 births)": 107.17,
+        "GDP ($ per capita) dollars": 800
+    },
+    "Guyana ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "3,6",
+        "Infant mortality (per 1000 births)": 33.26,
+        "GDP ($ per capita) dollars": 4000
+    },
+    "Haiti ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "299,4",
+        "Infant mortality (per 1000 births)": 73.45,
+        "GDP ($ per capita) dollars": 1600
+    },
+    "Honduras ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "65,4",
+        "Infant mortality (per 1000 births)": 29.32,
+        "GDP ($ per capita) dollars": 2600
+    },
+    "Hong Kong ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "6355,7",
+        "Infant mortality (per 1000 births)": 2.97,
+        "GDP ($ per capita) dollars": 28800
+    },
+    "Hungary ": {
+        "Region": "EASTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "107,3",
+        "Infant mortality (per 1000 births)": 8.57,
+        "GDP ($ per capita) dollars": 13900
+    },
+    "India ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "333,2",
+        "Infant mortality (per 1000 births)": 56.29,
+        "GDP ($ per capita) dollars": 2900
+    },
+    "Indonesia ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "127,9",
+        "Infant mortality (per 1000 births)": 35.6,
+        "GDP ($ per capita) dollars": 3200
+    },
+    "Iran ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "41,7",
+        "Infant mortality (per 1000 births)": 41.58,
+        "GDP ($ per capita) dollars": 7000
+    },
+    "Iraq ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "61,3",
+        "Infant mortality (per 1000 births)": 50.25,
+        "GDP ($ per capita) dollars": 1500
+    },
+    "Ireland ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "57,8",
+        "Infant mortality (per 1000 births)": 5.39,
+        "GDP ($ per capita) dollars": 29600
+    },
+    "Isle of Man ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "131,9",
+        "Infant mortality (per 1000 births)": 5.93,
+        "GDP ($ per capita) dollars": 21000
+    },
+    "Israel ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "305,8",
+        "Infant mortality (per 1000 births)": 7.03,
+        "GDP ($ per capita) dollars": 19800
+    },
+    "Italy ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "193,0",
+        "Infant mortality (per 1000 births)": 5.94,
+        "GDP ($ per capita) dollars": 26700
+    },
+    "Japan ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "337,4",
+        "Infant mortality (per 1000 births)": 3.26,
+        "GDP ($ per capita) dollars": 28200
+    },
+    "Jersey ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "785,2",
+        "Infant mortality (per 1000 births)": 5.24,
+        "GDP ($ per capita) dollars": 24800
+    },
+    "Jordan ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "64,0",
+        "Infant mortality (per 1000 births)": 17.35,
+        "GDP ($ per capita) dollars": 4300
+    },
+    "Kazakhstan ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "5,6",
+        "Infant mortality (per 1000 births)": 29.21,
+        "GDP ($ per capita) dollars": 6300
+    },
+    "Kenya ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "59,6",
+        "Infant mortality (per 1000 births)": 61.47,
+        "GDP ($ per capita) dollars": 1000
+    },
+    "Kiribati ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "130,0",
+        "Infant mortality (per 1000 births)": 48.52,
+        "GDP ($ per capita) dollars": 800
+    },
+    "Korea, North ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "191,8",
+        "Infant mortality (per 1000 births)": 24.04,
+        "GDP ($ per capita) dollars": 1300
+    },
+    "Korea, South ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "496,0",
+        "Infant mortality (per 1000 births)": 7.05,
+        "GDP ($ per capita) dollars": 17800
+    },
+    "Kuwait ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "135,7",
+        "Infant mortality (per 1000 births)": 9.95,
+        "GDP ($ per capita) dollars": 19000
+    },
+    "Kyrgyzstan ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "26,3",
+        "Infant mortality (per 1000 births)": 35.64,
+        "GDP ($ per capita) dollars": 1600
+    },
+    "Latvia ": {
+        "Region": "BALTICS",
+        "Pop. Density (per sq. mi.)": "35,2",
+        "Infant mortality (per 1000 births)": 9.55,
+        "GDP ($ per capita) dollars": 10200
+    },
+    "Lebanon ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "372,5",
+        "Infant mortality (per 1000 births)": 24.52,
+        "GDP ($ per capita) dollars": 4800
+    },
+    "Lesotho ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "66,6",
+        "Infant mortality (per 1000 births)": 84.23,
+        "GDP ($ per capita) dollars": 3000
+    },
+    "Liberia ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "27,3",
+        "Infant mortality (per 1000 births)": 128.87,
+        "GDP ($ per capita) dollars": 1000
+    },
+    "Libya ": {
+        "Region": "NORTHERN AFRICA",
+        "Pop. Density (per sq. mi.)": "3,4",
+        "Infant mortality (per 1000 births)": 24.6,
+        "GDP ($ per capita) dollars": 6400
+    },
+    "Liechtenstein ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "212,4",
+        "Infant mortality (per 1000 births)": 4.7,
+        "GDP ($ per capita) dollars": 25000
+    },
+    "Lithuania ": {
+        "Region": "BALTICS",
+        "Pop. Density (per sq. mi.)": "55,0",
+        "Infant mortality (per 1000 births)": 6.89,
+        "GDP ($ per capita) dollars": 11400
+    },
+    "Luxembourg ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "183,5",
+        "Infant mortality (per 1000 births)": 4.81,
+        "GDP ($ per capita) dollars": 55100
+    },
+    "Macau ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "16183,0",
+        "Infant mortality (per 1000 births)": 4.39,
+        "GDP ($ per capita) dollars": 19400
+    },
+    "Macedonia ": {
+        "Region": "EASTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "80,9",
+        "Infant mortality (per 1000 births)": 10.09,
+        "GDP ($ per capita) dollars": 6700
+    },
+    "Madagascar ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "31,7",
+        "Infant mortality (per 1000 births)": 76.83,
+        "GDP ($ per capita) dollars": 800
+    },
+    "Malawi ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "109,8",
+        "Infant mortality (per 1000 births)": 103.32,
+        "GDP ($ per capita) dollars": 600
+    },
+    "Maldives ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "1196,7",
+        "Infant mortality (per 1000 births)": 56.52,
+        "GDP ($ per capita) dollars": 3900
+    },
+    "Mali ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "9,5",
+        "Infant mortality (per 1000 births)": 116.79,
+        "GDP ($ per capita) dollars": 900
+    },
+    "Malta ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "1266,5",
+        "Infant mortality (per 1000 births)": 3.89,
+        "GDP ($ per capita) dollars": 17700
+    },
+    "Marshall Islands ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "5,1",
+        "Infant mortality (per 1000 births)": 29.45,
+        "GDP ($ per capita) dollars": 1600
+    },
+    "Martinique ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "396,5",
+        "Infant mortality (per 1000 births)": 7.09,
+        "GDP ($ per capita) dollars": 14400
+    },
+    "Mauritania ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "3,1",
+        "Infant mortality (per 1000 births)": 70.89,
+        "GDP ($ per capita) dollars": 1800
+    },
+    "Mauritius ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "608,3",
+        "Infant mortality (per 1000 births)": 15.03,
+        "GDP ($ per capita) dollars": 11400
+    },
+    "Mayotte ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "538,1",
+        "Infant mortality (per 1000 births)": 62.4,
+        "GDP ($ per capita) dollars": 2600
+    },
+    "Mexico ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "54,5",
+        "Infant mortality (per 1000 births)": 20.91,
+        "GDP ($ per capita) dollars": 9000
+    },
+    "Micronesia, Fed. St. ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "153,9",
+        "Infant mortality (per 1000 births)": 30.21,
+        "GDP ($ per capita) dollars": 2000
+    },
+    "Moldova ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "132,0",
+        "Infant mortality (per 1000 births)": 40.42,
+        "GDP ($ per capita) dollars": 1800
+    },
+    "Monaco ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "16271,5",
+        "Infant mortality (per 1000 births)": 5.43,
+        "GDP ($ per capita) dollars": 27000
+    },
+    "Mongolia ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "1,8",
+        "Infant mortality (per 1000 births)": 53.79,
+        "GDP ($ per capita) dollars": 1800
+    },
+    "Montserrat ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "92,5",
+        "Infant mortality (per 1000 births)": 7.35,
+        "GDP ($ per capita) dollars": 3400
+    },
+    "Morocco ": {
+        "Region": "NORTHERN AFRICA",
+        "Pop. Density (per sq. mi.)": "74,4",
+        "Infant mortality (per 1000 births)": 41.62,
+        "GDP ($ per capita) dollars": 4000
+    },
+    "Mozambique ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "24,6",
+        "Infant mortality (per 1000 births)": 130.79,
+        "GDP ($ per capita) dollars": 1200
+    },
+    "Namibia ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "2,5",
+        "Infant mortality (per 1000 births)": 48.98,
+        "GDP ($ per capita) dollars": 7200
+    },
+    "Nauru ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "632,7",
+        "Infant mortality (per 1000 births)": 9.95,
+        "GDP ($ per capita) dollars": 5000
+    },
+    "Nepal ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "192,2",
+        "Infant mortality (per 1000 births)": 66.98,
+        "GDP ($ per capita) dollars": 1400
+    },
+    "Netherlands ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "397,1",
+        "Infant mortality (per 1000 births)": 5.04,
+        "GDP ($ per capita) dollars": 28600
+    },
+    "Netherlands Antilles ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "231,0",
+        "Infant mortality (per 1000 births)": 10.03,
+        "GDP ($ per capita) dollars": 11400
+    },
+    "New Caledonia ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "11,5",
+        "Infant mortality (per 1000 births)": 7.72,
+        "GDP ($ per capita) dollars": 15000
+    },
+    "New Zealand ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "15,2",
+        "Infant mortality (per 1000 births)": 5.85,
+        "GDP ($ per capita) dollars": 21600
+    },
+    "Nicaragua ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "43,0",
+        "Infant mortality (per 1000 births)": 29.11,
+        "GDP ($ per capita) dollars": 2300
+    },
+    "Niger ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "9,9",
+        "Infant mortality (per 1000 births)": 121.69,
+        "GDP ($ per capita) dollars": 800
+    },
+    "Nigeria ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "142,7",
+        "Infant mortality (per 1000 births)": 98.8,
+        "GDP ($ per capita) dollars": 900
+    },
+    "N. Mariana Islands ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "172,9",
+        "Infant mortality (per 1000 births)": 7.11,
+        "GDP ($ per capita) dollars": 12500
+    },
+    "Norway ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "14,2",
+        "Infant mortality (per 1000 births)": 3.7,
+        "GDP ($ per capita) dollars": 37800
+    },
+    "Oman ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "14,6",
+        "Infant mortality (per 1000 births)": 19.51,
+        "GDP ($ per capita) dollars": 13100
+    },
+    "Pakistan ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "206,2",
+        "Infant mortality (per 1000 births)": 72.44,
+        "GDP ($ per capita) dollars": 2100
+    },
+    "Palau ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "44,9",
+        "Infant mortality (per 1000 births)": 14.84,
+        "GDP ($ per capita) dollars": 9000
+    },
+    "Panama ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "40,8",
+        "Infant mortality (per 1000 births)": 20.47,
+        "GDP ($ per capita) dollars": 6300
+    },
+    "Papua New Guinea ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "12,3",
+        "Infant mortality (per 1000 births)": 51.45,
+        "GDP ($ per capita) dollars": 2200
+    },
+    "Paraguay ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "16,0",
+        "Infant mortality (per 1000 births)": 25.63,
+        "GDP ($ per capita) dollars": 4700
+    },
+    "Peru ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "22,0",
+        "Infant mortality (per 1000 births)": 31.94,
+        "GDP ($ per capita) dollars": 5100
+    },
+    "Philippines ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "298,2",
+        "Infant mortality (per 1000 births)": 23.51,
+        "GDP ($ per capita) dollars": 4600
+    },
+    "Poland ": {
+        "Region": "EASTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "123,3",
+        "Infant mortality (per 1000 births)": 8.51,
+        "GDP ($ per capita) dollars": 11100
+    },
+    "Portugal ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "114,8",
+        "Infant mortality (per 1000 births)": 5.05,
+        "GDP ($ per capita) dollars": 18000
+    },
+    "Puerto Rico ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "284,8",
+        "Infant mortality (per 1000 births)": 8.24,
+        "GDP ($ per capita) dollars": 16800
+    },
+    "Qatar ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "77,4",
+        "Infant mortality (per 1000 births)": 18.61,
+        "GDP ($ per capita) dollars": 21500
+    },
+    "Reunion ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "312,9",
+        "Infant mortality (per 1000 births)": 7.78,
+        "GDP ($ per capita) dollars": 5800
+    },
+    "Romania ": {
+        "Region": "EASTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "93,9",
+        "Infant mortality (per 1000 births)": 26.43,
+        "GDP ($ per capita) dollars": 7000
+    },
+    "Russia ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "8,4",
+        "Infant mortality (per 1000 births)": 15.39,
+        "GDP ($ per capita) dollars": 8900
+    },
+    "Rwanda ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "328,4",
+        "Infant mortality (per 1000 births)": 91.23,
+        "GDP ($ per capita) dollars": 1300
+    },
+    "Saint Helena ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "18,2",
+        "Infant mortality (per 1000 births)": 19.0,
+        "GDP ($ per capita) dollars": 2500
+    },
+    "Saint Kitts & Nevis ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "149,9",
+        "Infant mortality (per 1000 births)": 14.49,
+        "GDP ($ per capita) dollars": 8800
+    },
+    "Saint Lucia ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "273,5",
+        "Infant mortality (per 1000 births)": 13.53,
+        "GDP ($ per capita) dollars": 5400
+    },
+    "St Pierre & Miquelon ": {
+        "Region": "NORTHERN AMERICA",
+        "Pop. Density (per sq. mi.)": "29,0",
+        "Infant mortality (per 1000 births)": 7.54,
+        "GDP ($ per capita) dollars": 6900
+    },
+    "Saint Vincent and the Grenadines ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "303,0",
+        "Infant mortality (per 1000 births)": 14.78,
+        "GDP ($ per capita) dollars": 2900
+    },
+    "Samoa ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "60,1",
+        "Infant mortality (per 1000 births)": 27.71,
+        "GDP ($ per capita) dollars": 5600
+    },
+    "San Marino ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "479,5",
+        "Infant mortality (per 1000 births)": 5.73,
+        "GDP ($ per capita) dollars": 34600
+    },
+    "Sao Tome & Principe ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "193,2",
+        "Infant mortality (per 1000 births)": 43.11,
+        "GDP ($ per capita) dollars": 1200
+    },
+    "Senegal ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "61,1",
+        "Infant mortality (per 1000 births)": 55.51,
+        "GDP ($ per capita) dollars": 1600
+    },
+    "Serbia ": {
+        "Region": "EASTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "106,3",
+        "Infant mortality (per 1000 births)": 12.89,
+        "GDP ($ per capita) dollars": 2200
+    },
+    "Sierra Leone ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "83,7",
+        "Infant mortality (per 1000 births)": 143.64,
+        "GDP ($ per capita) dollars": 500
+    },
+    "Singapore ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "6482,2",
+        "Infant mortality (per 1000 births)": 2.29,
+        "GDP ($ per capita) dollars": 23700
+    },
+    "Slovakia ": {
+        "Region": "EASTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "111,4",
+        "Infant mortality (per 1000 births)": 7.41,
+        "GDP ($ per capita) dollars": 13300
+    },
+    "Slovenia ": {
+        "Region": "EASTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "99,2",
+        "Infant mortality (per 1000 births)": 4.45,
+        "GDP ($ per capita) dollars": 19000
+    },
+    "Solomon Islands ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "19,4",
+        "Infant mortality (per 1000 births)": 21.29,
+        "GDP ($ per capita) dollars": 1700
+    },
+    "Somalia ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "13,9",
+        "Infant mortality (per 1000 births)": 116.7,
+        "GDP ($ per capita) dollars": 500
+    },
+    "South Africa ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "36,2",
+        "Infant mortality (per 1000 births)": 61.81,
+        "GDP ($ per capita) dollars": 10700
+    },
+    "Spain ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "80,0",
+        "Infant mortality (per 1000 births)": 4.42,
+        "GDP ($ per capita) dollars": 22000
+    },
+    "Sri Lanka ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "308,2",
+        "Infant mortality (per 1000 births)": 14.35,
+        "GDP ($ per capita) dollars": 3700
+    },
+    "Sudan ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "16,5",
+        "Infant mortality (per 1000 births)": 62.5,
+        "GDP ($ per capita) dollars": 1900
+    },
+    "Suriname ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "2,7",
+        "Infant mortality (per 1000 births)": 23.57,
+        "GDP ($ per capita) dollars": 400000
+    },
+    "Swaziland ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "65,5",
+        "Infant mortality (per 1000 births)": 69.27,
+        "GDP ($ per capita) dollars": 4900
+    },
+    "Sweden ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "20,0",
+        "Infant mortality (per 1000 births)": 2.77,
+        "GDP ($ per capita) dollars": 26800
+    },
+    "Switzerland ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "182,2",
+        "Infant mortality (per 1000 births)": 4.39,
+        "GDP ($ per capita) dollars": 32700
+    },
+    "Syria ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "102,0",
+        "Infant mortality (per 1000 births)": 29.53,
+        "GDP ($ per capita) dollars": 3300
+    },
+    "Taiwan ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "640,3",
+        "Infant mortality (per 1000 births)": 6.4,
+        "GDP ($ per capita) dollars": 23400
+    },
+    "Tajikistan ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "51,2",
+        "Infant mortality (per 1000 births)": 110.76,
+        "GDP ($ per capita) dollars": 1000
+    },
+    "Tanzania ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "39,6",
+        "Infant mortality (per 1000 births)": 98.54,
+        "GDP ($ per capita) dollars": 600
+    },
+    "Thailand ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "125,7",
+        "Infant mortality (per 1000 births)": 20.48,
+        "GDP ($ per capita) dollars": 7400
+    },
+    "Togo ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "97,7",
+        "Infant mortality (per 1000 births)": 66.61,
+        "GDP ($ per capita) dollars": 1500
+    },
+    "Tonga ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "153,3",
+        "Infant mortality (per 1000 births)": 12.62,
+        "GDP ($ per capita) dollars": 2200
+    },
+    "Trinidad & Tobago ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "207,9",
+        "Infant mortality (per 1000 births)": 24.31,
+        "GDP ($ per capita) dollars": 9500
+    },
+    "Tunisia ": {
+        "Region": "NORTHERN AFRICA",
+        "Pop. Density (per sq. mi.)": "62,2",
+        "Infant mortality (per 1000 births)": 24.77,
+        "GDP ($ per capita) dollars": 6900
+    },
+    "Turkey ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "90,2",
+        "Infant mortality (per 1000 births)": 41.04,
+        "GDP ($ per capita) dollars": 6700
+    },
+    "Turkmenistan ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "10,3",
+        "Infant mortality (per 1000 births)": 73.08,
+        "GDP ($ per capita) dollars": 5800
+    },
+    "Turks & Caicos Is ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "49,2",
+        "Infant mortality (per 1000 births)": 15.67,
+        "GDP ($ per capita) dollars": 9600
+    },
+    "Tuvalu ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "454,2",
+        "Infant mortality (per 1000 births)": 20.03,
+        "GDP ($ per capita) dollars": 1100
+    },
+    "Uganda ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "119,5",
+        "Infant mortality (per 1000 births)": 67.83,
+        "GDP ($ per capita) dollars": 1400
+    },
+    "Ukraine ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "77,4",
+        "Infant mortality (per 1000 births)": 20.34,
+        "GDP ($ per capita) dollars": 5400
+    },
+    "United Arab Emirates ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "31,4",
+        "Infant mortality (per 1000 births)": 14.51,
+        "GDP ($ per capita) dollars": 23200
+    },
+    "United Kingdom ": {
+        "Region": "WESTERN EUROPE",
+        "Pop. Density (per sq. mi.)": "247,6",
+        "Infant mortality (per 1000 births)": 5.16,
+        "GDP ($ per capita) dollars": 27700
+    },
+    "United States ": {
+        "Region": "NORTHERN AMERICA",
+        "Pop. Density (per sq. mi.)": "31,0",
+        "Infant mortality (per 1000 births)": 6.5,
+        "GDP ($ per capita) dollars": 37800
+    },
+    "Uruguay ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "19,5",
+        "Infant mortality (per 1000 births)": 11.95,
+        "GDP ($ per capita) dollars": 12800
+    },
+    "Uzbekistan ": {
+        "Region": "C.W. OF IND. STATES",
+        "Pop. Density (per sq. mi.)": "61,0",
+        "Infant mortality (per 1000 births)": 71.1,
+        "GDP ($ per capita) dollars": 1700
+    },
+    "Vanuatu ": {
+        "Region": "OCEANIA",
+        "Pop. Density (per sq. mi.)": "17,1",
+        "Infant mortality (per 1000 births)": 55.16,
+        "GDP ($ per capita) dollars": 2900
+    },
+    "Venezuela ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "28,2",
+        "Infant mortality (per 1000 births)": 22.2,
+        "GDP ($ per capita) dollars": 4800
+    },
+    "Vietnam ": {
+        "Region": "ASIA (EX. NEAR EAST)",
+        "Pop. Density (per sq. mi.)": "256,1",
+        "Infant mortality (per 1000 births)": 25.95,
+        "GDP ($ per capita) dollars": 2500
+    },
+    "Virgin Islands ": {
+        "Region": "LATIN AMER. & CARIB",
+        "Pop. Density (per sq. mi.)": "56,9",
+        "Infant mortality (per 1000 births)": 8.03,
+        "GDP ($ per capita) dollars": 17200
+    },
+    "West Bank ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "419,9",
+        "Infant mortality (per 1000 births)": 19.62,
+        "GDP ($ per capita) dollars": 800
+    },
+    "Yemen ": {
+        "Region": "NEAR EAST",
+        "Pop. Density (per sq. mi.)": "40,6",
+        "Infant mortality (per 1000 births)": 61.5,
+        "GDP ($ per capita) dollars": 800
+    },
+    "Zambia ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "15,3",
+        "Infant mortality (per 1000 births)": 88.29,
+        "GDP ($ per capita) dollars": 800
+    },
+    "Zimbabwe ": {
+        "Region": "SUB-SAHARAN AFRICA",
+        "Pop. Density (per sq. mi.)": "31,3",
+        "Infant mortality (per 1000 births)": 67.69,
+        "GDP ($ per capita) dollars": 1900
+    }
+}

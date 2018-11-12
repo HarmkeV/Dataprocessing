@@ -81,10 +81,28 @@ def create_df(data_dict):
     """
     # create pandas dataframe using the data_dict
     df = pd.DataFrame.from_dict(data_dict, orient='index',
-                                columns=['Region', 'Pop. Density (per sq.\
-                                mi.)', 'Infant mortality (per 1000 births)',
+                                columns=['Region', 'Pop. Density (per sq. mi.)',\
+                                'Infant mortality (per 1000 births)',
                                 'GDP ($ per capita) dollars'])
     return df
+
+
+def df_strip(df):
+    """
+    Strips extra spaces from input
+    """
+    # create duplicate DataFrame
+    df_copy = df.copy()
+
+    # check for extra spaces in each column
+    for var in df_copy.columns:
+        if df_copy[var].dtype == np.object:
+
+            # remove extra spaces in variables the colums
+            df_copy[var] = pd.core.strings.str_strip(df_copy[var])
+            df_copy = df_copy.rename(columns={var:var.strip()})
+
+    return df_copy
 
 
 def central_tendency(df):
@@ -134,9 +152,11 @@ def five_number_summary(df):
     plt.show()
 
 
-def output(data_dict):
+def output(df):
+    new_data_dict = df.to_dict('index')
+
     with open('data.json', 'w') as outfile:
-        json.dump(data_dict, outfile)
+        json.dump(new_data_dict, outfile, indent=4)
 
 
 if __name__ == "__main__":
@@ -165,5 +185,8 @@ if __name__ == "__main__":
     # call five_number_summary
     #five_number_summary(df)
 
+    # remove extra spaces
+    df = df_strip(df)
+
     # call json
-    output(data_dict)
+    output(df)
