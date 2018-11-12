@@ -54,11 +54,15 @@ def create_dict(input, list_variable):
                 # make sure gdp is cast well
                 if var == gdp:
                     var_copy = int(row[var].split(' ')[0])
+                    if var_copy >= 107708:
+                        del data_dict[row[country]]
+                        break
 
                 # make sure mortality rate is cast well
                 elif var == mort:
                     var_copy = float(row[var].replace(',', '.'))
                 data_dict[row[country]].append(var_copy)
+
     return data_dict
 
 
@@ -81,7 +85,7 @@ def create_df(data_dict):
     """
     # create pandas dataframe using the data_dict
     df = pd.DataFrame.from_dict(data_dict, orient='index',
-                                columns=['Region', 'Pop. Density (per sq. mi.)',\
+                                columns=['Region', 'Pop. Density (per sq. mi.)',
                                 'Infant mortality (per 1000 births)',
                                 'GDP ($ per capita) dollars'])
     return df
@@ -100,7 +104,7 @@ def df_strip(df):
 
             # remove extra spaces in variables the colums
             df_copy[var] = pd.core.strings.str_strip(df_copy[var])
-            df_copy = df_copy.rename(columns={var:var.strip()})
+            df_copy = df_copy.rename(columns={var: var.strip()})
 
     return df_copy
 
@@ -180,10 +184,10 @@ if __name__ == "__main__":
     df = create_df(data_dict)
 
     # call central_tendency
-    #central_tendency(df)
+    central_tendency(df)
 
     # call five_number_summary
-    #five_number_summary(df)
+    five_number_summary(df)
 
     # remove extra spaces
     df = df_strip(df)
