@@ -51,10 +51,13 @@ def create_dict(input, list_variable):
             else:
                 var_copy = row[var]
 
-                # make sure gdp is cast well
+                # make sure GDP is cast well
                 if var == gdp:
                     var_copy = int(row[var].split(' ')[0])
-                    if var_copy >= 107708:
+
+                    # check whether GDP is correct using highest known GDP
+                    highest_gdp = 107708
+                    if var_copy >= highest_gdp:
                         del data_dict[row[country]]
                         break
 
