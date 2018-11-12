@@ -115,19 +115,13 @@ def df_strip(df):
 def central_tendency(df):
     """
     Calculates central tendencies; mean, median, mode and standard deviation
-    Plots histogram of absolte GPD's
+    Plots histogram of absolute GDP's
     """
 
-    # calculate mean
+    # calculate central tendencies
     mean = df['GDP ($ per capita) dollars'].mean(axis=0)
-
-    # calculate median
     median = df['GDP ($ per capita) dollars'].median(axis=0)
-
-    # calculate mode
     mode = df['GDP ($ per capita) dollars'].mode()[0]
-
-    # calculate standard deviation
     sd = df['GDP ($ per capita) dollars'].std()
 
     # plot histogram with GDP data
