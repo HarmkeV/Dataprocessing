@@ -73,7 +73,6 @@ def useless_data(item):
     """
     Checks whether a cell is empty
     """
-
     # check whether any of the  valuecells are empty
     if item == 'unknown' or item == '':
         return True
@@ -118,7 +117,6 @@ def central_tendency(df):
     Calculates central tendencies; mean, median, mode and standard deviation
     Plots histogram of absolute GDP's
     """
-
     # calculate central tendencies
     mean = df['GDP ($ per capita) dollars'].mean(axis=0)
     median = df['GDP ($ per capita) dollars'].median(axis=0)
@@ -130,6 +128,8 @@ def central_tendency(df):
     plt.title('Distribution GDP ($ per capita)')
     plt.ylabel('Absolute amount')
     plt.xlabel('GDP ($ per capita)')
+    plt.ylim(bottom=0)
+    plt.xlim(left=0)
     plt.show()
 
 
@@ -150,6 +150,8 @@ def five_number_summary(df):
     plt.boxplot(df['Infant mortality (per 1000 births)'])
     plt.title('Five Number Summary of infant mortality')
     plt.ylabel('infant mortality per 1000 births')
+    plt.ylim(bottom=0)
+    plt.xlim(left=0) 
     axis.tick_params(labelbottom=False)
     plt.show()
 
@@ -162,7 +164,6 @@ def output(df):
 
 
 if __name__ == "__main__":
-
     # get csv content from csv
     input = open_csv("input.csv")
 
