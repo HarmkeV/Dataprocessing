@@ -130,7 +130,6 @@ def central_tendency(df):
     plt.xlabel('GDP ($ per capita)')
     plt.ylim(bottom=0)
     plt.xlim(left=0)
-    plt.show()
 
 
 def five_number_summary(df):
@@ -151,9 +150,8 @@ def five_number_summary(df):
     plt.title('Five Number Summary of infant mortality')
     plt.ylabel('infant mortality per 1000 births')
     plt.ylim(bottom=0)
-    plt.xlim(left=0) 
+    plt.xlim(left=0)
     axis.tick_params(labelbottom=False)
-    plt.show()
 
 
 def output(df):
@@ -191,5 +189,8 @@ if __name__ == "__main__":
     # remove extra spaces
     df = df_strip(df)
 
+    # make sure images are shown
+    plt.show()
+    
     # call json
     output(df)
