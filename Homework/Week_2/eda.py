@@ -191,6 +191,6 @@ if __name__ == "__main__":
 
     # make sure images are shown
     plt.show()
-    
+
     # call json
     output(df)
