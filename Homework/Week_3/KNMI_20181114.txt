@@ -1,0 +1,26 @@
+# BRON: KONINKLIJK NEDERLANDS METEOROLOGISCH INSTITUUT (KNMI)
+# Opmerking: door stationsverplaatsingen en veranderingen in waarneemmethodieken zijn deze tijdreeksen van dagwaarden mogelijk inhomogeen! Dat betekent dat deze reeks van gemeten waarden niet geschikt is voor trendanalyse. Voor studies naar klimaatverandering verwijzen we naar de gehomogeniseerde reeks maandtemperaturen van De Bilt <http://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt> of de Centraal Nederland Temperatuur <http://www.knmi.nl/kennis-en-datacentrum/achtergrond/centraal-nederland-temperatuur-cnt>.
+# 
+# 
+# STN      LON(east)   LAT(north)     ALT(m)  NAME
+# 279:         6.574       52.750      15.80  HOOGEVEEN
+# 
+# YYYYMMDD = Datum (YYYY=jaar MM=maand DD=dag); 
+# Q        = Globale straling (in J/cm2); 
+# 
+# STN,YYYYMMDD,    Q
+# 
+  279,20181101,  413
+  279,20181102,  528
+  279,20181103,  612
+  279,20181104,  697
+  279,20181105,  171
+  279,20181106,  590
+  279,20181107,  573
+  279,20181108,  658
+  279,20181109,  385
+  279,20181110,  112
+  279,20181111,  229
+  279,20181112,  127
+  279,20181113,  363
+  279,20181114,  514
