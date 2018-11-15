@@ -1,4 +1,4 @@
-YYYYMMDD=Datum(YYYY=jaarMM=maandDD=dag), Q=Globalestraling(inJ/cm2),
+"YYYYMMDD = Datum (YYYY=jaar MM=maand DD=dag)," "Q= Globale straling (in J/cm2),"
 20181101 , 413
 20181102 , 528
 20181103 , 612

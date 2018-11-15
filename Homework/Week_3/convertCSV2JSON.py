@@ -15,10 +15,8 @@ def get_data():
 
             while '#' in csvfile1[row]:
                 if '=' in csvfile1[row]:
-                    print(csvfile1[row].lstrip())
-                    header.append(csvfile1[row].rstrip().strip('#').replace(';', ',').replace(' ', ''))
+                    header.append(csvfile1[row].strip('#').strip().replace(';', ',').replace('  ', ''))
                 row += 1
-            print(header)
             writer.writerow(header)
 
             while "#" not in csvfile1[row]:
