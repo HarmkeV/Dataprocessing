@@ -1,34 +1,46 @@
 import csv
 
 
-def get_data():
+def get_data(input):
     """
-    Convert txtfile to csvfile
+    Open csvfile, load contents into dictionary
     """
+    data_list = []
 
-    with open('KNMI_20181114.txt', 'r') as csvfile:
-        csvfile1 = csvfile.readlines()
-        with open('KNMI_20181114.txt'.replace('.txt','.csv'), 'w') as csvfile:
-            writer = csv.writer(csvfile, delimiter=' ')
-            header = []
-            row = 0
+    # open csvfile
+    with open(input, newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
 
-            while '#' in csvfile1[row]:
-                if '=' in csvfile1[row]:
-                    header.append(csvfile1[row].strip('#').strip().replace(';', ',').replace('  ', ''))
-                row += 1
-            writer.writerow(header)
+        # append content of csv to list of data
+        for row in reader:
+            data_list.append(row)
 
-            while "#" not in csvfile1[row]:
-                row_list = csvfile1[row]
-                row_list = row_list.split(',')
-                add_data = [row_list[1] ,',', row_list[2].strip()]
-                writer.writerow(add_data)
-                row += 1
-                if row >= len(csvfile1):
-                    break
+    return data_list
 
-#def convert_csv():
+def create_dict(input, list_variable):
+    # create dictionary to save data from csvfile
+    data_dict = {}
+
+    # fill dictionary
+    for row in input:
+        data_dict[row[year]] = []
+        for var in list_variable:
+            data_dict[row[year]].append(var)
+    print(data_dict)
+    return data_dict
 
 if __name__ == "__main__":
-    get_data()
+    data_list = get_data('Greenhouse_Gas_Emissions_Estimates.csv')
+
+    # simplefy filling dict by creating shorter variables
+    year = 'Year'
+    ee = 'Estimated Emissions'
+    pebau = 'Projected Emissions - Business As Usual'
+    goal = '2020 Goal'
+    ppcp = 'Projected Progress under Current Programs'
+    ppep = 'Projected Progress under Enhanced Programs'
+
+    list_variable = [ee, pebau, goal, ppcp, ppep]
+
+    # create dictionary
+    data_dict = create_dict(data_list, list_variable)

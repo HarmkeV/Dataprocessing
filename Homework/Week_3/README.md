@@ -1,0 +1,1 @@
+The database is obtained from the website https://catalog.data.gov/dataset?res_format=CSV&tags=pollution. It describes the estimated Greenhouse Gas emissions, composed by the State of Maryland (US) in 2006 and 2011.
