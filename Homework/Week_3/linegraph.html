@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<!--
+Name: Harmke Vliek
+Studentnumber: 10989137
+Assignment: Create a line graph of the data you converted to JSON, implement this plot using JavaScript and the
+HTML 5 canvas-element. The canvas-element provides an API with which graphics can be created using JavaScript.
+-->
+
+<html>
+  <title>
+      Line graph
+  </title>
+  <head>
+  </head>
+  <body>
+    <h1>
+      Greenhouse gas emissions estimates
+    </h1>
+    <<script type="text/javascript">
+      var fileName = "data.json";
+      var txtFile = new XMLHttpRequest();
+      txtFile.onreadystatechange = function() {
+        if (txtFile.readyState === 4 && txtFile.status == 200) {
+          console.log(JSON.parse(txtFile.responseText));
+        }
+      }
+      txtFile.open("GET", fileName);
+      txtFile.send();
+    </script>
+    <<canvas id="canvas" width="300" height="300">
+    </canvas>
+  </body>
+</html>

@@ -44,13 +44,11 @@ if __name__ == "__main__":
 
     # simplefy filling dict by creating shorter variables
     year = 'Year'
-    ee = 'Estimated Emissions'
     pebau = 'Projected Emissions - Business As Usual'
-    goal = '2020 Goal'
     ppcp = 'Projected Progress under Current Programs'
     ppep = 'Projected Progress under Enhanced Programs'
 
-    list_variable = [ee, pebau, goal, ppcp, ppep]
+    list_variable = [pebau, ppcp, ppep]
 
     # create dictionary
     data_dict = create_dict(data_list, list_variable)

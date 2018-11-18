@@ -1,107 +1,77 @@
 {
     "2006": {
-        "Estimated Emissions": "107229536.5",
         "Projected Emissions - Business As Usual": "107229536.6",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "",
         "Projected Progress under Enhanced Programs": ""
     },
     "2007": {
-        "Estimated Emissions": "109120613.2",
         "Projected Emissions - Business As Usual": "109087677.6",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "",
         "Projected Progress under Enhanced Programs": ""
     },
     "2008": {
-        "Estimated Emissions": "107167938.9",
         "Projected Emissions - Business As Usual": "110944370.5",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "",
         "Projected Progress under Enhanced Programs": ""
     },
     "2010": {
-        "Estimated Emissions": "100126383.9",
         "Projected Emissions - Business As Usual": "115750950.4",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "",
         "Projected Progress under Enhanced Programs": ""
     },
     "2009": {
-        "Estimated Emissions": "98489353.1",
         "Projected Emissions - Business As Usual": "113828287.4",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "",
         "Projected Progress under Enhanced Programs": ""
     },
     "2011": {
-        "Estimated Emissions": "99283829.7",
         "Projected Emissions - Business As Usual": "117655483.4",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "",
         "Projected Progress under Enhanced Programs": ""
     },
+    "2012": {
+        "Projected Emissions - Business As Usual": "119699499.6",
+        "Projected Progress under Current Programs": "98280000",
+        "Projected Progress under Enhanced Programs": "98280000"
+    },
+    "2013": {
+        "Projected Emissions - Business As Usual": "121502998.9",
+        "Projected Progress under Current Programs": "97193750",
+        "Projected Progress under Enhanced Programs": "96021250"
+    },
+    "2014": {
+        "Projected Emissions - Business As Usual": "123453222.4",
+        "Projected Progress under Current Programs": "96107500",
+        "Projected Progress under Enhanced Programs": "93762500"
+    },
     "2015": {
-        "Estimated Emissions": "",
         "Projected Emissions - Business As Usual": "125263220.5",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "95021250",
         "Projected Progress under Enhanced Programs": "91503750"
     },
     "2016": {
-        "Estimated Emissions": "",
         "Projected Emissions - Business As Usual": "127380964.8",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "93935000",
         "Projected Progress under Enhanced Programs": "89245000"
     },
     "2017": {
-        "Estimated Emissions": "",
         "Projected Emissions - Business As Usual": "129350013.6",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "92848750",
         "Projected Progress under Enhanced Programs": "86986250"
     },
     "2018": {
-        "Estimated Emissions": "",
         "Projected Emissions - Business As Usual": "131476934.6",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "91762500",
         "Projected Progress under Enhanced Programs": "84727500"
     },
     "2019": {
-        "Estimated Emissions": "",
         "Projected Emissions - Business As Usual": "133499635.9",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "90676250",
         "Projected Progress under Enhanced Programs": "82468750"
     },
     "2020": {
-        "Estimated Emissions": "",
         "Projected Emissions - Business As Usual": "135679730.3",
-        "2020 Goal": "80400000",
         "Projected Progress under Current Programs": "89590000",
         "Projected Progress under Enhanced Programs": "80210000"
-    },
-    "2013": {
-        "Estimated Emissions": "96799100",
-        "Projected Emissions - Business As Usual": "121502998.9",
-        "2020 Goal": "80400000",
-        "Projected Progress under Current Programs": "97193750",
-        "Projected Progress under Enhanced Programs": "96021250"
-    },
-    "2012": {
-        "Estimated Emissions": "98284400",
-        "Projected Emissions - Business As Usual": "119699499.6",
-        "2020 Goal": "80400000",
-        "Projected Progress under Current Programs": "98280000",
-        "Projected Progress under Enhanced Programs": "98280000"
-    },
-    "2014": {
-        "Estimated Emissions": "93420808",
-        "Projected Emissions - Business As Usual": "123453222.4",
-        "2020 Goal": "80400000",
-        "Projected Progress under Current Programs": "96107500",
-        "Projected Progress under Enhanced Programs": "93762500"
     }
 }
