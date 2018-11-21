@@ -160,7 +160,7 @@ function layout(coordinateList){
   context.fillText("GHG emissions (Mt)", GRAPH_RIGHT - 31, GRAPH_TOP - 10);
   context.save();
   context.font="bold 16px Arial";
-  context.fillText("Estimated greenhouse gas emissions (Mt) in Montana (2006)", GRAPH_TOP - 15, GRAPH_LEFT + 10);
+  context.fillText("Estimated greenhouse gas emissions (Mt) in Maryland (2006)", GRAPH_TOP - 15, GRAPH_LEFT + 10);
   context.restore();
   context.stroke();
 
