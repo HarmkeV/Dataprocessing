@@ -50,8 +50,6 @@ txtFile.onreadystatechange = function() {
       var GRAPH_LEFT = 10;
       var GRAPH_RIGHT = 600;
 
-      var GRAPH_HEIGHT = 300;
-      var GRAPH_WIDTH = 600;
       // clear canvas (if another graph was previously drawn)
       context.clearRect( 0, 0, 500, 400 );
 
@@ -69,29 +67,29 @@ txtFile.onreadystatechange = function() {
 
       xList = [];
       xCord = createTransform(domain, range);
-      for (i = 0; i < 15; i++) {
-        xList.push(xCord(years[i]))
+      for (var posYear = 0; posYear < 15; posYear++) {
+        xList.push(xCord(years[posYear]));
       }
 
       // find y coordinates
       domain = [100000000, 141000000];
-      range = [GRAPH_HEIGHT, GRAPH_TOP];
+      range = [GRAPH_BOTTOM, GRAPH_TOP];
 
       yList = [];
       yCord = createTransform(domain, range);
-      for (i = 0; i < 15; i++) {
-        yList.push(yCord(values[i]))
+      for (var posValue = 0; posValue < 15; posValue++) {
+        yList.push(yCord(values[posValue]));
       }
 
       // find y axis label coordinates
       domain = [100000000, 141000000];
-      range = [GRAPH_HEIGHT, GRAPH_TOP];
+      range = [GRAPH_BOTTOM, GRAPH_TOP];
 
       yaxList = [];
       var yAxisValues = [100000000, 110000000, 120000000, 130000000, 140000000];
       yaxCord = createTransform(domain, range);
-      for (var i = 0; i < 5; i++) {
-        yaxList.push(yaxCord(yAxisValues[i]))
+      for (var posYAx = 0; posYAx < 5; posYAx++) {
+        yaxList.push(yaxCord(yAxisValues[posYAx]));
       }
 
       // draw reference lines
@@ -99,17 +97,17 @@ txtFile.onreadystatechange = function() {
       // set light grey color for reference lines
       context.strokeStyle = "#BBB";
       context.moveTo( GRAPH_LEFT, GRAPH_TOP );
-      for (i = 0; i < 5; ++i) {
-        context.moveTo( GRAPH_LEFT, yaxList[i] );
-        context.lineTo( GRAPH_RIGHT, yaxList[i] );
+      for (posLine = 0; posLine < 5; posLine++) {
+        context.moveTo( GRAPH_LEFT, yaxList[posLine] );
+        context.lineTo( GRAPH_RIGHT, yaxList[posLine] );
       }
       context.stroke();
 
       // create line indicating emissions
       context.beginPath();
       context.moveTo(xList[0], yList[0]);
-      for (var i = 0; i < 15; i++) {
-        context.lineTo(xList[i], yList[i])
+      for (var posEm = 0; posEm < 15; posEm++) {
+        context.lineTo(xList[posEm], yList[posEm]);
       }
       context.strokeStyle = "#4708ce";
       context.stroke();
@@ -117,18 +115,18 @@ txtFile.onreadystatechange = function() {
       // create ticks for x-axis
       context.beginPath();
       context.moveTo( GRAPH_LEFT, GRAPH_BOTTOM );
-      for (var i = 0; i < 15; i++) {
-        context.lineTo( xList[i], GRAPH_BOTTOM + 5)
-        context.moveTo( xList[i + 1], GRAPH_BOTTOM)
+      for (var posTickX = 0; posTickX < 15; posTickX++) {
+        context.lineTo( xList[posTickX], GRAPH_BOTTOM + 5);
+        context.moveTo( xList[posTickX + 1], GRAPH_BOTTOM);
       }
       context.stroke();
 
       // create ticks for y-axis
       context.beginPath();
       context.moveTo( GRAPH_RIGHT, GRAPH_BOTTOM );
-      for (var i = 0; i < 5; i++) {
-        context.lineTo( GRAPH_RIGHT + 5, yaxList[i])
-        context.moveTo( GRAPH_RIGHT,  yaxList[i + 1])
+      for (var posTickY = 0; posTickY < 5; posTickY++) {
+        context.lineTo( GRAPH_RIGHT + 5, yaxList[posTickY]);
+        context.moveTo( GRAPH_RIGHT,  yaxList[posTickY + 1]);
       }
       context.stroke();
 
@@ -136,23 +134,23 @@ txtFile.onreadystatechange = function() {
       context.fillText("Year", GRAPH_RIGHT / 2, GRAPH_BOTTOM + 50);
       context.save();
       context.rotate(-Math.PI / 2);
-      context.fillText("GHG emissions (Mt)", GRAPH_RIGHT + 80, GRAPH_HEIGHT / 2);
+      context.fillText("GHG emissions (Mt)", GRAPH_RIGHT + 80, GRAPH_BOTTOM / 2);
       context.restore();
       context.save();
       context.font="bold 16px Arial";
-      context.fillText("Estimated greenhouse gas emissions", GRAPH_TOP - 15, GRAPH_LEFT + 10);
+      context.fillText("Estimated greenhouse gas emissions (Mt) in Montana (2006)", GRAPH_TOP - 15, GRAPH_LEFT + 10);
       context.restore();
       context.stroke();
 
       // draw reference value for x axis
-      for (var i = 0; i < 15; i++) {
-        context.fillText(years[i], xList[i] - 10, GRAPH_BOTTOM + 15)
+      for (var refValX = 0; refValX < 15; refValX++) {
+        context.fillText(years[refValX], xList[refValX] - 10, GRAPH_BOTTOM + 15);
         context.stroke();
       }
 
       // draw reference value for y axis
-      for (var i = 0; i < 5; i++) {
-        context.fillText(yAxisValues[i], GRAPH_RIGHT + 10, yaxList[i])
+      for (var refValY = 0; refValY < 5; refValY++) {
+        context.fillText(yAxisValues[refValY], GRAPH_RIGHT + 10, yaxList[refValY]);
         context.stroke();
       }
     }
