@@ -32,7 +32,7 @@ var txtFile = new XMLHttpRequest();
 var GRAPH_TOP = 25;
 var GRAPH_BOTTOM = 300;
 var GRAPH_LEFT = 10;
-var GRAPH_RIGHT = 900;
+var GRAPH_RIGHT = 1000;
 
 // define values for y axis
 var yAxisValues = [100000000, 110000000, 120000000, 130000000, 140000000];
