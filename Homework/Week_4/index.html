@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>D3 Barchart</title>
+        <script type="text/javascript" src="d3/d3.js"></script>
+    </head>
+    <body>
+      <h3>
+        name:
+      </h3>
+        <p>
+          Harmke Vliek
+        </p>
+      <h3>
+        studentnumber:
+      </h3>
+        <p>
+          10989137
+        </p>
+      <h3>
+        assignment:
+      </h3>
+        <p>
+          Create a JavaScript plot using D3. The dataset describes different
+          energy sources per country, obtained from the OECD.
+        </p>
+      <h3>
+        Energy sources (OECD)
+      </h3>
+        <script>
+          d3.json("data.json").then(function(data) {
+            countries = Object.keys(data);
+            values= [];
+          });
+        </script>
+    </body>
+</html>

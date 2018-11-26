@@ -1,0 +1,372 @@
+{
+    "AUS": {
+        "LOCATION": "AUS",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "6.46",
+        "Flag Codes": ""
+    },
+    "AUT": {
+        "LOCATION": "AUT",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "30.05",
+        "Flag Codes": ""
+    },
+    "BEL": {
+        "LOCATION": "BEL",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "6.68",
+        "Flag Codes": ""
+    },
+    "CAN": {
+        "LOCATION": "CAN",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "17.5",
+        "Flag Codes": ""
+    },
+    "CZE": {
+        "LOCATION": "CZE",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "10.47",
+        "Flag Codes": ""
+    },
+    "DNK": {
+        "LOCATION": "DNK",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "29.97",
+        "Flag Codes": ""
+    },
+    "FIN": {
+        "LOCATION": "FIN",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "31.19",
+        "Flag Codes": ""
+    },
+    "FRA": {
+        "LOCATION": "FRA",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "9.55",
+        "Flag Codes": ""
+    },
+    "DEU": {
+        "LOCATION": "DEU",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "12.71",
+        "Flag Codes": ""
+    },
+    "GRC": {
+        "LOCATION": "GRC",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "12.07",
+        "Flag Codes": ""
+    },
+    "HUN": {
+        "LOCATION": "HUN",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "11.45",
+        "Flag Codes": ""
+    },
+    "ISL": {
+        "LOCATION": "ISL",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "89.52",
+        "Flag Codes": ""
+    },
+    "IRL": {
+        "LOCATION": "IRL",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "7.88",
+        "Flag Codes": ""
+    },
+    "ITA": {
+        "LOCATION": "ITA",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "17.35",
+        "Flag Codes": ""
+    },
+    "JPN": {
+        "LOCATION": "JPN",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "4.83",
+        "Flag Codes": ""
+    },
+    "KOR": {
+        "LOCATION": "KOR",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "1.71",
+        "Flag Codes": ""
+    },
+    "LUX": {
+        "LOCATION": "LUX",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "5.61",
+        "Flag Codes": ""
+    },
+    "MEX": {
+        "LOCATION": "MEX",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "7.91",
+        "Flag Codes": ""
+    },
+    "NLD": {
+        "LOCATION": "NLD",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "4.94",
+        "Flag Codes": ""
+    },
+    "NZL": {
+        "LOCATION": "NZL",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "40.52",
+        "Flag Codes": ""
+    },
+    "NOR": {
+        "LOCATION": "NOR",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "49.23",
+        "Flag Codes": ""
+    },
+    "POL": {
+        "LOCATION": "POL",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "8.5",
+        "Flag Codes": ""
+    },
+    "PRT": {
+        "LOCATION": "PRT",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "24.26",
+        "Flag Codes": ""
+    },
+    "SVK": {
+        "LOCATION": "SVK",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "9.58",
+        "Flag Codes": ""
+    },
+    "ESP": {
+        "LOCATION": "ESP",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "14.5",
+        "Flag Codes": ""
+    },
+    "SWE": {
+        "LOCATION": "SWE",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "36.96",
+        "Flag Codes": ""
+    },
+    "CHE": {
+        "LOCATION": "CHE",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "22.29",
+        "Flag Codes": ""
+    },
+    "TUR": {
+        "LOCATION": "TUR",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "12.8",
+        "Flag Codes": ""
+    },
+    "GBR": {
+        "LOCATION": "GBR",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "8.2",
+        "Flag Codes": ""
+    },
+    "USA": {
+        "LOCATION": "USA",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "7.07",
+        "Flag Codes": ""
+    },
+    "CHL": {
+        "LOCATION": "CHL",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "26.82",
+        "Flag Codes": ""
+    },
+    "EST": {
+        "LOCATION": "EST",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "17.56",
+        "Flag Codes": ""
+    },
+    "ISR": {
+        "LOCATION": "ISR",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "2.38",
+        "Flag Codes": ""
+    },
+    "LVA": {
+        "LOCATION": "LVA",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "39.06",
+        "Flag Codes": ""
+    },
+    "LTU": {
+        "LOCATION": "LTU",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "",
+        "Flag Codes": "L"
+    },
+    "SVN": {
+        "LOCATION": "SVN",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "16.75",
+        "Flag Codes": ""
+    },
+    "OECD": {
+        "LOCATION": "OECD",
+        "INDICATOR": "RENEWABLE",
+        "SUBJECT": "TOT",
+        "MEASURE": "PC_PRYENRGSUPPLY",
+        "FREQUENCY": "A",
+        "TIME": "2016",
+        "Value": "9.74",
+        "Flag Codes": ""
+    }
+}
