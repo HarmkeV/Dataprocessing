@@ -14,16 +14,25 @@
             .text("Bar chart")
 
           d3.select("body")
-            .append("title")
+            .append("b")
             .text("Renewable energy in OECD countries")
 
           d3.select("body")
-            .append("b")
-            .text("Bar chart.  ")
+            .append("p")
+            .append("i")
+            .text("Bar chart displaying total primary energy resources in percentages of OECD countries.")
 
           d3.select("body")
-            .append("b")
-            .text("Harmke Vliek - 10989137")
+            .append("p")
+            .text("Name: Harmke Vliek")
+
+          d3.select("body")
+            .append("p")
+            .text("Studentnumber: 10989137")
+
+          d3.select("body")
+            .append("p")
+            .text("Assignment: Implement an interactive bar chart using D3")
 
           d3.select("body")
             .append("p")
@@ -31,23 +40,24 @@
             // variables svg
             var width = 1000;
             var height = 500;
-            var barPadding = 1;
-            var topChart = 50;
-            var bottomChart = 50;
-            var leftChart = 50;
-            var rightChart = 50;
+            var barPadding = 0.5;
+            var topOfChart = 50;
+            var bottomOfChart = 50;
+            var leftSideChart = 50;
+            var rightSideChart = 50;
+            var labelPadding = 40;
 
             // create a tooltip
-            var tooltip = d3.select("body")
-                          .append("div")
-                          .style("position", "absolute")
-                          .style("text-align", "center")
-                          .style("width", "100px")
-                          .style("visibility", "hidden")
-                          .style("background", "white")
-                          .style("border", "2px solid yellow")
-                          .style("border-radius", "5px")
-                          .style("color", "black");
+            var tool = d3.select("body")
+                         .append("div")
+                         .style("position", "absolute")
+                         .style("text-align", "center")
+                         .style("width", "100px")
+                         .style("visibility", "hidden")
+                         .style("background", "white")
+                         .style("border", "2px solid yellow")
+                         .style("border-radius", "5px")
+                         .style("color", "black");
 
           // make svg
           var svg = d3.select("body")
@@ -68,10 +78,10 @@
                 };
 
               // plot barchart
-              barGraphMaker(listChart);
+              createBarChart(listChart);
 
-            // function to plot the Barchart
-            function barGraphMaker(listChart){
+            // create function to plot the Barchart
+            function createBarChart(listChart){
 
               // seperate x and y values
               let xValues = listChart.filter((element, index) => {
@@ -82,15 +92,13 @@
                 return (index + 1) % 2 === 0;
               })
 
-              console.log(xValues)
-              console.log(yValues)
               // create scales for axis
               var yScale = d3.scaleLinear()
-                             .domain([0, Math.max.apply(null, yValues)])
-                             .range([height - bottomChart, topChart]);
+                             .domain([0, 90])
+                             .range([height - bottomOfChart, topOfChart]);
               var xScale = d3.scaleBand()
                              .domain(xValues)
-                             .range([leftChart, width - rightChart]);
+                             .range([leftSideChart, width - rightSideChart]);
 
               // create bars
               var bars = svg.selectAll("rect")
@@ -98,35 +106,35 @@
                  .enter()
                  .append("rect")
                  .attr("fill", "green")
-                 .attr("width", (width - leftChart - rightChart) / xValues.length -
-                       barPadding + "px")
+                 .attr("width", (width - leftSideChart - rightSideChart) /
+                       xValues.length - barPadding + "px")
                  .attr("y", function(d) {
                     var barHeight = yScale(d);
-                    return barHeight - bottomChart + topChart + "px";
+                    return barHeight - bottomOfChart + topOfChart + "px";
                  })
                  .attr("x", function(d, i) {
-                    return i * (width - leftChart - rightChart) / xValues.length +
-                                leftChart + "px";
+                    return i * (width - leftSideChart - rightSideChart) /
+                                xValues.length + leftSideChart + "px";
                  })
                  .attr("height", function(d) {
                     var barHeight = yScale(d);
-                    return (height - barHeight) - topChart + "px";
+                    return (height - barHeight) - topOfChart + "px";
                  })
                  .on("mouseover", function(d){
                    d3.select(this)
                      .attr("fill", "yellow")
-                   return (tooltip.style("visibility", "visible")
+                   return (tool.style("visibility", "visible")
                                   .text("Value = " + d));
                  })
                  .on("mouseout", function(){
-                   return (tooltip.style("visibility", "hidden"),
+                   return (tool.style("visibility", "hidden"),
                            bars.attr("fill", "green"));
                  })
                  .on("mousemove", function(d, i){
-                   return tooltip.style("top", yScale(d) + bottomChart + topChart +
-                                        150 + "px")
-                                 .style("left", i * (width - leftChart - rightChart) /
-                                        xValues.length + leftChart - 23 + "px");
+                   return tool.style("top", event.clientY + "px")
+                                 .style("left", i * (width - leftSideChart -
+                                        rightSideChart) / xValues.length +
+                                        leftSideChart - 23 + "px");
                  });
 
               // create axes
@@ -136,20 +144,21 @@
               // plot x-axis
               svg.append("g")
                  .attr("class", "axis")
-                 .attr("transform", "translate("+[0, height - topChart]+")")
+                 .attr("transform", "translate("+[0, height - topOfChart]+")")
                  .call(xAxis);
 
               // plot y-axis
               svg.append("g")
                  .attr("class", "axis")
-                 .attr("transform", "translate("+[leftChart, 0]+")")
+                 .attr("transform", "translate("+[leftSideChart, 0]+")")
                  .call(yAxis);
 
               // x label
               svg.append("text")
                   .attr("transform",
-                        "translate("+[(width - leftChart - rightChart)/2 + leftChart,
-                                       height - topChart + bottomChart]+")")
+                        "translate("+[(width - leftSideChart - rightSideChart) / 2 +
+                                       leftSideChart,
+                                       height - topOfChart + labelPadding]+")")
                   .style("text-anchor", "middle")
                   .text("location");
 
