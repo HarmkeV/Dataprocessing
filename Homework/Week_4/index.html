@@ -69,111 +69,111 @@
 
             // load data from json
             d3.json('data.json').then(function(data) {
-              var countries = Object.keys(data);
-              var values = Object.values(data);
-              var listChart = [];
+               var countries = Object.keys(data);
+               var values = Object.values(data);
+               var listChart = [];
 
-              // fill list with data needed for bar chart
-              for (var index = 0; index < countries.length; index++) {
-                listChart.push(countries[index])
-                listChart.push(values[index]["Value"])
-              };
+            // fill list with data needed for bar chart
+            for (var index = 0; index < countries.length; index++) {
+              listChart.push(countries[index])
+              listChart.push(values[index]["Value"])
+            };
 
-              // plot barchart
-              createBarChart(listChart);
+            // plot barchart
+            createBarChart(listChart);
 
-              // create function to plot the Barchart
-              function createBarChart(listChart){
+            // create function to plot the Barchart
+            function createBarChart(listChart){
 
-                // seperate x and y values
-                let xValues = listChart.filter((element, index) => {
-                  return index % 2 === 0;
-                });
-
-                let yValues = listChart.filter((element, index) => {
-                  return (index + 1) % 2 === 0;
-                });
-
-                // create scales for axis
-                var yScale = d3.scaleLinear()
-                               .domain([0, 90])
-                               .range([height - bottomOfChart, topOfChart]);
-                var xScale = d3.scaleBand()
-                               .domain(xValues)
-                               .range([leftSideChart, width - rightSideChart]);
-
-                // create axes
-                var xAxis = d3.axisBottom(xScale);
-                var yAxis = d3.axisLeft(yScale);
-
-                // create bars
-                var bars = svg.selectAll("rect")
-                   .data(yValues)
-                   .enter()
-                   .append("rect")
-                   .attr("fill", "green")
-                   .attr("width", (width - leftSideChart - rightSideChart) /
-                         xValues.length - barPadding + "px")
-                   .attr("y", function(d) {
-                      var barHeight = yScale(d);
-                      return barHeight - bottomOfChart + topOfChart + "px";
-                   })
-                   .attr("x", function(d, i) {
-                      return i * (width - leftSideChart - rightSideChart) /
-                                  xValues.length + leftSideChart + "px";
-                   })
-                   .attr("height", function(d) {
-                      var barHeight = yScale(d);
-                      return (height - barHeight) - topOfChart + "px";
-                   })
-                   .on("mouseover", function(d){
-                     d3.select(this)
-                       .attr("fill", "yellow")
-                     return (tool.style("visibility", "visible")
-                                    .text("Value = " + d));
-                   })
-                   .on("mouseout", function(){
-                     return (tool.style("visibility", "hidden"),
-                             bars.attr("fill", "green"));
-                   })
-                   .on("mousemove", function(d, i){
-                     return tool.style("top", event.clientY + "px")
-                                   .style("left", i * (width - leftSideChart -
-                                          rightSideChart) / xValues.length +
-                                          leftSideChart - 23 + "px");
-                   });
-
-                // plot x-axis
-                svg.append("g")
-                   .attr("class", "axis")
-                   .attr("transform", "translate("+[0, height - topOfChart]+")")
-                   .call(xAxis);
-
-                // plot y-axis
-                svg.append("g")
-                   .attr("class", "axis")
-                   .attr("transform", "translate("+[leftSideChart, 0]+")")
-                   .call(yAxis);
-
-                // set x label
-                svg.append("text")
-                    .attr("transform",
-                          "translate("+[(width - leftSideChart - rightSideChart) / 2 +
-                                         leftSideChart,
-                                         height - topOfChart + labelPadding]+")")
-                    .style("text-anchor", "middle")
-                    .text("location");
-
-                // set y label
-                svg.append("text")
-                    .attr("transform", "rotate(-90)")
-                    .attr("x", - height / 2)
-                    .attr("y", 0)
-                    .attr("dy", "1em")
-                    .style("text-anchor", "middle")
-                    .text("percentage of total primary energy resources");
-                };
+              // seperate x and y values
+              let xValues = listChart.filter((element, index) => {
+                return index % 2 === 0;
               });
+
+              let yValues = listChart.filter((element, index) => {
+                return (index + 1) % 2 === 0;
+              });
+
+              // create scales for axis
+              var yScale = d3.scaleLinear()
+                             .domain([0, 90])
+                             .range([height - bottomOfChart, topOfChart]);
+              var xScale = d3.scaleBand()
+                             .domain(xValues)
+                             .range([leftSideChart, width - rightSideChart]);
+
+              // create axes
+              var xAxis = d3.axisBottom(xScale);
+              var yAxis = d3.axisLeft(yScale);
+
+              // create bars
+              var bars = svg.selectAll("rect")
+                 .data(yValues)
+                 .enter()
+                 .append("rect")
+                 .attr("fill", "green")
+                 .attr("width", (width - leftSideChart - rightSideChart) /
+                       xValues.length - barPadding + "px")
+                 .attr("y", function(d) {
+                    var barHeight = yScale(d);
+                    return barHeight - bottomOfChart + topOfChart + "px";
+                 })
+                 .attr("x", function(d, i) {
+                    return i * (width - leftSideChart - rightSideChart) /
+                                xValues.length + leftSideChart + "px";
+                 })
+                 .attr("height", function(d) {
+                    var barHeight = yScale(d);
+                    return (height - barHeight) - topOfChart + "px";
+                 })
+                 .on("mouseover", function(d){
+                   d3.select(this)
+                     .attr("fill", "yellow")
+                   return (tool.style("visibility", "visible")
+                                  .text("Value = " + d));
+                 })
+                 .on("mouseout", function(){
+                   return (tool.style("visibility", "hidden"),
+                           bars.attr("fill", "green"));
+                 })
+                 .on("mousemove", function(d, i){
+                   return tool.style("top", event.clientY + "px")
+                                 .style("left", i * (width - leftSideChart -
+                                        rightSideChart) / xValues.length +
+                                        leftSideChart - 23 + "px");
+                 });
+
+              // plot x-axis
+              svg.append("g")
+                 .attr("class", "axis")
+                 .attr("transform", "translate("+[0, height - topOfChart]+")")
+                 .call(xAxis);
+
+              // plot y-axis
+              svg.append("g")
+                 .attr("class", "axis")
+                 .attr("transform", "translate("+[leftSideChart, 0]+")")
+                 .call(yAxis);
+
+              // set x label
+              svg.append("text")
+                  .attr("transform",
+                        "translate("+[(width - leftSideChart - rightSideChart) / 2 +
+                                       leftSideChart,
+                                       height - topOfChart + labelPadding]+")")
+                  .style("text-anchor", "middle")
+                  .text("location");
+
+              // set y label
+              svg.append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("x", - height / 2)
+                  .attr("y", 0)
+                  .attr("dy", "1em")
+                  .style("text-anchor", "middle")
+                  .text("percentage of total primary energy resources");
+              };
+            });
         </script>
     </body>
 </html>
