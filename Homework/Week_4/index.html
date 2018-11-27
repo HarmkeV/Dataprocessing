@@ -6,32 +6,162 @@
         <script type="text/javascript" src="d3/d3.js"></script>
     </head>
     <body>
-      <h3>
-        name:
-      </h3>
-        <p>
-          Harmke Vliek
-        </p>
-      <h3>
-        studentnumber:
-      </h3>
-        <p>
-          10989137
-        </p>
-      <h3>
-        assignment:
-      </h3>
-        <p>
-          Create a JavaScript plot using D3. The dataset describes different
-          energy sources per country, obtained from the OECD.
-        </p>
-      <h3>
-        Energy sources (OECD)
-      </h3>
-        <script>
-          d3.json("data.json").then(function(data) {
-            countries = Object.keys(data);
-            values= [];
+        <script type="text/javascript">
+
+          // add titles and text
+          d3.select("head")
+            .append("title")
+            .text("Bar chart")
+
+          d3.select("body")
+            .append("title")
+            .text("Renewable energy in OECD countries")
+
+          d3.select("body")
+            .append("b")
+            .text("Bar chart.  ")
+
+          d3.select("body")
+            .append("b")
+            .text("Harmke Vliek - 10989137")
+
+          d3.select("body")
+            .append("p")
+
+            // variables svg
+            var width = 1000;
+            var height = 500;
+            var barPadding = 1;
+            var topChart = 50;
+            var bottomChart = 50;
+            var leftChart = 50;
+            var rightChart = 50;
+
+            // create a tooltip
+            var tooltip = d3.select("body")
+                          .append("div")
+                          .style("position", "absolute")
+                          .style("text-align", "center")
+                          .style("width", "100px")
+                          .style("visibility", "hidden")
+                          .style("background", "white")
+                          .style("border", "2px solid yellow")
+                          .style("border-radius", "5px")
+                          .style("color", "black");
+
+          // make svg
+          var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+            // load data from json
+            d3.json('data.json').then(function(data) {
+              countries = Object.keys(data);
+              values = Object.values(data);
+              listChart = [];
+
+                // fill list with data needed for bar chart
+                for (var index = 0; index < countries.length; index++) {
+                  listChart.push(countries[index])
+                  listChart.push(values[index]["Value"])
+                };
+
+              // plot barchart
+              barGraphMaker(listChart);
+
+            // function to plot the Barchart
+            function barGraphMaker(listChart){
+
+              // seperate x and y values
+              let xValues = listChart.filter((element, index) => {
+                return index % 2 === 0;
+              })
+
+              let yValues = listChart.filter((element, index) => {
+                return (index + 1) % 2 === 0;
+              })
+
+              console.log(xValues)
+              console.log(yValues)
+              // create scales for axis
+              var yScale = d3.scaleLinear()
+                             .domain([0, Math.max.apply(null, yValues)])
+                             .range([height - bottomChart, topChart]);
+              var xScale = d3.scaleBand()
+                             .domain(xValues)
+                             .range([leftChart, width - rightChart]);
+
+              // create bars
+              var bars = svg.selectAll("rect")
+                 .data(yValues)
+                 .enter()
+                 .append("rect")
+                 .attr("fill", "green")
+                 .attr("width", (width - leftChart - rightChart) / xValues.length -
+                       barPadding + "px")
+                 .attr("y", function(d) {
+                    var barHeight = yScale(d);
+                    return barHeight - bottomChart + topChart + "px";
+                 })
+                 .attr("x", function(d, i) {
+                    return i * (width - leftChart - rightChart) / xValues.length +
+                                leftChart + "px";
+                 })
+                 .attr("height", function(d) {
+                    var barHeight = yScale(d);
+                    return (height - barHeight) - topChart + "px";
+                 })
+                 .on("mouseover", function(d){
+                   d3.select(this)
+                     .attr("fill", "yellow")
+                   return (tooltip.style("visibility", "visible")
+                                  .text("Value = " + d));
+                 })
+                 .on("mouseout", function(){
+                   return (tooltip.style("visibility", "hidden"),
+                           bars.attr("fill", "green"));
+                 })
+                 .on("mousemove", function(d, i){
+                   return tooltip.style("top", yScale(d) + bottomChart + topChart +
+                                        150 + "px")
+                                 .style("left", i * (width - leftChart - rightChart) /
+                                        xValues.length + leftChart - 23 + "px");
+                 });
+
+              // create axes
+              var xAxis = d3.axisBottom(xScale);
+              var yAxis = d3.axisLeft(yScale);
+
+              // plot x-axis
+              svg.append("g")
+                 .attr("class", "axis")
+                 .attr("transform", "translate("+[0, height - topChart]+")")
+                 .call(xAxis);
+
+              // plot y-axis
+              svg.append("g")
+                 .attr("class", "axis")
+                 .attr("transform", "translate("+[leftChart, 0]+")")
+                 .call(yAxis);
+
+              // x label
+              svg.append("text")
+                  .attr("transform",
+                        "translate("+[(width - leftChart - rightChart)/2 + leftChart,
+                                       height - topChart + bottomChart]+")")
+                  .style("text-anchor", "middle")
+                  .text("location");
+
+              // y label
+              svg.append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("x", - height / 2)
+                  .attr("y", 0)
+                  .attr("dy", "1em")
+                  .style("text-anchor", "middle")
+                  .text("total primary energy resources in percentages");
+            };
           });
         </script>
     </body>

@@ -26,7 +26,12 @@ def create_dict(input, list_variable):
     for row in input:
         data_dict[row[loc]] = {}
         for var in list_variable:
-            data_dict[row[loc]][var] = row[var]
+            if row[val] == "":
+                del data_dict[row[loc]]
+                break
+
+            else:
+                data_dict[row[loc]][var] = row[var]
 
     return data_dict
 
@@ -50,9 +55,8 @@ if __name__ == "__main__":
     fre = "FREQUENCY"
     time = "TIME"
     val = "Value"
-    fc = "Flag Codes"
 
-    list_variable = [loc, ind, sub, mea, fre, time, val, fc]
+    list_variable = [loc, ind, sub, mea, fre, time, val]
 
     # create dictionary
     data_dict = create_dict(data_list, list_variable)
