@@ -69,9 +69,9 @@
 
             // load data from json
             d3.json('data.json').then(function(data) {
-              countries = Object.keys(data);
-              values = Object.values(data);
-              listChart = [];
+              var countries = Object.keys(data);
+              var values = Object.values(data);
+              var listChart = [];
 
               // fill list with data needed for bar chart
               for (var index = 0; index < countries.length; index++) {
