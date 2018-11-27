@@ -11,28 +11,28 @@
           // add titles and text
           d3.select("head")
             .append("title")
-            .text("Bar chart")
+            .text("Bar chart");
 
           d3.select("body")
             .append("b")
-            .text("Renewable energy in OECD countries")
+            .text("Renewable energy in OECD countries");
 
           d3.select("body")
             .append("p")
             .append("i")
-            .text("Bar chart displaying total primary energy resources in percentages of OECD countries.")
+            .text("Bar chart displaying total primary energy resources in percentages of OECD countries.");
 
           d3.select("body")
             .append("p")
-            .text("Name: Harmke Vliek")
+            .text("Name: Harmke Vliek");
 
           d3.select("body")
             .append("p")
-            .text("Studentnumber: 10989137")
+            .text("Studentnumber: 10989137");
 
           d3.select("body")
             .append("p")
-            .text("Assignment: Implement an interactive bar chart using D3")
+            .text("Assignment: Implement an interactive bar chart using D3");
 
           d3.select("body")
             .append("p")
@@ -86,11 +86,11 @@
               // seperate x and y values
               let xValues = listChart.filter((element, index) => {
                 return index % 2 === 0;
-              })
+              });
 
               let yValues = listChart.filter((element, index) => {
                 return (index + 1) % 2 === 0;
-              })
+              });
 
               // create scales for axis
               var yScale = d3.scaleLinear()
@@ -169,7 +169,7 @@
                   .attr("y", 0)
                   .attr("dy", "1em")
                   .style("text-anchor", "middle")
-                  .text("total primary energy resources in percentages");
+                  .text("percentage of total primary energy resources");
             };
           });
         </script>
