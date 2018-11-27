@@ -32,12 +32,14 @@
 
           d3.select("body")
             .append("p")
-            .text("Assignment: Implement an interactive bar chart using D3");
+            .text("Assignment: Implement an interactive bar chart using D3. The bar\
+                  chart shows the percentage of renewable energy sources an member\
+                  state of the OECD possesses.");
 
           d3.select("body")
             .append("p")
 
-            // variables svg
+            // create variables necessary for svg
             var width = 1000;
             var height = 500;
             var barPadding = 0.5;
@@ -59,7 +61,7 @@
                          .style("border-radius", "5px")
                          .style("color", "black");
 
-          // make svg
+          // create svg
           var svg = d3.select("body")
             .append("svg")
             .attr("width", width)
@@ -71,14 +73,14 @@
               values = Object.values(data);
               listChart = [];
 
-                // fill list with data needed for bar chart
-                for (var index = 0; index < countries.length; index++) {
-                  listChart.push(countries[index])
-                  listChart.push(values[index]["Value"])
-                };
+              // fill list with data needed for bar chart
+              for (var index = 0; index < countries.length; index++) {
+                listChart.push(countries[index])
+                listChart.push(values[index]["Value"])
+              };
 
-              // plot barchart
-              createBarChart(listChart);
+            // plot barchart
+            createBarChart(listChart);
 
             // create function to plot the Barchart
             function createBarChart(listChart){
@@ -99,6 +101,10 @@
               var xScale = d3.scaleBand()
                              .domain(xValues)
                              .range([leftSideChart, width - rightSideChart]);
+
+              // create axes
+              var xAxis = d3.axisBottom(xScale);
+              var yAxis = d3.axisLeft(yScale);
 
               // create bars
               var bars = svg.selectAll("rect")
@@ -137,10 +143,6 @@
                                         leftSideChart - 23 + "px");
                  });
 
-              // create axes
-              var xAxis = d3.axisBottom(xScale);
-              var yAxis = d3.axisLeft(yScale);
-
               // plot x-axis
               svg.append("g")
                  .attr("class", "axis")
@@ -153,7 +155,7 @@
                  .attr("transform", "translate("+[leftSideChart, 0]+")")
                  .call(yAxis);
 
-              // x label
+              // set x label
               svg.append("text")
                   .attr("transform",
                         "translate("+[(width - leftSideChart - rightSideChart) / 2 +
@@ -162,7 +164,7 @@
                   .style("text-anchor", "middle")
                   .text("location");
 
-              // y label
+              // set y label
               svg.append("text")
                   .attr("transform", "rotate(-90)")
                   .attr("x", - height / 2)
