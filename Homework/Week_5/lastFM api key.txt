@@ -1,0 +1,4 @@
+Application name  Javascript scatterplot
+API key	          8c46028528aff9701b8d7f524219ccf5
+Shared secret	    e2a4df95a43540aecb883f6fb02c5f8f
+Registered to	    HarmkeV
