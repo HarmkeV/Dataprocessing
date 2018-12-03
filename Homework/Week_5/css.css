@@ -1,12 +1,7 @@
-<!-- Harmke Vliek -->
-<!-- 10989137 -->
-<!-- CSS for D3 scatter plot-->
+/*Harmke Vliek
+10989137
+CSS for D3 scatter plot*/
 
-<<<<<<< HEAD
-.axis path
-=======
-.axis path,
->>>>>>> 7abe08b33f5bacaa6a1d57efa9ced084ab13f034
 .axis line {
     fill: none;
     stroke: black;
@@ -24,3 +19,8 @@ h4.head {
 h3.head {
     font-family: Calibri;
 };
+
+legend rect {
+  fill:white;
+  stroke:black;
+  opacity:0.8;}
