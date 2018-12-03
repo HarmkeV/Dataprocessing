@@ -56,7 +56,7 @@ window.onload = function() {
       let womenValues = parseData(response[0]);
       let consValues = parseData(response[1]);
 
-      dots = createPoint(womenValues, consValues);
+      points = createPoint(womenValues, consValues);
 
       // create scales
       var xScale = d3.scaleLinear()
@@ -75,7 +75,7 @@ window.onload = function() {
 
       // insert points
       svg.selectAll("circle")
-         .data(dots)
+         .data(points)
          .enter()
          .append("circle")
          .attr("cx", function(d) {
