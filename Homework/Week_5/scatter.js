@@ -1,7 +1,8 @@
 /*
 Harmke Vliek
 10989137
-script for D3 scatter plot:
+script for D3 scatter plot
+Use of Wildcard
 */
 
 // define variables of the svg
@@ -78,13 +79,13 @@ window.onload = function() {
         updateGraph(setSelectA, setSelectB, setSelectC, selectValue)
       };
 
-      // initialise svg variable
+      // iset svg
       var svg = d3.select("body")
                   .append("svg")
                   .attr("width", width)
                   .attr("height", height);
 
-      // insert circles
+      // set circles to fill with points
       var circles = svg.selectAll("circle")
                        .data(years)
                        .enter()
@@ -96,7 +97,7 @@ window.onload = function() {
                            return yScale(points[d][1]);
                        })
                        .attr("r", 6)
-                       .attr("stroke-opacity", .4)
+                       .attr("stroke-opacity", .5)
                        .attr("stroke", "black")
                        .style("fill", function(d, i) {
                           return colourScale(setSelectC[i][String(d)])
@@ -350,7 +351,7 @@ function updateGraph(womValues, conValues, empValues, selectedCountry) {
        .duration(500)
        .attr("x", function(d) {
            if (newPoint.hasOwnProperty(String(d))) {
-               return xScale(newPoint[d][0]) + 10
+               return xScale(newPoint[d][0]) + labelPadding
            } else {
                return 2000
            }
