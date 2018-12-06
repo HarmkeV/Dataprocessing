@@ -13,13 +13,6 @@ CSS for D3 scatter plot*/
     font-size: 10px;
 };
 
-h4.head {
-    font-family: Calibri;
-};
-h3.head {
-    font-family: Calibri;
-};
-
 legend rect {
   fill:white;
   stroke:black;

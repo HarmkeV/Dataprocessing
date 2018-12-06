@@ -37,14 +37,14 @@ window.onload = function() {
 
       d3.select("#userInput").on("input", function() {
         update(womValues, conValues, empValues, this.value)
-      })
+      });
 
-      beginSet = "France"
+      beginSet = "France";
 
       // select indicated country
-      setSelectA = womValues[countriesA.indexOf(beginSet)][beginSet]
-      setSelectB = conValues[countriesB.indexOf(beginSet)][beginSet]
-      setSelectC = empValues[countriesA.indexOf(beginSet)][beginSet]
+      setSelectA = womValues[countriesA.indexOf(beginSet)][beginSet];
+      setSelectB = conValues[countriesB.indexOf(beginSet)][beginSet];
+      setSelectC = empValues[countriesA.indexOf(beginSet)][beginSet];
 
       // set scales
       setScale(setSelectA, setSelectB, setSelectC);
@@ -71,12 +71,12 @@ window.onload = function() {
                         .property('value')
 
         // select the indicated country from each parsed dataset
-        setSelectA = womValues[countriesA.indexOf(selectValue)][selectValue]
-        setSelectB = conValues[countriesB.indexOf(selectValue)][selectValue]
-        setSelectC = empValues[countriesA.indexOf(selectValue)][selectValue]
+        setSelectA = womValues[countriesA.indexOf(selectValue)][selectValue];
+        setSelectB = conValues[countriesB.indexOf(selectValue)][selectValue];
+        setSelectC = empValues[countriesA.indexOf(selectValue)][selectValue];
 
         // update graph
-        updateGraph(setSelectA, setSelectB, setSelectC, selectValue)
+        updateGraph(setSelectA, setSelectB, setSelectC, selectValue);
       };
 
       // iset svg
@@ -116,7 +116,7 @@ window.onload = function() {
                      .attr("y", function(d) {
                         return yScale(points[d][1]) + (labelPadding / 2);
                      })
-                     .attr("class", "label")
+                     .attr("class", "label");
 
       // set name country under title
       svg.selectAll(".country")
@@ -127,7 +127,7 @@ window.onload = function() {
          .attr("y", 0 + countryPadding)
          .style("font-size","16px")
          .attr("class", "country")
-         .text(beginSet)
+         .text(beginSet);
 
       // draw the scales
       drawScales(svg);
@@ -139,7 +139,7 @@ window.onload = function() {
       svg.append("g")
          .attr("class", "legendClass")
          .attr("transform", "translate(660, 300)")
-         .style("font-size","9px")
+         .style("font-size","9px");
 
       // create object
       var legenda = d3.legendColor()
@@ -150,11 +150,11 @@ window.onload = function() {
                       .shapeHeight(15)
                       .labelOffset(12)
                       .titleWidth(120)
-                      .scale(colourScale)
+                      .scale(colourScale);
 
       // draw legend
       svg.select(".legendClass")
-        .call(legenda);
+         .call(legenda);
   });
 }
 
@@ -164,35 +164,38 @@ function dataParser(data) {
       // womenInScience
       framing = 1
       window.countriesA = [];
-    } else if (data.structure.dimensions.series.length === 4) {
+    }
+    else if (data.structure.dimensions.series.length === 4) {
       // unemployment
       framing = 1
-    } else {
+    }
+    else {
       // consumerConfidence
       framing = 0
       window.countriesB = [];
-    }
+    };
 
     // rset countries as key
     countryIndex = Object.keys(data.structure.dimensions.series[framing].values)
     countryIndex.forEach(function(i) {
       if (framing === 1) {
           countriesA.push(data.structure.dimensions.series[framing].values[i].name)
-      } else {
-          countriesB.push(data.structure.dimensions.series[framing].values[i].name)
       }
-    })
+      else {
+          countriesB.push(data.structure.dimensions.series[framing].values[i].name)
+      };
+    });
     window.years = [];
 
     // get years per country
     yearData = Object.keys(data.structure.dimensions.observation[0].values)
     yearData.forEach(function(i) {
       years.push(data.structure.dimensions.observation[0].values[i].id)
-    })
+    });
     var dataValues = [];
 
     // extract the object of country objects
-    var countryData = Object.keys(data.dataSets[0].series)
+    var countryData = Object.keys(data.dataSets[0].series);
 
     // fill datalist
     countryData.forEach(function(i) {
@@ -200,9 +203,10 @@ function dataParser(data) {
 
         if (i.length === 3 || i.length === 7) {
             country = countriesA[i[2]]
-        } else {
-            country = countriesB[i[0]]
         }
+        else {
+            country = countriesB[i[0]]
+        };
 
         // make keys
         var countryKeys = [];
@@ -212,11 +216,11 @@ function dataParser(data) {
             var year = years[j];
             var value = data.dataSets[0].series[i].observations[j][0];
             countryKeys.push({[years[j]]:value})
-        })
+        });
         dataValues.push({[country]:countryKeys})
-    })
+    });
     return dataValues
-}
+};
 
 
 function createPoint(setWomen, setCons) {
@@ -230,10 +234,10 @@ function createPoint(setWomen, setCons) {
           if (Object.keys(setWomen[index])[0] === Object.keys(setCons[j])[0]) {
               pointList[year] = [setWomen[index][Object.keys(setWomen[index])[0]],
                                setCons[j][Object.keys(setCons[j])[0]]]}
-          }
-      }
+          };
+      };
   return pointList
-}
+};
 
 
 function check(dataSet, stat) {
@@ -242,15 +246,16 @@ function check(dataSet, stat) {
 
     for (index in dataSet) {
       statistics.push(dataSet[index][Object.keys(dataSet[index])])
-    }
+    };
 
     // find min and max of the array
-    if(stat === "max") {
-        return Math.max.apply(null, statistics)
-    } else {
-        return Math.min.apply(null, statistics)
+    if (stat === "max") {
+        return Math.max.apply(null, statistics);
     }
-}
+    else {
+        return Math.min.apply(null, statistics);
+    };
+};
 
 
 function setScale(setWomen, setCons, setEmp) {
@@ -266,8 +271,8 @@ function setScale(setWomen, setCons, setEmp) {
   window.colourScale = d3.scaleQuantize()
                          .domain([check(setEmp, "min"),
                                   check(setEmp, "max")])
-                         .range(colours)
-}
+                         .range(colours);
+};
 
 
 function drawScales(svg) {
@@ -309,12 +314,12 @@ function drawScales(svg) {
       .style("font-size", "20px")
       .style("text-decoration", "bold")
       .text("scatterplot regarding women in science and consumer confidence");
-}
+};
 
 
 function updateGraph(womValues, conValues, empValues, selectedCountry) {
     // update points
-    newPoint = createPoint(womValues, conValues)
+    newPoint = createPoint(womValues, conValues);
 
     // update scales
     setScale(womValues, conValues, empValues);
@@ -329,16 +334,18 @@ function updateGraph(womValues, conValues, empValues, selectedCountry) {
             .attr("cx", function(d) {
                 if (newPoint.hasOwnProperty(String(d))) {
                     return xScale(newPoint[d][0])
-                } else {
-                    return 2000
                 }
+                else {
+                    return 2000
+                };
             })
             .attr("cy", function(d) {
                 if (newPoint.hasOwnProperty(String(d))) {
                     return yScale(newPoint[d][1])
-                } else {
-                    return 2000
                 }
+                else {
+                    return 2000
+                };
             })
             .style("fill", function(d, i) {
                return colourScale(empValues[i][String(d)])
@@ -351,18 +358,20 @@ function updateGraph(womValues, conValues, empValues, selectedCountry) {
        .duration(500)
        .attr("x", function(d) {
            if (newPoint.hasOwnProperty(String(d))) {
-               return xScale(newPoint[d][0]) + labelPadding
-           } else {
-               return 2000
+               return xScale(newPoint[d][0]) + labelPadding;
            }
+           else {
+               return 2000
+           };
        })
        .attr("y", function(d) {
            if (newPoint.hasOwnProperty(String(d))) {
                return yScale(newPoint[d][1])
-           } else {
-               return 2000
            }
-       })
+           else {
+               return 2000
+           };
+      });
 
     // update legend
     var legenda = d3.legendColor()
@@ -373,7 +382,7 @@ function updateGraph(womValues, conValues, empValues, selectedCountry) {
                     .shapeHeight(15)
                     .labelOffset(12)
                     .titleWidth(120)
-                    .scale(colourScale)
+                    .scale(colourScale);
 
     // show legend
     svg.select(".legendClass")
@@ -392,4 +401,4 @@ function updateGraph(womValues, conValues, empValues, selectedCountry) {
       .transition()
       .duration(500)
       .call(d3.axisLeft(yScale));
-}
+};
