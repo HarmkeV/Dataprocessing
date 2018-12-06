@@ -11,6 +11,7 @@ var pointPadding = 60;
 var xPadding = 50;
 var yPadding = 50;
 var padding = 40;
+var labelPadding = 10;
 var countryPadding = 50;
 var titlePadding = 20;
 var topOfChart = 50;
@@ -29,9 +30,9 @@ window.onload = function() {
 
   // request api
   Promise.all(requests).then(function(response) {
-      let womValues = dataParser(response[0]);
-      let conValues = dataParser(response[1]);
-      let empValues = dataParser(response[2]);
+      var womValues = dataParser(response[0]);
+      var conValues = dataParser(response[1]);
+      var empValues = dataParser(response[2]);
 
       d3.select("#userInput").on("input", function() {
         update(womValues, conValues, empValues, this.value)
@@ -39,77 +40,21 @@ window.onload = function() {
 
       beginSet = "France"
 
-      // select the proper country from each parsed dataset
+      // select indicated country
       setSelectA = womValues[countriesA.indexOf(beginSet)][beginSet]
       setSelectB = conValues[countriesB.indexOf(beginSet)][beginSet]
       setSelectC = empValues[countriesA.indexOf(beginSet)][beginSet]
 
-      // instead of creating dots for the unemployment, create a simple array
-      unemploymentList = [];
-      for (index in setSelectC) {
-        unemploymentList.push(setSelectC[index][years[index]])
-      }
-
-      // create the dots to be plotted in the scatterplot
-      points = createPoint(setSelectA, setSelectB);
-
-      // create scales
+      // set scales
       setScale(setSelectA, setSelectB, setSelectC);
 
-      // initialise svg variable
-      var svg = d3.select("body")
-                  .append("svg")
-                  .attr("width", width)
-                  .attr("height", height);
-
-      // insert circles
-      var circles = svg.selectAll("circle")
-                       .data(years)
-                       .enter()
-                       .append("circle")
-                       .attr("cx", function(d) {
-                           return xScale(points[d][0]);
-                       })
-                       .attr("cy", function(d) {
-                           return yScale(points[d][1]);
-                       })
-                       .attr("r", 4)
-                       .attr("stroke-opacity", .4)
-                       .attr("stroke", "black")
-                       .style("fill", function(d, i) {
-                          return colourScale(setSelectC[i][String(d)])
-                       })
-                       .attr("class", "normal");
-
-      // create the tags for the years
-      var tags = svg.selectAll("text")
-                     .data(years)
-                     .enter()
-                     .append("text")
-                     .text(function(d) { return d; })
-                     .attr("x", function(d) {
-                        return xScale(points[d][0]) + 10;
-                     })
-                     .attr("y", function(d) {
-                        return yScale(points[d][1]);
-                     })
-                     .attr("class", "tag")
-
-      // draw country name atop graph
-      svg.selectAll(".country")
-         .data(beginSet)
-         .enter()
-         .append("text")
-         .attr("x", width / 2)
-         .attr("y", 0 + countryPadding)
-         .style("font-size","16px")
-         .attr("class", "country")
-         .text(beginSet)
+      // set points in plot
+      points = createPoint(setSelectA, setSelectB);
 
       // create dropdown button
       var data = ["France", "Germany", "Portugal", "United Kingdom", "Korea", "Netherlands"];
 
-      var select = d3.select('body')
+      var select = d3.select('#dropdown')
                      .append('select')
         	           .attr('class','select')
                      .on('change',onchange)
@@ -133,19 +78,69 @@ window.onload = function() {
         updateGraph(setSelectA, setSelectB, setSelectC, selectValue)
       };
 
-      // draw the scales for the graph
+      // initialise svg variable
+      var svg = d3.select("body")
+                  .append("svg")
+                  .attr("width", width)
+                  .attr("height", height);
+
+      // insert circles
+      var circles = svg.selectAll("circle")
+                       .data(years)
+                       .enter()
+                       .append("circle")
+                       .attr("cx", function(d) {
+                           return xScale(points[d][0]);
+                       })
+                       .attr("cy", function(d) {
+                           return yScale(points[d][1]);
+                       })
+                       .attr("r", 6)
+                       .attr("stroke-opacity", .4)
+                       .attr("stroke", "black")
+                       .style("fill", function(d, i) {
+                          return colourScale(setSelectC[i][String(d)])
+                       })
+                       .attr("class", "normal");
+
+      // cmake sure each year has a label
+      var label = svg.selectAll("text")
+                     .data(years)
+                     .enter()
+                     .append("text")
+                     .text(function(d) { return d; })
+                     .attr("x", function(d) {
+                        return xScale(points[d][0]) + labelPadding;
+                     })
+                     .attr("y", function(d) {
+                        return yScale(points[d][1]) + (labelPadding / 2);
+                     })
+                     .attr("class", "label")
+
+      // set name country under title
+      svg.selectAll(".country")
+         .data(beginSet)
+         .enter()
+         .append("text")
+         .attr("x", width / 2)
+         .attr("y", 0 + countryPadding)
+         .style("font-size","16px")
+         .attr("class", "country")
+         .text(beginSet)
+
+      // draw the scales
       drawScales(svg);
 
-      // create the legend
+      // make legend
       var svg = d3.select("svg")
 
-      // select space to draw legend
+      // indicate where legend has to be
       svg.append("g")
          .attr("class", "legendClass")
-         .attr("transform", "translate(660, 290)")
+         .attr("transform", "translate(660, 300)")
          .style("font-size","9px")
 
-      // create legend object
+      // create object
       var legenda = d3.legendColor()
                       .labelFormat(d3.format(".2f"))
                       .title("Uneployment in percentages")
@@ -153,21 +148,17 @@ window.onload = function() {
                       .shapeWidth(40)
                       .shapeHeight(15)
                       .labelOffset(12)
-                      .titleWidth(90)
+                      .titleWidth(120)
                       .scale(colourScale)
 
-      // draw the legend
+      // draw legend
       svg.select(".legendClass")
         .call(legenda);
   });
 }
 
 function dataParser(data) {
-    // declare global year and country list for user selection
-    // create separate lists since the countries in the
-    // datasets are formatted differently
-
-    // the datasets are formatted differently, so check for proper formatting
+    // make sure data is formatted well
     if (data.structure.dimensions.series.length === 2) {
       // womenInScience
       framing = 1
@@ -181,7 +172,7 @@ function dataParser(data) {
       window.countriesB = [];
     }
 
-    // retrieve the countries from the dataset
+    // rset countries as key
     countryIndex = Object.keys(data.structure.dimensions.series[framing].values)
     countryIndex.forEach(function(i) {
       if (framing === 1) {
@@ -190,11 +181,9 @@ function dataParser(data) {
           countriesB.push(data.structure.dimensions.series[framing].values[i].name)
       }
     })
-
-    // create global year array for future use
     window.years = [];
 
-    // retrieve the years from the dataset
+    // get years per country
     yearData = Object.keys(data.structure.dimensions.observation[0].values)
     yearData.forEach(function(i) {
       years.push(data.structure.dimensions.observation[0].values[i].id)
@@ -202,22 +191,22 @@ function dataParser(data) {
     var dataValues = [];
 
     // extract the object of country objects
-    let countryData = Object.keys(data.dataSets[0].series)
+    var countryData = Object.keys(data.dataSets[0].series)
 
-    // loop over each county's observations and create array of data objects
+    // fill datalist
     countryData.forEach(function(i) {
-        let observations = Object.keys(data.dataSets[0].series[i].observations);
+        var observations = Object.keys(data.dataSets[0].series[i].observations);
 
-        // the country 'number' is differently formatted in each dataset
         if (i.length === 3 || i.length === 7) {
             country = countriesA[i[2]]
         } else {
             country = countriesB[i[0]]
         }
 
-        // create emty country datalist
+        // make keys
         var countryKeys = [];
-        // create datapoints and add them to the values list //j is year index
+
+        // set xy coordinates for points
         observations.forEach(function(j) {
             var year = years[j];
             var value = data.dataSets[0].series[i].observations[j][0];
@@ -228,14 +217,15 @@ function dataParser(data) {
     return dataValues
 }
 
+
 function createPoint(setWomen, setCons) {
-  /* combine values in array of objects */
+  // create coordinates list
   pointList = {};
   for (index in setWomen) {
       year = Object.keys(setWomen[index])[0]
       for (j in setCons) {
 
-          // only use years if both datasets have them
+          // check whether both years are present
           if (Object.keys(setWomen[index])[0] === Object.keys(setCons[j])[0]) {
               pointList[year] = [setWomen[index][Object.keys(setWomen[index])[0]],
                                setCons[j][Object.keys(setCons[j])[0]]]}
@@ -244,34 +234,40 @@ function createPoint(setWomen, setCons) {
   return pointList
 }
 
-function setScale(setWomen, setCons, setEmp) {
-  /* create scale for x, y and third variable*/
-  window.xScale = d3.scaleLinear()
-                 .domain([calc(setWomen, "min") - 1,
-                          calc(setWomen, "max") + 1])
-                 .range([xPadding, width - padding]);
-  window.yScale = d3.scaleLinear()
-                 .domain([calc(setCons, "min") - 1,
-                          calc(setCons, "max") + 1])
-                 .range([height - padding, padding]);
-  window.colourScale = d3.scaleQuantize()
-                         .domain([calc(setEmp, "min"),
-                                  calc(setEmp, "max")])
-                         .range(colours)
-}
 
-function calc(dataSet, stat) {
-    /* calculate a min or max from an array of objects */
+function check(dataSet, stat) {
+    // loop trough array to find min and max of the arrays
     statistics = [];
+
     for (index in dataSet) {
       statistics.push(dataSet[index][Object.keys(dataSet[index])])
     }
+
+    // find min and max of the array
     if(stat === "max") {
         return Math.max.apply(null, statistics)
     } else {
         return Math.min.apply(null, statistics)
     }
 }
+
+
+function setScale(setWomen, setCons, setEmp) {
+  // set scales
+  window.xScale = d3.scaleLinear()
+                 .domain([check(setWomen, "min") - 1,
+                          check(setWomen, "max") + 1])
+                 .range([xPadding, width - padding]);
+  window.yScale = d3.scaleLinear()
+                 .domain([check(setCons, "min") - 1,
+                          check(setCons, "max") + 1])
+                 .range([height - padding, padding]);
+  window.colourScale = d3.scaleQuantize()
+                         .domain([check(setEmp, "min"),
+                                  check(setEmp, "max")])
+                         .range(colours)
+}
+
 
 function drawScales(svg) {
   // create x axis ticks
@@ -316,16 +312,15 @@ function drawScales(svg) {
 
 
 function updateGraph(womValues, conValues, empValues, selectedCountry) {
-    // calculate new dots
+    // update points
     newPoint = createPoint(womValues, conValues)
 
-    // calculate new scale
+    // update scales
     setScale(womValues, conValues, empValues);
 
-    // select data to change
     var svg = d3.select("body");
 
-    // make changes
+    // change
     svg.selectAll(".normal")
             .data(years)
             .transition()
@@ -348,8 +343,8 @@ function updateGraph(womValues, conValues, empValues, selectedCountry) {
                return colourScale(empValues[i][String(d)])
             });
 
-    // update tags
-    svg.selectAll(".tag")
+    // update labels
+    svg.selectAll(".label")
        .data(years)
        .transition()
        .duration(500)
@@ -368,7 +363,7 @@ function updateGraph(womValues, conValues, empValues, selectedCountry) {
            }
        })
 
-    // update the legend with a new scale
+    // update legend
     var legenda = d3.legendColor()
                     .labelFormat(d3.format(".2f"))
                     .title("Uneployment rate")
@@ -376,14 +371,14 @@ function updateGraph(womValues, conValues, empValues, selectedCountry) {
                     .shapeWidth(40)
                     .shapeHeight(15)
                     .labelOffset(12)
-                    .titleWidth(90)
+                    .titleWidth(120)
                     .scale(colourScale)
 
-    // draw the legend
+    // show legend
     svg.select(".legendClass")
        .call(legenda);
 
-    // update country name atop graph
+    // change country name
     svg.selectAll(".country")
        .text(selectedCountry);
 
