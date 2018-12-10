@@ -1,5 +1,5 @@
 {
-   "Groningen (PV)": [
+   "Groningen": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "7,2"
@@ -37,7 +37,7 @@
          "Reizigerskilometers (mld km)": "0,5"
       }
    ],
-   "Friesland (PV)": [
+   "Friesland": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "7,6"
@@ -75,7 +75,7 @@
          "Reizigerskilometers (mld km)": "0,5"
       }
    ],
-   "Drenthe (PV)": [
+   "Drenthe": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "6,1"
@@ -113,7 +113,7 @@
          "Reizigerskilometers (mld km)": "0,2"
       }
    ],
-   "Overijssel (PV)": [
+   "Overijssel": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "13,7"
@@ -151,7 +151,7 @@
          "Reizigerskilometers (mld km)": "1,2"
       }
    ],
-   "Flevoland (PV)": [
+   "Flevoland": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "5,8"
@@ -189,7 +189,7 @@
          "Reizigerskilometers (mld km)": "0,4"
       }
    ],
-   "Gelderland (PV)": [
+   "Gelderland": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "24,5"
@@ -227,7 +227,7 @@
          "Reizigerskilometers (mld km)": "1,3"
       }
    ],
-   "Utrecht (PV)": [
+   "Utrecht": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "15,5"
@@ -265,7 +265,7 @@
          "Reizigerskilometers (mld km)": "0,9"
       }
    ],
-   "Noord-Holland (PV)": [
+   "Noord-Holland": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "29,8"
@@ -299,7 +299,7 @@
          "Reizigerskilometers (mld km)": "1,5"
       }
    ],
-   "Zuid-Holland (PV)": [
+   "Zuid-Holland": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "38,3"
@@ -337,7 +337,7 @@
          "Reizigerskilometers (mld km)": "2"
       }
    ],
-   "Zeeland (PV)": [
+   "Zeeland": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "4,2"
@@ -375,7 +375,7 @@
          "Reizigerskilometers (mld km)": "0,2"
       }
    ],
-   "Noord-Brabant (PV)": [
+   "Noord-Brabant": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "28,9"
@@ -413,7 +413,7 @@
          "Reizigerskilometers (mld km)": "1,8"
       }
    ],
-   "Limburg (PV)": [
+   "Limburg": [
       {
          "Vervoerwijzen": "Totaal",
          "Reizigerskilometers (mld km)": "12,6"
@@ -451,7 +451,7 @@
          "Reizigerskilometers (mld km)": "0,9"
       }
    ],
-   "Noord-Holland (PV)": [
+   "Noord-Holland": [
       {
          "Vervoerwijzen": "Lopen",
          "Reizigerskilometers (mld km)": "1"
