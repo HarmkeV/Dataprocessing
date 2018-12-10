@@ -13,14 +13,17 @@ Assignment: Create a linked views visualization in D3 consisting of at least two
     </title>
       <head>
         <meta charset="utf-8">
-        <title>D3 scatter plot</title>
-        <script type="text/javascript" src="linkedview.js"></script>
+        <title>D3 Linked view</title>
         <script src="https://d3js.org/d3.v5.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+        <script src="http://jvectormap.com/js/jquery-1.8.2.min.js"></script>
+        <script src="http://jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script>
+        <script src="http://jvectormap.com/js/jquery-jvectormap-nl-merc.js"></script>
+        <script type="text/javascript" src="linkedview.js"></script>
+        <link rel="stylesheet" href="jquery-jvectormap-2.0.1.css" type="text/css" media="screen"/>
         <link rel="stylesheet" href="style.css"></link>
       </head>
       <body>
-        <h1>D3 bar chart</h1>
+        <h1>D3 Linked view</h1>
         <p>Name: Harmke Vliek</p>
         <p>Studentnumber: 10989137</p>
         <p>Assignment: Create a linked views visualization in D3 consisting of at least two interactive visualizations.</p>
@@ -29,5 +32,6 @@ Assignment: Create a linked views visualization in D3 consisting of at least two
             Totale reizigerskilometers in Nederland per jaar (CBS 2018)
           </a>
         </p>
+        <div id="map" style="width: 600px; height: 400px"></div>
       </body>
 </html>
