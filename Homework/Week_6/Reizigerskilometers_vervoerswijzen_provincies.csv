@@ -1,0 +1,769 @@
+﻿Vervoerwijzen;Perioden;Regio's;Reizigerskilometers (mld km)
+Totaal;2010;Groningen (PV);7,9
+Totaal;2011;Groningen (PV);8,1
+Totaal;2012;Groningen (PV);7,5
+Totaal;2013;Groningen (PV);7,2
+Totaal;2014;Groningen (PV);7,3
+Totaal;2015;Groningen (PV);7,2
+Totaal;2016;Groningen (PV);7,1
+Totaal;2017;Groningen (PV);7,2
+Totaal;2010;Friesland (PV);8,1
+Totaal;2011;Friesland (PV);7,4
+Totaal;2012;Friesland (PV);8
+Totaal;2013;Friesland (PV);8,2
+Totaal;2014;Friesland (PV);8,5
+Totaal;2015;Friesland (PV);7,7
+Totaal;2016;Friesland (PV);8,2
+Totaal;2017;Friesland (PV);7,6
+Totaal;2010;Drenthe (PV);6,7
+Totaal;2011;Drenthe (PV);6,6
+Totaal;2012;Drenthe (PV);6,3
+Totaal;2013;Drenthe (PV);7,1
+Totaal;2014;Drenthe (PV);6,8
+Totaal;2015;Drenthe (PV);6,8
+Totaal;2016;Drenthe (PV);6,7
+Totaal;2017;Drenthe (PV);6,1
+Totaal;2010;Overijssel (PV);13,3
+Totaal;2011;Overijssel (PV);13,8
+Totaal;2012;Overijssel (PV);13,3
+Totaal;2013;Overijssel (PV);13,3
+Totaal;2014;Overijssel (PV);14
+Totaal;2015;Overijssel (PV);12,9
+Totaal;2016;Overijssel (PV);12,9
+Totaal;2017;Overijssel (PV);13,7
+Totaal;2010;Flevoland (PV);5,7
+Totaal;2011;Flevoland (PV);5,4
+Totaal;2012;Flevoland (PV);5,5
+Totaal;2013;Flevoland (PV);5,1
+Totaal;2014;Flevoland (PV);5,4
+Totaal;2015;Flevoland (PV);5,8
+Totaal;2016;Flevoland (PV);5,4
+Totaal;2017;Flevoland (PV);5,8
+Totaal;2010;Gelderland (PV);25,3
+Totaal;2011;Gelderland (PV);25
+Totaal;2012;Gelderland (PV);23,4
+Totaal;2013;Gelderland (PV);24,3
+Totaal;2014;Gelderland (PV);26,2
+Totaal;2015;Gelderland (PV);25,1
+Totaal;2016;Gelderland (PV);26,3
+Totaal;2017;Gelderland (PV);24,5
+Totaal;2010;Utrecht (PV);14,3
+Totaal;2011;Utrecht (PV);14,7
+Totaal;2012;Utrecht (PV);15,6
+Totaal;2013;Utrecht (PV);16
+Totaal;2014;Utrecht (PV);16,4
+Totaal;2015;Utrecht (PV);15,1
+Totaal;2016;Utrecht (PV);15
+Totaal;2017;Utrecht (PV);15,5
+Totaal;2010;Noord-Holland (PV);29,8
+Totaal;2011;Noord-Holland (PV);31,9
+Totaal;2012;Noord-Holland (PV);29,3
+Totaal;2013;Noord-Holland (PV);30,9
+Totaal;2014;Noord-Holland (PV);31
+Totaal;2015;Noord-Holland (PV);29,5
+Totaal;2016;Noord-Holland (PV);29,8
+Totaal;2017;Noord-Holland (PV);29,8
+Totaal;2010;Zuid-Holland (PV);36,8
+Totaal;2011;Zuid-Holland (PV);38,4
+Totaal;2012;Zuid-Holland (PV);38,8
+Totaal;2013;Zuid-Holland (PV);38,4
+Totaal;2014;Zuid-Holland (PV);38,9
+Totaal;2015;Zuid-Holland (PV);38
+Totaal;2016;Zuid-Holland (PV);39,1
+Totaal;2017;Zuid-Holland (PV);38,3
+Totaal;2010;Zeeland (PV);4,8
+Totaal;2011;Zeeland (PV);4,6
+Totaal;2012;Zeeland (PV);4,8
+Totaal;2013;Zeeland (PV);5
+Totaal;2014;Zeeland (PV);4,6
+Totaal;2015;Zeeland (PV);4,1
+Totaal;2016;Zeeland (PV);4,3
+Totaal;2017;Zeeland (PV);4,2
+Totaal;2010;Noord-Brabant (PV);28,5
+Totaal;2011;Noord-Brabant (PV);30,3
+Totaal;2012;Noord-Brabant (PV);29
+Totaal;2013;Noord-Brabant (PV);31,4
+Totaal;2014;Noord-Brabant (PV);30,3
+Totaal;2015;Noord-Brabant (PV);28,7
+Totaal;2016;Noord-Brabant (PV);28,6
+Totaal;2017;Noord-Brabant (PV);28,9
+Totaal;2010;Limburg (PV);12,2
+Totaal;2011;Limburg (PV);12,2
+Totaal;2012;Limburg (PV);11,4
+Totaal;2013;Limburg (PV);12,7
+Totaal;2014;Limburg (PV);11,7
+Totaal;2015;Limburg (PV);11,7
+Totaal;2016;Limburg (PV);11,5
+Totaal;2017;Limburg (PV);12,6
+Auto (bestuurder);2010;Groningen (PV);3,6
+Auto (bestuurder);2011;Groningen (PV);4,1
+Auto (bestuurder);2012;Groningen (PV);3,7
+Auto (bestuurder);2013;Groningen (PV);3,2
+Auto (bestuurder);2014;Groningen (PV);3,4
+Auto (bestuurder);2015;Groningen (PV);3,4
+Auto (bestuurder);2016;Groningen (PV);3,2
+Auto (bestuurder);2017;Groningen (PV);3,1
+Auto (bestuurder);2010;Friesland (PV);4,1
+Auto (bestuurder);2011;Friesland (PV);4,2
+Auto (bestuurder);2012;Friesland (PV);4,3
+Auto (bestuurder);2013;Friesland (PV);4,3
+Auto (bestuurder);2014;Friesland (PV);4,7
+Auto (bestuurder);2015;Friesland (PV);3,9
+Auto (bestuurder);2016;Friesland (PV);4,6
+Auto (bestuurder);2017;Friesland (PV);4
+Auto (bestuurder);2010;Drenthe (PV);3,6
+Auto (bestuurder);2011;Drenthe (PV);3,3
+Auto (bestuurder);2012;Drenthe (PV);3,6
+Auto (bestuurder);2013;Drenthe (PV);3,8
+Auto (bestuurder);2014;Drenthe (PV);3,5
+Auto (bestuurder);2015;Drenthe (PV);3,8
+Auto (bestuurder);2016;Drenthe (PV);4
+Auto (bestuurder);2017;Drenthe (PV);3,6
+Auto (bestuurder);2010;Overijssel (PV);7
+Auto (bestuurder);2011;Overijssel (PV);7,7
+Auto (bestuurder);2012;Overijssel (PV);7,1
+Auto (bestuurder);2013;Overijssel (PV);7,3
+Auto (bestuurder);2014;Overijssel (PV);6,8
+Auto (bestuurder);2015;Overijssel (PV);6,6
+Auto (bestuurder);2016;Overijssel (PV);6,3
+Auto (bestuurder);2017;Overijssel (PV);7
+Auto (bestuurder);2010;Flevoland (PV);2,8
+Auto (bestuurder);2011;Flevoland (PV);2,8
+Auto (bestuurder);2012;Flevoland (PV);2,9
+Auto (bestuurder);2013;Flevoland (PV);2,7
+Auto (bestuurder);2014;Flevoland (PV);2,7
+Auto (bestuurder);2015;Flevoland (PV);3
+Auto (bestuurder);2016;Flevoland (PV);2,7
+Auto (bestuurder);2017;Flevoland (PV);2,6
+Auto (bestuurder);2010;Gelderland (PV);13
+Auto (bestuurder);2011;Gelderland (PV);12,8
+Auto (bestuurder);2012;Gelderland (PV);12,4
+Auto (bestuurder);2013;Gelderland (PV);12,7
+Auto (bestuurder);2014;Gelderland (PV);13
+Auto (bestuurder);2015;Gelderland (PV);13,1
+Auto (bestuurder);2016;Gelderland (PV);13,5
+Auto (bestuurder);2017;Gelderland (PV);12,6
+Auto (bestuurder);2010;Utrecht (PV);7,1
+Auto (bestuurder);2011;Utrecht (PV);7,1
+Auto (bestuurder);2012;Utrecht (PV);7,6
+Auto (bestuurder);2013;Utrecht (PV);7,4
+Auto (bestuurder);2014;Utrecht (PV);8,3
+Auto (bestuurder);2015;Utrecht (PV);7,6
+Auto (bestuurder);2016;Utrecht (PV);7,1
+Auto (bestuurder);2017;Utrecht (PV);7,3
+Auto (bestuurder);2010;Noord-Holland (PV);13,3
+Auto (bestuurder);2011;Noord-Holland (PV);15,3
+Auto (bestuurder);2012;Noord-Holland (PV);13
+Auto (bestuurder);2013;Noord-Holland (PV);14,8
+Auto (bestuurder);2014;Noord-Holland (PV);13,8
+Auto (bestuurder);2015;Noord-Holland (PV);13,6
+Auto (bestuurder);2016;Noord-Holland (PV);13,3
+Auto (bestuurder);2017;Noord-Holland (PV);13,5
+Auto (bestuurder);2010;Zuid-Holland (PV);16,9
+Auto (bestuurder);2011;Zuid-Holland (PV);18,1
+Auto (bestuurder);2012;Zuid-Holland (PV);18,3
+Auto (bestuurder);2013;Zuid-Holland (PV);18,1
+Auto (bestuurder);2014;Zuid-Holland (PV);18,8
+Auto (bestuurder);2015;Zuid-Holland (PV);18,6
+Auto (bestuurder);2016;Zuid-Holland (PV);18,9
+Auto (bestuurder);2017;Zuid-Holland (PV);17,9
+Auto (bestuurder);2010;Zeeland (PV);2,6
+Auto (bestuurder);2011;Zeeland (PV);2,5
+Auto (bestuurder);2012;Zeeland (PV);2,6
+Auto (bestuurder);2013;Zeeland (PV);2,6
+Auto (bestuurder);2014;Zeeland (PV);2,5
+Auto (bestuurder);2015;Zeeland (PV);2,3
+Auto (bestuurder);2016;Zeeland (PV);2,2
+Auto (bestuurder);2017;Zeeland (PV);2,1
+Auto (bestuurder);2010;Noord-Brabant (PV);15
+Auto (bestuurder);2011;Noord-Brabant (PV);16,1
+Auto (bestuurder);2012;Noord-Brabant (PV);15,2
+Auto (bestuurder);2013;Noord-Brabant (PV);15,8
+Auto (bestuurder);2014;Noord-Brabant (PV);15,8
+Auto (bestuurder);2015;Noord-Brabant (PV);15,3
+Auto (bestuurder);2016;Noord-Brabant (PV);15,7
+Auto (bestuurder);2017;Noord-Brabant (PV);15,7
+Auto (bestuurder);2010;Limburg (PV);6,2
+Auto (bestuurder);2011;Limburg (PV);6,5
+Auto (bestuurder);2012;Limburg (PV);5,9
+Auto (bestuurder);2013;Limburg (PV);6,7
+Auto (bestuurder);2014;Limburg (PV);6,1
+Auto (bestuurder);2015;Limburg (PV);6,2
+Auto (bestuurder);2016;Limburg (PV);6,1
+Auto (bestuurder);2017;Limburg (PV);6,7
+Auto (passagier);2010;Groningen (PV);2,4
+Auto (passagier);2011;Groningen (PV);1,7
+Auto (passagier);2012;Groningen (PV);1,5
+Auto (passagier);2013;Groningen (PV);2
+Auto (passagier);2014;Groningen (PV);1,7
+Auto (passagier);2015;Groningen (PV);1,8
+Auto (passagier);2016;Groningen (PV);1,9
+Auto (passagier);2017;Groningen (PV);1,9
+Auto (passagier);2010;Friesland (PV);2,2
+Auto (passagier);2011;Friesland (PV);1,7
+Auto (passagier);2012;Friesland (PV);1,8
+Auto (passagier);2013;Friesland (PV);2,1
+Auto (passagier);2014;Friesland (PV);1,8
+Auto (passagier);2015;Friesland (PV);1,9
+Auto (passagier);2016;Friesland (PV);1,8
+Auto (passagier);2017;Friesland (PV);1,6
+Auto (passagier);2010;Drenthe (PV);1,8
+Auto (passagier);2011;Drenthe (PV);1,7
+Auto (passagier);2012;Drenthe (PV);1,4
+Auto (passagier);2013;Drenthe (PV);1,7
+Auto (passagier);2014;Drenthe (PV);1,7
+Auto (passagier);2015;Drenthe (PV);1,5
+Auto (passagier);2016;Drenthe (PV);1,4
+Auto (passagier);2017;Drenthe (PV);1,2
+Auto (passagier);2010;Overijssel (PV);3,1
+Auto (passagier);2011;Overijssel (PV);2,7
+Auto (passagier);2012;Overijssel (PV);2,7
+Auto (passagier);2013;Overijssel (PV);3
+Auto (passagier);2014;Overijssel (PV);3,1
+Auto (passagier);2015;Overijssel (PV);2,8
+Auto (passagier);2016;Overijssel (PV);3,1
+Auto (passagier);2017;Overijssel (PV);2,8
+Auto (passagier);2010;Flevoland (PV);1,5
+Auto (passagier);2011;Flevoland (PV);1,3
+Auto (passagier);2012;Flevoland (PV);1,3
+Auto (passagier);2013;Flevoland (PV);1,1
+Auto (passagier);2014;Flevoland (PV);1,4
+Auto (passagier);2015;Flevoland (PV);1,5
+Auto (passagier);2016;Flevoland (PV);1,3
+Auto (passagier);2017;Flevoland (PV);1,5
+Auto (passagier);2010;Gelderland (PV);6,4
+Auto (passagier);2011;Gelderland (PV);5,9
+Auto (passagier);2012;Gelderland (PV);4,8
+Auto (passagier);2013;Gelderland (PV);5,5
+Auto (passagier);2014;Gelderland (PV);5,8
+Auto (passagier);2015;Gelderland (PV);5,4
+Auto (passagier);2016;Gelderland (PV);5,6
+Auto (passagier);2017;Gelderland (PV);5,6
+Auto (passagier);2010;Utrecht (PV);3,4
+Auto (passagier);2011;Utrecht (PV);3
+Auto (passagier);2012;Utrecht (PV);3,5
+Auto (passagier);2013;Utrecht (PV);3,7
+Auto (passagier);2014;Utrecht (PV);3,2
+Auto (passagier);2015;Utrecht (PV);3,3
+Auto (passagier);2016;Utrecht (PV);3,2
+Auto (passagier);2017;Utrecht (PV);3
+Auto (passagier);2010;Noord-Holland (PV);7
+Auto (passagier);2011;Noord-Holland (PV);6,9
+Auto (passagier);2012;Noord-Holland (PV);6,2
+Auto (passagier);2013;Noord-Holland (PV);6
+Auto (passagier);2014;Noord-Holland (PV);7,2
+Auto (passagier);2015;Noord-Holland (PV);6,4
+Auto (passagier);2016;Noord-Holland (PV);6,7
+Auto (passagier);2017;Noord-Holland (PV);6,4
+Auto (passagier);2010;Zuid-Holland (PV);9,7
+Auto (passagier);2011;Zuid-Holland (PV);8,4
+Auto (passagier);2012;Zuid-Holland (PV);9,4
+Auto (passagier);2013;Zuid-Holland (PV);8,4
+Auto (passagier);2014;Zuid-Holland (PV);9,2
+Auto (passagier);2015;Zuid-Holland (PV);8,3
+Auto (passagier);2016;Zuid-Holland (PV);8,7
+Auto (passagier);2017;Zuid-Holland (PV);8,9
+Auto (passagier);2010;Zeeland (PV);1,3
+Auto (passagier);2011;Zeeland (PV);1,1
+Auto (passagier);2012;Zeeland (PV);1,2
+Auto (passagier);2013;Zeeland (PV);1,2
+Auto (passagier);2014;Zeeland (PV);1
+Auto (passagier);2015;Zeeland (PV);0,9
+Auto (passagier);2016;Zeeland (PV);1,3
+Auto (passagier);2017;Zeeland (PV);1,1
+Auto (passagier);2010;Noord-Brabant (PV);7,3
+Auto (passagier);2011;Noord-Brabant (PV);6,9
+Auto (passagier);2012;Noord-Brabant (PV);6,7
+Auto (passagier);2013;Noord-Brabant (PV);8
+Auto (passagier);2014;Noord-Brabant (PV);7,2
+Auto (passagier);2015;Noord-Brabant (PV);6,1
+Auto (passagier);2016;Noord-Brabant (PV);6
+Auto (passagier);2017;Noord-Brabant (PV);6
+Auto (passagier);2010;Limburg (PV);2,9
+Auto (passagier);2011;Limburg (PV);2,5
+Auto (passagier);2012;Limburg (PV);2,3
+Auto (passagier);2013;Limburg (PV);3,3
+Auto (passagier);2014;Limburg (PV);2,4
+Auto (passagier);2015;Limburg (PV);2,4
+Auto (passagier);2016;Limburg (PV);2,2
+Auto (passagier);2017;Limburg (PV);2,7
+Trein;2010;Groningen (PV);0,6
+Trein;2011;Groningen (PV);0,8
+Trein;2012;Groningen (PV);0,8
+Trein;2013;Groningen (PV);0,6
+Trein;2014;Groningen (PV);0,7
+Trein;2015;Groningen (PV);0,6
+Trein;2016;Groningen (PV);0,7
+Trein;2017;Groningen (PV);0,7
+Trein;2010;Friesland (PV);0,4
+Trein;2011;Friesland (PV);0,2
+Trein;2012;Friesland (PV);0,5
+Trein;2013;Friesland (PV);0,4
+Trein;2014;Friesland (PV);0,4
+Trein;2015;Friesland (PV);0,4
+Trein;2016;Friesland (PV);0,3
+Trein;2017;Friesland (PV);0,4
+Trein;2010;Drenthe (PV);0,3
+Trein;2011;Drenthe (PV);0,4
+Trein;2012;Drenthe (PV);0,3
+Trein;2013;Drenthe (PV);0,4
+Trein;2014;Drenthe (PV);0,4
+Trein;2015;Drenthe (PV);0,2
+Trein;2016;Drenthe (PV);0,3
+Trein;2017;Drenthe (PV);0,4
+Trein;2010;Overijssel (PV);0,9
+Trein;2011;Overijssel (PV);1,1
+Trein;2012;Overijssel (PV);0,9
+Trein;2013;Overijssel (PV);0,9
+Trein;2014;Overijssel (PV);1,4
+Trein;2015;Overijssel (PV);1
+Trein;2016;Overijssel (PV);1,1
+Trein;2017;Overijssel (PV);1,2
+Trein;2010;Flevoland (PV);0,5
+Trein;2011;Flevoland (PV);0,4
+Trein;2012;Flevoland (PV);0,4
+Trein;2013;Flevoland (PV);0,4
+Trein;2014;Flevoland (PV);0,5
+Trein;2015;Flevoland (PV);0,6
+Trein;2016;Flevoland (PV);0,7
+Trein;2017;Flevoland (PV);0,7
+Trein;2010;Gelderland (PV);1,9
+Trein;2011;Gelderland (PV);1,7
+Trein;2012;Gelderland (PV);1,7
+Trein;2013;Gelderland (PV);1,8
+Trein;2014;Gelderland (PV);2,3
+Trein;2015;Gelderland (PV);2
+Trein;2016;Gelderland (PV);2,4
+Trein;2017;Gelderland (PV);2,1
+Trein;2010;Utrecht (PV);1,4
+Trein;2011;Utrecht (PV);1,5
+Trein;2012;Utrecht (PV);1,7
+Trein;2013;Utrecht (PV);1,9
+Trein;2014;Utrecht (PV);1,7
+Trein;2015;Utrecht (PV);1,6
+Trein;2016;Utrecht (PV);1,9
+Trein;2017;Utrecht (PV);2,3
+Trein;2010;Noord-Holland (PV);3,1
+Trein;2011;Noord-Holland (PV);3
+Trein;2012;Noord-Holland (PV);3,2
+Trein;2013;Noord-Holland (PV);3,5
+Trein;2014;Noord-Holland (PV);2,7
+Trein;2015;Noord-Holland (PV);3,1
+Trein;2016;Noord-Holland (PV);3
+Trein;2017;Noord-Holland (PV);3,3
+Trein;2010;Zuid-Holland (PV);2,9
+Trein;2011;Zuid-Holland (PV);3,4
+Trein;2012;Zuid-Holland (PV);3,5
+Trein;2013;Zuid-Holland (PV);4,1
+Trein;2014;Zuid-Holland (PV);3
+Trein;2015;Zuid-Holland (PV);3,1
+Trein;2016;Zuid-Holland (PV);3,4
+Trein;2017;Zuid-Holland (PV);3,4
+Trein;2010;Zeeland (PV);0,2
+Trein;2011;Zeeland (PV);0,2
+Trein;2012;Zeeland (PV);0,2
+Trein;2013;Zeeland (PV);0,3
+Trein;2014;Zeeland (PV);0,2
+Trein;2015;Zeeland (PV);0,1
+Trein;2016;Zeeland (PV);0,1
+Trein;2017;Zeeland (PV);0,3
+Trein;2010;Noord-Brabant (PV);1,5
+Trein;2011;Noord-Brabant (PV);2,4
+Trein;2012;Noord-Brabant (PV);2
+Trein;2013;Noord-Brabant (PV);2,4
+Trein;2014;Noord-Brabant (PV);2
+Trein;2015;Noord-Brabant (PV);2
+Trein;2016;Noord-Brabant (PV);1,8
+Trein;2017;Noord-Brabant (PV);2,1
+Trein;2010;Limburg (PV);0,9
+Trein;2011;Limburg (PV);1,2
+Trein;2012;Limburg (PV);0,8
+Trein;2013;Limburg (PV);0,8
+Trein;2014;Limburg (PV);1
+Trein;2015;Limburg (PV);1,1
+Trein;2016;Limburg (PV);1,2
+Trein;2017;Limburg (PV);0,9
+Bus/tram/metro;2010;Groningen (PV);0,2
+Bus/tram/metro;2011;Groningen (PV);0,2
+Bus/tram/metro;2012;Groningen (PV);0,3
+Bus/tram/metro;2013;Groningen (PV);0,2
+Bus/tram/metro;2014;Groningen (PV);0,2
+Bus/tram/metro;2015;Groningen (PV);0,2
+Bus/tram/metro;2016;Groningen (PV);0,2
+Bus/tram/metro;2017;Groningen (PV);0,2
+Bus/tram/metro;2010;Friesland (PV);0,2
+Bus/tram/metro;2011;Friesland (PV);0,2
+Bus/tram/metro;2012;Friesland (PV);0,2
+Bus/tram/metro;2013;Friesland (PV);0,2
+Bus/tram/metro;2014;Friesland (PV);0,2
+Bus/tram/metro;2015;Friesland (PV);0,2
+Bus/tram/metro;2016;Friesland (PV);0,2
+Bus/tram/metro;2017;Friesland (PV);0,2
+Bus/tram/metro;2010;Drenthe (PV);0,1
+Bus/tram/metro;2011;Drenthe (PV);0,1
+Bus/tram/metro;2012;Drenthe (PV);0,1
+Bus/tram/metro;2013;Drenthe (PV);0,1
+Bus/tram/metro;2014;Drenthe (PV);0,1
+Bus/tram/metro;2015;Drenthe (PV);0,1
+Bus/tram/metro;2016;Drenthe (PV);0,1
+Bus/tram/metro;2017;Drenthe (PV);0,2
+Bus/tram/metro;2010;Overijssel (PV);0,2
+Bus/tram/metro;2011;Overijssel (PV);0,2
+Bus/tram/metro;2012;Overijssel (PV);0,1
+Bus/tram/metro;2013;Overijssel (PV);0,2
+Bus/tram/metro;2014;Overijssel (PV);0,2
+Bus/tram/metro;2015;Overijssel (PV);0,2
+Bus/tram/metro;2016;Overijssel (PV);0,1
+Bus/tram/metro;2017;Overijssel (PV);0,1
+Bus/tram/metro;2010;Flevoland (PV);0,2
+Bus/tram/metro;2011;Flevoland (PV);0,2
+Bus/tram/metro;2012;Flevoland (PV);0,2
+Bus/tram/metro;2013;Flevoland (PV);0,2
+Bus/tram/metro;2014;Flevoland (PV);0,2
+Bus/tram/metro;2015;Flevoland (PV);0,2
+Bus/tram/metro;2016;Flevoland (PV);0,2
+Bus/tram/metro;2017;Flevoland (PV);0,2
+Bus/tram/metro;2010;Gelderland (PV);0,4
+Bus/tram/metro;2011;Gelderland (PV);0,6
+Bus/tram/metro;2012;Gelderland (PV);0,4
+Bus/tram/metro;2013;Gelderland (PV);0,4
+Bus/tram/metro;2014;Gelderland (PV);0,4
+Bus/tram/metro;2015;Gelderland (PV);0,5
+Bus/tram/metro;2016;Gelderland (PV);0,4
+Bus/tram/metro;2017;Gelderland (PV);0,5
+Bus/tram/metro;2010;Utrecht (PV);0,4
+Bus/tram/metro;2011;Utrecht (PV);0,4
+Bus/tram/metro;2012;Utrecht (PV);0,4
+Bus/tram/metro;2013;Utrecht (PV);0,4
+Bus/tram/metro;2014;Utrecht (PV);0,4
+Bus/tram/metro;2015;Utrecht (PV);0,3
+Bus/tram/metro;2016;Utrecht (PV);0,4
+Bus/tram/metro;2017;Utrecht (PV);0,4
+Bus/tram/metro;2010;Noord-Holland (PV);1,3
+Bus/tram/metro;2011;Noord-Holland (PV);1,4
+Bus/tram/metro;2012;Noord-Holland (PV);1,3
+Bus/tram/metro;2013;Noord-Holland (PV);1,3
+Bus/tram/metro;2014;Noord-Holland (PV);1,2
+Bus/tram/metro;2015;Noord-Holland (PV);1,3
+Bus/tram/metro;2016;Noord-Holland (PV);1,3
+Bus/tram/metro;2017;Noord-Holland (PV);1,3
+Bus/tram/metro;2010;Zuid-Holland (PV);1,6
+Bus/tram/metro;2011;Zuid-Holland (PV);1,8
+Bus/tram/metro;2012;Zuid-Holland (PV);1,5
+Bus/tram/metro;2013;Zuid-Holland (PV);1,7
+Bus/tram/metro;2014;Zuid-Holland (PV);1,6
+Bus/tram/metro;2015;Zuid-Holland (PV);1,8
+Bus/tram/metro;2016;Zuid-Holland (PV);1,9
+Bus/tram/metro;2017;Zuid-Holland (PV);1,7
+Bus/tram/metro;2010;Zeeland (PV);0,1
+Bus/tram/metro;2011;Zeeland (PV);0,1
+Bus/tram/metro;2012;Zeeland (PV);0,1
+Bus/tram/metro;2013;Zeeland (PV);0,1
+Bus/tram/metro;2014;Zeeland (PV);0,1
+Bus/tram/metro;2015;Zeeland (PV);0,1
+Bus/tram/metro;2016;Zeeland (PV);0,1
+Bus/tram/metro;2017;Zeeland (PV);0,1
+Bus/tram/metro;2010;Noord-Brabant (PV);0,5
+Bus/tram/metro;2011;Noord-Brabant (PV);0,5
+Bus/tram/metro;2012;Noord-Brabant (PV);0,5
+Bus/tram/metro;2013;Noord-Brabant (PV);0,5
+Bus/tram/metro;2014;Noord-Brabant (PV);0,4
+Bus/tram/metro;2015;Noord-Brabant (PV);0,6
+Bus/tram/metro;2016;Noord-Brabant (PV);0,6
+Bus/tram/metro;2017;Noord-Brabant (PV);0,5
+Bus/tram/metro;2010;Limburg (PV);0,3
+Bus/tram/metro;2011;Limburg (PV);0,2
+Bus/tram/metro;2012;Limburg (PV);0,3
+Bus/tram/metro;2013;Limburg (PV);0,2
+Bus/tram/metro;2014;Limburg (PV);0,3
+Bus/tram/metro;2015;Limburg (PV);0,2
+Bus/tram/metro;2016;Limburg (PV);0,3
+Bus/tram/metro;2017;Limburg (PV);0,2
+Brom-/snorfiets;2010;Groningen (PV);0
+Brom-/snorfiets;2011;Groningen (PV);0
+Brom-/snorfiets;2012;Groningen (PV);0
+Brom-/snorfiets;2013;Groningen (PV);0
+Brom-/snorfiets;2014;Groningen (PV);0
+Brom-/snorfiets;2015;Groningen (PV);0
+Brom-/snorfiets;2016;Groningen (PV);0
+Brom-/snorfiets;2017;Groningen (PV);0
+Brom-/snorfiets;2010;Friesland (PV);0
+Brom-/snorfiets;2011;Friesland (PV);0
+Brom-/snorfiets;2012;Friesland (PV);0
+Brom-/snorfiets;2013;Friesland (PV);0
+Brom-/snorfiets;2014;Friesland (PV);0
+Brom-/snorfiets;2015;Friesland (PV);0
+Brom-/snorfiets;2016;Friesland (PV);0
+Brom-/snorfiets;2017;Friesland (PV);0
+Brom-/snorfiets;2010;Drenthe (PV);0
+Brom-/snorfiets;2011;Drenthe (PV);0
+Brom-/snorfiets;2012;Drenthe (PV);0
+Brom-/snorfiets;2013;Drenthe (PV);0
+Brom-/snorfiets;2014;Drenthe (PV);0
+Brom-/snorfiets;2015;Drenthe (PV);0,1
+Brom-/snorfiets;2016;Drenthe (PV);0
+Brom-/snorfiets;2017;Drenthe (PV);0
+Brom-/snorfiets;2010;Overijssel (PV);0,1
+Brom-/snorfiets;2011;Overijssel (PV);0,1
+Brom-/snorfiets;2012;Overijssel (PV);0
+Brom-/snorfiets;2013;Overijssel (PV);0,1
+Brom-/snorfiets;2014;Overijssel (PV);0,1
+Brom-/snorfiets;2015;Overijssel (PV);0
+Brom-/snorfiets;2016;Overijssel (PV);0
+Brom-/snorfiets;2017;Overijssel (PV);0
+Brom-/snorfiets;2010;Flevoland (PV);0
+Brom-/snorfiets;2011;Flevoland (PV);0
+Brom-/snorfiets;2012;Flevoland (PV);0
+Brom-/snorfiets;2013;Flevoland (PV);0
+Brom-/snorfiets;2014;Flevoland (PV);0
+Brom-/snorfiets;2015;Flevoland (PV);0
+Brom-/snorfiets;2016;Flevoland (PV);0
+Brom-/snorfiets;2017;Flevoland (PV);0
+Brom-/snorfiets;2010;Gelderland (PV);0,1
+Brom-/snorfiets;2011;Gelderland (PV);0,2
+Brom-/snorfiets;2012;Gelderland (PV);0,1
+Brom-/snorfiets;2013;Gelderland (PV);0,2
+Brom-/snorfiets;2014;Gelderland (PV);0,1
+Brom-/snorfiets;2015;Gelderland (PV);0,1
+Brom-/snorfiets;2016;Gelderland (PV);0,2
+Brom-/snorfiets;2017;Gelderland (PV);0,1
+Brom-/snorfiets;2010;Utrecht (PV);0,1
+Brom-/snorfiets;2011;Utrecht (PV);0,1
+Brom-/snorfiets;2012;Utrecht (PV);0,1
+Brom-/snorfiets;2013;Utrecht (PV);0,1
+Brom-/snorfiets;2014;Utrecht (PV);0,1
+Brom-/snorfiets;2015;Utrecht (PV);0,1
+Brom-/snorfiets;2016;Utrecht (PV);0,1
+Brom-/snorfiets;2017;Utrecht (PV);0,1
+Brom-/snorfiets;2010;Noord-Holland (PV);0,2
+Brom-/snorfiets;2011;Noord-Holland (PV);0,3
+Brom-/snorfiets;2012;Noord-Holland (PV);0,2
+Brom-/snorfiets;2013;Noord-Holland (PV);0,2
+Brom-/snorfiets;2014;Noord-Holland (PV);0,2
+Brom-/snorfiets;2015;Noord-Holland (PV);0,2
+Brom-/snorfiets;2016;Noord-Holland (PV);0,2
+Brom-/snorfiets;2017;Noord-Holland (PV);0,3
+Brom-/snorfiets;2010;Zuid-Holland (PV);0,2
+Brom-/snorfiets;2011;Zuid-Holland (PV);0,3
+Brom-/snorfiets;2012;Zuid-Holland (PV);0,3
+Brom-/snorfiets;2013;Zuid-Holland (PV);0,3
+Brom-/snorfiets;2014;Zuid-Holland (PV);0,4
+Brom-/snorfiets;2015;Zuid-Holland (PV);0,2
+Brom-/snorfiets;2016;Zuid-Holland (PV);0,3
+Brom-/snorfiets;2017;Zuid-Holland (PV);0,3
+Brom-/snorfiets;2010;Zeeland (PV);0
+Brom-/snorfiets;2011;Zeeland (PV);0
+Brom-/snorfiets;2012;Zeeland (PV);0
+Brom-/snorfiets;2013;Zeeland (PV);0
+Brom-/snorfiets;2014;Zeeland (PV);0
+Brom-/snorfiets;2015;Zeeland (PV);0
+Brom-/snorfiets;2016;Zeeland (PV);0
+Brom-/snorfiets;2017;Zeeland (PV);0
+Brom-/snorfiets;2010;Noord-Brabant (PV);0,1
+Brom-/snorfiets;2011;Noord-Brabant (PV);0,1
+Brom-/snorfiets;2012;Noord-Brabant (PV);0,1
+Brom-/snorfiets;2013;Noord-Brabant (PV);0,2
+Brom-/snorfiets;2014;Noord-Brabant (PV);0,2
+Brom-/snorfiets;2015;Noord-Brabant (PV);0,1
+Brom-/snorfiets;2016;Noord-Brabant (PV);0,1
+Brom-/snorfiets;2017;Noord-Brabant (PV);0,1
+Brom-/snorfiets;2010;Limburg (PV);0,1
+Brom-/snorfiets;2011;Limburg (PV);0,1
+Brom-/snorfiets;2012;Limburg (PV);0,1
+Brom-/snorfiets;2013;Limburg (PV);0
+Brom-/snorfiets;2014;Limburg (PV);0,1
+Brom-/snorfiets;2015;Limburg (PV);0,1
+Brom-/snorfiets;2016;Limburg (PV);0,1
+Brom-/snorfiets;2017;Limburg (PV);0
+Fiets;2010;Groningen (PV);0,5
+Fiets;2011;Groningen (PV);0,7
+Fiets;2012;Groningen (PV);0,6
+Fiets;2013;Groningen (PV);0,6
+Fiets;2014;Groningen (PV);0,6
+Fiets;2015;Groningen (PV);0,7
+Fiets;2016;Groningen (PV);0,5
+Fiets;2017;Groningen (PV);0,6
+Fiets;2010;Friesland (PV);0,6
+Fiets;2011;Friesland (PV);0,6
+Fiets;2012;Friesland (PV);0,6
+Fiets;2013;Friesland (PV);0,6
+Fiets;2014;Friesland (PV);0,6
+Fiets;2015;Friesland (PV);0,6
+Fiets;2016;Friesland (PV);0,5
+Fiets;2017;Friesland (PV);0,5
+Fiets;2010;Drenthe (PV);0,4
+Fiets;2011;Drenthe (PV);0,4
+Fiets;2012;Drenthe (PV);0,4
+Fiets;2013;Drenthe (PV);0,5
+Fiets;2014;Drenthe (PV);0,4
+Fiets;2015;Drenthe (PV);0,5
+Fiets;2016;Drenthe (PV);0,5
+Fiets;2017;Drenthe (PV);0,4
+Fiets;2010;Overijssel (PV);1,1
+Fiets;2011;Overijssel (PV);1,2
+Fiets;2012;Overijssel (PV);1,1
+Fiets;2013;Overijssel (PV);1,1
+Fiets;2014;Overijssel (PV);1,2
+Fiets;2015;Overijssel (PV);1,1
+Fiets;2016;Overijssel (PV);1,1
+Fiets;2017;Overijssel (PV);1,1
+Fiets;2010;Flevoland (PV);0,3
+Fiets;2011;Flevoland (PV);0,3
+Fiets;2012;Flevoland (PV);0,2
+Fiets;2013;Flevoland (PV);0,2
+Fiets;2014;Flevoland (PV);0,3
+Fiets;2015;Flevoland (PV);0,2
+Fiets;2016;Flevoland (PV);0,2
+Fiets;2017;Flevoland (PV);0,3
+Fiets;2010;Gelderland (PV);1,8
+Fiets;2011;Gelderland (PV);1,9
+Fiets;2012;Gelderland (PV);1,8
+Fiets;2013;Gelderland (PV);1,8
+Fiets;2014;Gelderland (PV);2,1
+Fiets;2015;Gelderland (PV);1,8
+Fiets;2016;Gelderland (PV);1,9
+Fiets;2017;Gelderland (PV);1,9
+Fiets;2010;Utrecht (PV);1,1
+Fiets;2011;Utrecht (PV);1,3
+Fiets;2012;Utrecht (PV);1,2
+Fiets;2013;Utrecht (PV);1,3
+Fiets;2014;Utrecht (PV);1,4
+Fiets;2015;Utrecht (PV);1,2
+Fiets;2016;Utrecht (PV);1,2
+Fiets;2017;Utrecht (PV);1,2
+Fiets;2010;Noord-Holland (PV);2,3
+Fiets;2011;Noord-Holland (PV);2,4
+Fiets;2012;Noord-Holland (PV);2,7
+Fiets;2013;Noord-Holland (PV);2,4
+Fiets;2014;Noord-Holland (PV);2,9
+Fiets;2015;Noord-Holland (PV);2,7
+Fiets;2016;Noord-Holland (PV);2,6
+Fiets;2017;Noord-Holland (PV);2,6
+Fiets;2010;Zuid-Holland (PV);2,5
+Fiets;2011;Zuid-Holland (PV);2,8
+Fiets;2012;Zuid-Holland (PV);2,8
+Fiets;2013;Zuid-Holland (PV);3
+Fiets;2014;Zuid-Holland (PV);3,1
+Fiets;2015;Zuid-Holland (PV);2,9
+Fiets;2016;Zuid-Holland (PV);2,8
+Fiets;2017;Zuid-Holland (PV);2,9
+Fiets;2010;Zeeland (PV);0,3
+Fiets;2011;Zeeland (PV);0,3
+Fiets;2012;Zeeland (PV);0,3
+Fiets;2013;Zeeland (PV);0,3
+Fiets;2014;Zeeland (PV);0,4
+Fiets;2015;Zeeland (PV);0,4
+Fiets;2016;Zeeland (PV);0,3
+Fiets;2017;Zeeland (PV);0,4
+Fiets;2010;Noord-Brabant (PV);2
+Fiets;2011;Noord-Brabant (PV);2,4
+Fiets;2012;Noord-Brabant (PV);2,2
+Fiets;2013;Noord-Brabant (PV);2,1
+Fiets;2014;Noord-Brabant (PV);2,4
+Fiets;2015;Noord-Brabant (PV);2,2
+Fiets;2016;Noord-Brabant (PV);2,2
+Fiets;2017;Noord-Brabant (PV);1,9
+Fiets;2010;Limburg (PV);0,8
+Fiets;2011;Limburg (PV);0,7
+Fiets;2012;Limburg (PV);0,8
+Fiets;2013;Limburg (PV);0,7
+Fiets;2014;Limburg (PV);0,8
+Fiets;2015;Limburg (PV);0,7
+Fiets;2016;Limburg (PV);0,7
+Fiets;2017;Limburg (PV);0,7
+Lopen;2010;Groningen (PV);0,2
+Lopen;2011;Groningen (PV);0,2
+Lopen;2012;Groningen (PV);0,2
+Lopen;2013;Groningen (PV);0,2
+Lopen;2014;Groningen (PV);0,2
+Lopen;2015;Groningen (PV);0,2
+Lopen;2016;Groningen (PV);0,2
+Lopen;2017;Groningen (PV);0,2
+Lopen;2010;Friesland (PV);0,2
+Lopen;2011;Friesland (PV);0,2
+Lopen;2012;Friesland (PV);0,2
+Lopen;2013;Friesland (PV);0,2
+Lopen;2014;Friesland (PV);0,2
+Lopen;2015;Friesland (PV);0,2
+Lopen;2016;Friesland (PV);0,2
+Lopen;2017;Friesland (PV);0,2
+Lopen;2010;Drenthe (PV);0,2
+Lopen;2011;Drenthe (PV);0,1
+Lopen;2012;Drenthe (PV);0,1
+Lopen;2013;Drenthe (PV);0,2
+Lopen;2014;Drenthe (PV);0,1
+Lopen;2015;Drenthe (PV);0,1
+Lopen;2016;Drenthe (PV);0,1
+Lopen;2017;Drenthe (PV);0,1
+Lopen;2010;Overijssel (PV);0,3
+Lopen;2011;Overijssel (PV);0,3
+Lopen;2012;Overijssel (PV);0,3
+Lopen;2013;Overijssel (PV);0,3
+Lopen;2014;Overijssel (PV);0,4
+Lopen;2015;Overijssel (PV);0,3
+Lopen;2016;Overijssel (PV);0,3
+Lopen;2017;Overijssel (PV);0,3
+Lopen;2010;Flevoland (PV);0,1
+Lopen;2011;Flevoland (PV);0,1
+Lopen;2012;Flevoland (PV);0,2
+Lopen;2013;Flevoland (PV);0,1
+Lopen;2014;Flevoland (PV);0,1
+Lopen;2015;Flevoland (PV);0,1
+Lopen;2016;Flevoland (PV);0,1
+Lopen;2017;Flevoland (PV);0,1
+Lopen;2010;Gelderland (PV);0,7
+Lopen;2011;Gelderland (PV);0,6
+Lopen;2012;Gelderland (PV);0,6
+Lopen;2013;Gelderland (PV);0,6
+Lopen;2014;Gelderland (PV);0,6
+Lopen;2015;Gelderland (PV);0,6
+Lopen;2016;Gelderland (PV);0,6
+Lopen;2017;Gelderland (PV);0,6
+Lopen;2010;Utrecht (PV);0,4
+Lopen;2011;Utrecht (PV);0,4
+Lopen;2012;Utrecht (PV);0,4
+Lopen;2013;Utrecht (PV);0,4
+Lopen;2014;Utrecht (PV);0,4
+Lopen;2015;Utrecht (PV);0,4
+Lopen;2016;Utrecht (PV);0,4
+Lopen;2017;Utrecht (PV);0,4
+Lopen;2010;Noord-Holland (PV);1
+Lopen;2011;Noord-Holland (PV);1
+Lopen;2012;Noord-Holland (PV);1
+Lopen;2013;Noord-Holland (PV);1
+Lopen;2014;Noord-Holland (PV);1
+Lopen;2015;Noord-Holland (PV);0,9
+Lopen;2016;Noord-Holland (PV);1
+Lopen;2017;Noord-Holland (PV);1
+Lopen;2010;Zuid-Holland (PV);1,2
+Lopen;2011;Zuid-Holland (PV);1,3
+Lopen;2012;Zuid-Holland (PV);1,2
+Lopen;2013;Zuid-Holland (PV);1,2
+Lopen;2014;Zuid-Holland (PV);1,3
+Lopen;2015;Zuid-Holland (PV);1,2
+Lopen;2016;Zuid-Holland (PV);1,3
+Lopen;2017;Zuid-Holland (PV);1,3
+Lopen;2010;Zeeland (PV);0,1
+Lopen;2011;Zeeland (PV);0,1
+Lopen;2012;Zeeland (PV);0,1
+Lopen;2013;Zeeland (PV);0,1
+Lopen;2014;Zeeland (PV);0,1
+Lopen;2015;Zeeland (PV);0,1
+Lopen;2016;Zeeland (PV);0,1
+Lopen;2017;Zeeland (PV);0,1
+Lopen;2010;Noord-Brabant (PV);0,8
+Lopen;2011;Noord-Brabant (PV);0,8
+Lopen;2012;Noord-Brabant (PV);0,7
+Lopen;2013;Noord-Brabant (PV);0,8
+Lopen;2014;Noord-Brabant (PV);0,8
+Lopen;2015;Noord-Brabant (PV);0,7
+Lopen;2016;Noord-Brabant (PV);0,7
+Lopen;2017;Noord-Brabant (PV);0,8
+Lopen;2010;Limburg (PV);0,4
+Lopen;2011;Limburg (PV);0,4
+Lopen;2012;Limburg (PV);0,4
+Lopen;2013;Limburg (PV);0,4
+Lopen;2014;Limburg (PV);0,4
+Lopen;2015;Limburg (PV);0,4
+Lopen;2016;Limburg (PV);0,4
+Lopen;2017;Limburg (PV);0,4
