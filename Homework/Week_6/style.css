@@ -1,3 +1,12 @@
 /*Harmke Vliek
 10989137
 CSS for D3 linked views*/
+
+.jvectormap-legend-icons {
+  background: black;
+  border: black 1px solid;
+}
+
+.jvectormap-legend-icons {
+  color: black;
+}

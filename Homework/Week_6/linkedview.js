@@ -2,6 +2,7 @@
 Harmke Vliek
 10989137
 script for D3 linked views
+Use of external library jvectormap for map
 */
 
 //  svg variables
@@ -25,6 +26,13 @@ window.onload = function() {
     };
   };
 
+  // create map showing total amount of reizigerskilometers (mld)
+  // createMap(listTotalTrans)
+  createBarChart(listProvince, values, data)
+});
+};
+
+function createMap(listTotalTrans) {
   // create variable to colour map
   var totalKm = {
     "NL-OV": parseFloat(listTotalTrans[3]),
@@ -44,26 +52,159 @@ window.onload = function() {
   // show map of the Netherlands, imported from http://jvectormap.com/maps/countries/netherlands/
   $('#map').vectorMap({
   map: 'nl_merc',
+  backgroundColor: '#FFFFFF',
   focusOn: {
        x: 0.6,
        y: -0.2,
        scale: 9
   },
+  // colour map according to values of listTotalTrans set in totalKm
   series: {
     regions: [{
       values: totalKm,
       scale: ['#C8EEFF', '#0071A4'],
-      normalizeFunction: 'polynomial'
+      normalizeFunction: 'polynomial',
+      legend: {
+          vertical: false,
+          class: 'jvectormap-legend-icons',
+          title: 'Total amount of traveller kilometers (mld km)'
+      },
     }]
   },
-  onRegionTipShow: function(e, el, code){
-    el.html(el.html()+' (GDP - '+totalKm[code]+')');
-  }
-});
-
-// set height of svg
-d3.select(".jvectormap-container")
-  .select("svg")
-  .attr("height", height)
+  // show amount of reizigerskilometers (mld km) on hoovering
+  onRegionTipShow: function(e, regio, code) {
+    regio.html(regio.html()+'; Total traveller kilometers (mld km): '+totalKm[code]+'');
+    }
   });
+
+  // set height of svg
+  d3.select(".jvectormap-container")
+    .select("svg")
+    .attr("height", height)
+};
+
+function createBarChart(listProvince, values, data) {
+  // create variables necessary for svg
+  var width = 1000;
+  var height = 500;
+  var barPadding = 0.5;
+  var topOfChart = 50;
+  var bottomOfChart = 50;
+  var leftSideChart = 50;
+  var rightSideChart = 50;
+  var labelPadding = 40;
+
+  // create a tooltip
+  var tool = d3.select("body")
+               .append("div")
+               .style("position", "absolute")
+               .style("text-align", "center")
+               .style("width", "100px")
+               .style("visibility", "hidden")
+               .style("background", "white")
+               .style("border", "2px solid yellow")
+               .style("border-radius", "5px")
+               .style("color", "black");
+
+  // create svg
+  var svg = d3.select("body")
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+  // get data loaded earlier from values, use province as id
+  var dataDict = {};
+
+  // iterate per province
+  for (let i = 0; i < listProvince.length; i++) {
+    perProvince = {}
+    // fill lists per province
+    for (object in data[listProvince[i]]) {
+      perProvince[data[listProvince[i]][object]["Vervoerwijzen"]] = data[listProvince[i]][object]["Reizigerskilometers (mld km)"]
+    };
+    dataDict[i] = perProvince;
+  };
+
+  // set x and y values
+  var xValues = Object.keys(perProvince)
+  var yValues = Object.values(perProvince)
+
+  // create scales for axis
+  var yScale = d3.scaleLinear()
+                 .domain([0, 30])
+                 .range([height - bottomOfChart, topOfChart]);
+  var xScale = d3.scaleBand()
+                 .domain(xValues)
+                 .range([leftSideChart, width - rightSideChart]);
+
+  // create axes
+  var xAxis = d3.axisBottom(xScale);
+  var yAxis = d3.axisLeft(yScale);
+
+  // create bars
+  var bars = svg.selectAll("rect")
+     .data(yValues)
+     .enter()
+     .append("rect")
+     .attr("fill", "green")
+     .attr("width", (width - leftSideChart - rightSideChart) /
+           xValues.length - barPadding + "px")
+     .attr("y", function(d) {
+        var barHeight = yScale(parseFloat(d));
+        return barHeight - bottomOfChart + topOfChart + "px";
+     })
+     .attr("x", function(d, i) {
+        return i * (width - leftSideChart - rightSideChart) /
+                    xValues.length + leftSideChart + "px";
+     })
+     .attr("height", function(d) {
+        var barHeight = yScale(parseFloat(d));
+        return (height - barHeight) - topOfChart + "px";
+     })
+     .on("mouseover", function(d){
+       d3.select(this)
+         .attr("fill", "yellow")
+       return (tool.style("visibility", "visible")
+                      .text("Value = " + d));
+     })
+     .on("mouseout", function(){
+       return (tool.style("visibility", "hidden"),
+               bars.attr("fill", "green"));
+     })
+     .on("mousemove", function(d, i){
+       return tool.style("top", event.clientY + "px")
+                     .style("left", i * (width - leftSideChart -
+                            rightSideChart) / xValues.length +
+                            leftSideChart - 23 + "px");
+     });
+
+  // plot x-axis
+  svg.append("g")
+     .attr("class", "axis")
+     .attr("transform", "translate("+[0, height - topOfChart]+")")
+     .call(xAxis);
+
+  // plot y-axis
+  svg.append("g")
+     .attr("class", "axis")
+     .attr("transform", "translate("+[leftSideChart, 0]+")")
+     .call(yAxis);
+
+  // set x label
+  svg.append("text")
+      .attr("transform",
+            "translate("+[(width - leftSideChart - rightSideChart) / 2 +
+                           leftSideChart,
+                           height - topOfChart + labelPadding]+")")
+      .style("text-anchor", "middle")
+      .text("Mode of transport");
+
+  // set y label
+  svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("x", - height / 2)
+      .attr("y", 0)
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("amount in mld km");
 };
