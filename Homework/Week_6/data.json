@@ -453,8 +453,40 @@
    ],
    "Noord-Holland": [
       {
+         "Vervoerwijzen": "Totaal",
+         "Reizigerskilometers (mld km)": "29,8"
+      },
+      {
+         "Vervoerwijzen": "Auto (bestuurder)",
+         "Reizigerskilometers (mld km)": "13,5"
+      },
+      {
+         "Vervoerwijzen": "Auto (passagier)",
+         "Reizigerskilometers (mld km)": "6,4"
+      },
+      {
+         "Vervoerwijzen": "Trein",
+         "Reizigerskilometers (mld km)": "3,3"
+      },
+      {
+         "Vervoerwijzen": "Bus/tram/metro",
+         "Reizigerskilometers (mld km)": "1,3"
+      },
+      {
+         "Vervoerwijzen": "Brom-/snorfiets",
+         "Reizigerskilometers (mld km)": "0,3"
+      },
+      {
+         "Vervoerwijzen": "Fiets",
+         "Reizigerskilometers (mld km)": "2,6"
+      },
+      {
          "Vervoerwijzen": "Lopen",
          "Reizigerskilometers (mld km)": "1"
+      },
+      {
+         "Vervoerwijzen": "Overige vervoerwijze",
+         "Reizigerskilometers (mld km)": "1,5"
       }
    ]
 }
