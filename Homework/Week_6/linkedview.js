@@ -28,12 +28,12 @@ window.onload = function() {
   };
 
   // create map showing total amount of reizigerskilometers (mld)
-  createMap(listTotalTrans)
-  createBarChart(listProvince, values, data)
+  createMap(listTotalTrans, listProvince, values, data)
+  // createBarChart(listProvince, values, data)
 });
 };
 
-function createMap(listTotalTrans) {
+function createMap(listTotalTrans, listProvince, values, data) {
   // create variable to colour map
   var totalKm = {
     "NL-OV": parseFloat(listTotalTrans[3]),
@@ -57,7 +57,7 @@ function createMap(listTotalTrans) {
   focusOn: {
        x: 0.6,
        y: -0.2,
-       scale: 9
+       scale: 8
   },
   // colour map according to values of listTotalTrans set in totalKm
   series: {
@@ -75,10 +75,13 @@ function createMap(listTotalTrans) {
   },
   // show amount of reizigerskilometers (mld km) on hoovering
   onRegionTipShow: function(e, regio, code) {
-    regio.html(regio.html()+'; Total traveller kilometers (mld km): '+totalKm[code]+'');
+    regio.html(regio.html()+'. Total traveller kilometers (mld km): '+totalKm[code]+'');
   },
   //show right datachart upon clicking on province
-  onRegionClick: function(e, regio, code)
+  onRegionClick: function(e, regio, code) {
+    console.log(regio);
+    createBarChart(listProvince, values, data, regio)
+  }
   });
 
   // set height of svg
@@ -92,7 +95,7 @@ function createMap(listTotalTrans) {
       .attr("width", width)
 };
 
-function createBarChart(listProvince, values, data) {
+function createBarChart(listProvince, values, data, regio) {
   // create variables necessary for svg
   var width = 800;
   var height = 500;
@@ -132,12 +135,12 @@ function createBarChart(listProvince, values, data) {
     for (object in data[listProvince[i]]) {
       perProvince[data[listProvince[i]][object]["Vervoerwijzen"]] = data[listProvince[i]][object]["Reizigerskilometers (mld km)"]
     };
-    dataDict[i] = perProvince;
+    dataDict[listProvince[i]] = perProvince;
   };
 
   // set x and y values
-  var xValues = Object.keys(perProvince)
-  var yValues = Object.values(perProvince)
+  var xValues = Object.keys(dataDict[tt[regio]])
+  var yValues = Object.values(dataDict[tt[regio]])
 
   // create scales for axis
   var yScale = d3.scaleLinear()
