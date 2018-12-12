@@ -79,7 +79,6 @@ function createMap(listTotalTrans, listProvince, values, data) {
   },
   //show right datachart upon clicking on province
   onRegionClick: function(e, regio, code) {
-    console.log(regio);
     createBarChart(listProvince, values, data, regio)
   }
   });
@@ -115,7 +114,7 @@ function createBarChart(listProvince, values, data, regio) {
                .style("width", "100px")
                .style("visibility", "hidden")
                .style("background", "white")
-               .style("border", "2px solid yellow")
+               .style("border", "2px solid pink")
                .style("border-radius", "5px")
                .style("color", "black");
 
@@ -159,7 +158,7 @@ function createBarChart(listProvince, values, data, regio) {
      .data(yValues)
      .enter()
      .append("rect")
-     .attr("fill", "green")
+     .attr("fill", "blue")
      .attr("width", (width - leftSideChart - rightSideChart) /
            xValues.length - barPadding + "px")
      .attr("y", function(d) {
@@ -178,7 +177,7 @@ function createBarChart(listProvince, values, data, regio) {
      // show value of amount of km in mld
      .on("mouseover", function(d){
        d3.select(this)
-         .attr("fill", "yellow")
+         .attr("fill", "pink")
        return (tool.style("visibility", "visible")
                       .text("Value = " + d));
 
@@ -186,13 +185,11 @@ function createBarChart(listProvince, values, data, regio) {
      })
      .on("mouseout", function(){
        return (tool.style("visibility", "hidden"),
-               bars.attr("fill", "green"));
+               bars.attr("fill", "blue"));
      })
      .on("mousemove", function(d, i){
-       return tool.style("top", event.clientY + "px")
-                     .style("left", i * (width - leftSideChart -
-                            rightSideChart) / xValues.length +
-                            leftSideChart + "px");
+       return tool.style("top" - 60, event.clientY + "px")
+
      });
 
   // plot x-axis

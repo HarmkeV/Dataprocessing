@@ -1,6 +1,6 @@
 tt = {
   "NL-OV": "Overijssel",
-  "NL-FR": "Friesland"
+  "NL-FR": "Friesland",
   "NL-UT": "Utrecht",
   "NL-GE": "Gelderland",
   "NL-FL": "Flevoland",
