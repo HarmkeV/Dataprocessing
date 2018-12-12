@@ -6,11 +6,12 @@ Use of external library jvectormap for map
 */
 
 //  svg variables
-var height = 400
+var height = 400;
+var width = 500;
 
 window.onload = function() {
   // load data from data.json
-  d3.json('data.json').then(function(data) {
+  d3.json('dataCBS.json').then(function(data) {
      var province = Object.keys(data);
      var values = Object.values(data);
      var listProvince = [];
@@ -27,7 +28,7 @@ window.onload = function() {
   };
 
   // create map showing total amount of reizigerskilometers (mld)
-  // createMap(listTotalTrans)
+  createMap(listTotalTrans)
   createBarChart(listProvince, values, data)
 });
 };
@@ -64,8 +65,9 @@ function createMap(listTotalTrans) {
       values: totalKm,
       scale: ['#C8EEFF', '#0071A4'],
       normalizeFunction: 'polynomial',
+      // create legend
       legend: {
-          vertical: false,
+          horizontal: true,
           class: 'jvectormap-legend-icons',
           title: 'Total amount of traveller kilometers (mld km)'
       },
@@ -74,18 +76,25 @@ function createMap(listTotalTrans) {
   // show amount of reizigerskilometers (mld km) on hoovering
   onRegionTipShow: function(e, regio, code) {
     regio.html(regio.html()+'; Total traveller kilometers (mld km): '+totalKm[code]+'');
-    }
+  },
+  //show right datachart upon clicking on province
+  onRegionClick: function(e, regio, code)
   });
 
   // set height of svg
   d3.select(".jvectormap-container")
     .select("svg")
     .attr("height", height)
+
+    // set width of svg
+    d3.select(".jvectormap-container")
+      .select("svg")
+      .attr("width", width)
 };
 
 function createBarChart(listProvince, values, data) {
   // create variables necessary for svg
-  var width = 1000;
+  var width = 800;
   var height = 500;
   var barPadding = 0.5;
   var topOfChart = 50;
@@ -93,6 +102,7 @@ function createBarChart(listProvince, values, data) {
   var leftSideChart = 50;
   var rightSideChart = 50;
   var labelPadding = 40;
+  var titlePadding = 30;
 
   // create a tooltip
   var tool = d3.select("body")
@@ -161,11 +171,15 @@ function createBarChart(listProvince, values, data) {
         var barHeight = yScale(parseFloat(d));
         return (height - barHeight) - topOfChart + "px";
      })
+
+     // show value of amount of km in mld
      .on("mouseover", function(d){
        d3.select(this)
          .attr("fill", "yellow")
        return (tool.style("visibility", "visible")
                       .text("Value = " + d));
+
+     // return to normal rectangle
      })
      .on("mouseout", function(){
        return (tool.style("visibility", "hidden"),
@@ -175,7 +189,7 @@ function createBarChart(listProvince, values, data) {
        return tool.style("top", event.clientY + "px")
                      .style("left", i * (width - leftSideChart -
                             rightSideChart) / xValues.length +
-                            leftSideChart - 23 + "px");
+                            leftSideChart + "px");
      });
 
   // plot x-axis
@@ -207,4 +221,13 @@ function createBarChart(listProvince, values, data) {
       .attr("dy", "1em")
       .style("text-anchor", "middle")
       .text("amount in mld km");
+
+  // create title
+  svg.append("text")
+     .attr("x", (width / 2))
+     .attr("y", topOfChart - titlePadding)
+     .attr("text-anchor", "middle")
+     .style("font-size", "20px")
+     .style("text-decoration", "bold")
+     .text("Distribution mode of transport in the province");
 };
