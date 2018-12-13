@@ -3,6 +3,7 @@ Harmke Vliek
 10989137
 script for D3 linked views
 Use of external library jvectormap for map
+The bar chart has no x label, as I thought it was clear enough as it is.
 */
 
 //  svg variables
@@ -96,7 +97,7 @@ function createMap(listTotalTrans, listProvince, values, data) {
 
 function createBarChart(listProvince, values, data, regio) {
   // create variables necessary for svg
-  var width = 800;
+  var width = 500;
   var height = 500;
   var barPadding = 0.5;
   var topOfChart = 50;
@@ -107,7 +108,7 @@ function createBarChart(listProvince, values, data, regio) {
   var titlePadding = 30;
 
   // create a tooltip
-  var tool = d3.select("body")
+  var tool = d3.select("#barChart")
                .append("div")
                .style("position", "absolute")
                .style("text-align", "center")
@@ -118,9 +119,15 @@ function createBarChart(listProvince, values, data, regio) {
                .style("border-radius", "5px")
                .style("color", "black");
 
+  // make sure there is only one barchart at the time
+  if (d3.select("#barSVG")) {
+    d3.select("#barSVG").remove().exit();
+  };
+
   // create svg
-  var svg = d3.select("body")
+  var svg = d3.select("#barChart")
     .append("svg")
+    .attr("id", "barSVG")
     .attr("width", width)
     .attr("height", height);
 
@@ -196,22 +203,19 @@ function createBarChart(listProvince, values, data, regio) {
   svg.append("g")
      .attr("class", "axis")
      .attr("transform", "translate("+[0, height - topOfChart]+")")
-     .call(xAxis);
+     .call(xAxis)
+     .selectAll("text")
+     .style("text-anchor", "end")
+     .attr("font-size", "8px")
+     .attr("dx", "-.5em")
+     .attr("dy", ".8em")
+     .attr("transform", "rotate(-25)")
 
   // plot y-axis
   svg.append("g")
      .attr("class", "axis")
      .attr("transform", "translate("+[leftSideChart, 0]+")")
      .call(yAxis);
-
-  // set x label
-  svg.append("text")
-      .attr("transform",
-            "translate("+[(width - leftSideChart - rightSideChart) / 2 +
-                           leftSideChart,
-                           height - topOfChart + labelPadding]+")")
-      .style("text-anchor", "middle")
-      .text("Mode of transport");
 
   // set y label
   svg.append("text")
