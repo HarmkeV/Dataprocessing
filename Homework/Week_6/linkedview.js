@@ -51,7 +51,7 @@ function createMap(listTotalTrans, listProvince, values, data) {
     "NL-DR": parseFloat(listTotalTrans[2]),
     "NL-NB": parseFloat(listTotalTrans[10]),
     "NL-LI": parseFloat(listTotalTrans[11])
-  }
+  };
 
   // show map of the Netherlands, imported from http://jvectormap.com/maps/countries/netherlands/
   $('#map').vectorMap({
@@ -86,12 +86,12 @@ function createMap(listTotalTrans, listProvince, values, data) {
   // set height of svg
   d3.select(".jvectormap-container")
     .select("svg")
-    .attr("height", height)
+    .attr("height", height);
 
     // set width of svg
     d3.select(".jvectormap-container")
       .select("svg")
-      .attr("width", width)
+      .attr("width", width);
 
   // linear gradient legend, created based on https://www.visualcinnamon.com/2016/05/smooth-color-legend-d3-svg-gradient.html
   var divWidth = 200;
@@ -168,7 +168,7 @@ function createMap(listTotalTrans, listProvince, values, data) {
             .call(xAxis);
 
   // create title
-  var svg2 = d3.select("#title")
+  var svg2 = d3.select("#title");
 
   svg2.append("text")
       .attr("x", (width / 2))
@@ -192,7 +192,7 @@ function createBarChart(listProvince, values, data, regio) {
   var rightSideChart = 50;
   var labelPadding = 40;
   var titlePadding = 30;
-  var barcolor = "#0071A4"
+  var barcolor = "#0071A4";
 
   // create a tooltip
   var tool = d3.select("#barChart")
@@ -232,8 +232,8 @@ function createBarChart(listProvince, values, data, regio) {
   };
 
   // set x and y values
-  var xValues = Object.keys(dataDict[tt[regio]])
-  var yValues = Object.values(dataDict[tt[regio]])
+  var xValues = Object.keys(dataDict[tt[regio]]);
+  var yValues = Object.values(dataDict[tt[regio]]);
 
   // create scales for axis
   var yScale = d3.scaleLinear()
@@ -283,7 +283,7 @@ function createBarChart(listProvince, values, data, regio) {
      .on("mousemove", function(d, i){
        return tool.style("top", event.clientY - 40 + "px")
                   .style("left", event.clientX + "px");
-    })
+    });
 
   // plot x-axis
   svg.append("g")
