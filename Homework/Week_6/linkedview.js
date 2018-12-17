@@ -73,7 +73,9 @@ function createMap(listTotalTrans, listProvince, values, data) {
   },
   // show amount of reizigerskilometers (mld km) on hoovering
   onRegionTipShow: function(e, regio, code) {
-    regio.html(regio.html() +'. Total traveller kilometers (mld km): '+totalKm[code]+'');
+    regio.html(
+      regio.html() +'. Total traveller kilometers (mld km): '+totalKm[code]+''
+    );
   },
   //show right datachart upon clicking on province
   onRegionClick: function(e, regio, code) {
@@ -81,15 +83,25 @@ function createMap(listTotalTrans, listProvince, values, data) {
   }
   });
 
-  // linear gradient legend
-  var divWidth = 100;
-  var svg = d3.select("#legend")
-  var mapDim = svg.node().getBoundingClientRect();
-  var mapHeight = mapDim.height;
-  var mapWidth = mapDim.width;
-  var defs = svg.append("defs");
-  var legendWidth = divWidth * 0.3;
-  var legendHeight = 12;
+  // set height of svg
+  d3.select(".jvectormap-container")
+    .select("svg")
+    .attr("height", height)
+
+    // set width of svg
+    d3.select(".jvectormap-container")
+      .select("svg")
+      .attr("width", width)
+
+  // linear gradient legend, created based on https://www.visualcinnamon.com/2016/05/smooth-color-legend-d3-svg-gradient.html
+  var divWidth = 200;
+  var legendsvg = d3.select("#legend")
+                    .append("svg")
+                    .attr("class", "legendWrapper")
+                    .attr("transform", "translate(" + (0) + "," + (0) + ")");
+  var defs = legendsvg.append("defs");
+  var legendWidth = divWidth * 0.99;
+  var legendHeight = 20;
 
   // linear gradient specification
   var linearGradient = defs.append("linearGradient")
@@ -102,45 +114,38 @@ function createMap(listTotalTrans, listProvince, values, data) {
   // beginning of legend is lightblue
   linearGradient.append("stop")
                 .attr("offset", "0%")
-                .attr("stop-color", "#C8EEFF");
+                .attr("stop-color", "#c8eeff");
 
   // linear gradient continues with darker blue
   linearGradient.append("stop")
-                .attr("offset", "5%")
-                .attr("stop-color", "#0071A4");
+                .attr("offset", "25%")
+                .attr("stop-color", '#68B2D3');
 
   // to dark blue-grey which represents the max value
   linearGradient.append("stop")
       .attr("offset", "100%")
-      .attr("stop-color", "#37474F");
-
-  // color legend container
-  var legendsvg = svg.append("g")
-                     .attr("class", "legendWrapper")
-                     .attr("transform", "translate(" + (divWidth / 2 - 10) + "," + (mapHeight - 50) + ")");
+      .attr("stop-color", "#0071A4");
 
   // draw linear gradient rectangle
   legendsvg.append("rect")
             .attr("class", "legendRect")
             .attr("x", -legendWidth / 2)
-            .attr("y", 10)
-            .attr("width", legendWidth)
+            .attr("y", -10)
+            .attr("width", legendWidth + 100)
             .attr("height", legendHeight)
             .style("fill", "url(#linear-gradient)");
 
   // legend title
   legendsvg.append("text")
            .attr("class", "legendTitle")
-           .style("fill", "#0071A4")
-           .style("font-size", "0.9em")
-           .style("text-anchor", "middle")
-           .attr("x", 0)
+           .style("fill", "black")
+           .attr("transform", "translate(" + (legendWidth - 198) + "," + (10 + legendHeight) + ")")
            .text("Amount of kilometers");
 
    // assign axis class and position in the middle of the gradient bar
    legendsvg.append("g")
             .attr("class", "axis")
-            .attr("transform", "translate(" + (-legendWidth / 2) + "," + (10 + legendHeight) + ")");
+            .attr("transform", "translate(" + (legendWidth) + "," + (10 + legendHeight) + ")");
 
    // set scale for x axis
    var xScale = d3.scaleLinear()
@@ -149,7 +154,7 @@ function createMap(listTotalTrans, listProvince, values, data) {
 
    // specify axis properties
    var xAxis = d3.axisBottom()
-                 .tickPadding(17)
+                 .tickPadding(10)
                  .ticks(5)
                  .tickSize(0)
                  .tickFormat(d3.format(".0f"))
@@ -173,15 +178,7 @@ function createMap(listTotalTrans, listProvince, values, data) {
       .style("text-decoration", "bold")
       .text("Total amount of traveller km per province");
 
-  // set height of svg
-  d3.select(".jvectormap-container")
-    .select("svg")
-    .attr("height", height)
 
-    // set width of svg
-    d3.select(".jvectormap-container")
-      .select("svg")
-      .attr("width", width)
 };
 
 function createBarChart(listProvince, values, data, regio) {

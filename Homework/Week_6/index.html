@@ -15,7 +15,7 @@ Assignment: Create a linked views visualization in D3 consisting of at least two
         <meta charset="utf-8">
         <title>D3 Linked view</title>
         <script src="https://d3js.org/d3.v5.min.js"></script>
-        <script src="http://jvectormap.com/js/jquery-1.8.2.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="http://jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script>
         <script src="http://jvectormap.com/js/jquery-jvectormap-nl-merc.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
@@ -28,7 +28,7 @@ Assignment: Create a linked views visualization in D3 consisting of at least two
         <h4>D3 Linked view</h4>
         <p>Name: Harmke Vliek (10989137)</p>
         <p>Assignment: Create a linked views visualization in D3 consisting of at least two interactive visualizations.</P>
-        <p> Click on province in the map to see an overview of modes of transport.</p>
+        <p> Click on province in the map to see an overview of modes of transport. Information appears under the map when the mouse moves over a province.</p>
         <p>Source:
           <a href="https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83497ned/table?ts=1544431257547">
             Totale reizigerskilometers in Nederland per jaar (CBS 2018)
@@ -37,6 +37,7 @@ Assignment: Create a linked views visualization in D3 consisting of at least two
         <div id="title" style="width: 48%; height: 10%"></div>
         <div id="map" style="display: inline-block; width: 48%; height: 50%"></div>
         <div id="barChart" style="display: inline-block; width: 48%; height: 50%"></div>
-        <div id="legend" style="width: 48%; height: 10%"></div>
+        <br>
+        <div id="legend" style="width: 48%; height: 40px"></div>
       </body>
 </html>
