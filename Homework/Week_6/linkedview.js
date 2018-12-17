@@ -98,7 +98,7 @@ function createMap(listTotalTrans, listProvince, values, data) {
   var legendsvg = d3.select("#legend")
                     .append("svg")
                     .attr("class", "legendWrapper")
-                    .attr("transform", "translate(" + (0) + "," + (0) + ")");
+                    .attr("transform", "translate(" + (0) + "," + (60) + ")");
   var defs = legendsvg.append("defs");
   var legendWidth = divWidth * 0.99;
   var legendHeight = 20;
