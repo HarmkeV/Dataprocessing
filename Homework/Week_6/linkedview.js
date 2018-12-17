@@ -208,7 +208,9 @@ function createBarChart(listProvince, values, data, regio) {
 
   // make sure there is only one barchart at the time
   if (d3.select("#barSVG")) {
-    d3.select("#barSVG").remove().exit();
+    d3.select("#barSVG")
+      .remove()
+      .exit();
   };
 
   // create svg
