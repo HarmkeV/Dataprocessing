@@ -6,10 +6,6 @@ Use of external library jvectormap for map
 The bar chart has no x label, as I thought it was clear enough as it is.
 */
 
-//  svg variables
-var height = 400;
-var width = 500;
-
 window.onload = function() {
   // load data from data.json
   d3.json('dataCBS.json').then(function(data) {
@@ -35,6 +31,12 @@ window.onload = function() {
 };
 
 function createMap(listTotalTrans, listProvince, values, data) {
+  // create variables necessary for svg
+  var titlePadding = 30;
+  var topOfChart = 350;
+  var height = 400;
+  var width = 900;
+
   // create variable to colour map
   var totalKm = {
     "NL-OV": parseFloat(listTotalTrans[3]),
@@ -54,11 +56,12 @@ function createMap(listTotalTrans, listProvince, values, data) {
   // show map of the Netherlands, imported from http://jvectormap.com/maps/countries/netherlands/
   $('#map').vectorMap({
   map: 'nl_merc',
+  title: 'Total amount of traveller km per province',
   backgroundColor: '#FFFFFF',
   focusOn: {
-       x: 0.6,
+       x: 2,
        y: -0.2,
-       scale: 8
+       scale: 7
   },
   // colour map according to values of listTotalTrans set in totalKm
   series: {
@@ -66,23 +69,109 @@ function createMap(listTotalTrans, listProvince, values, data) {
       values: totalKm,
       scale: ['#C8EEFF', '#0071A4'],
       normalizeFunction: 'polynomial',
-      // create legend
-      legend: {
-          horizontal: true,
-          class: 'jvectormap-legend-icons',
-          title: 'Total amount of traveller kilometers (mld km)'
-      },
     }]
   },
   // show amount of reizigerskilometers (mld km) on hoovering
   onRegionTipShow: function(e, regio, code) {
-    regio.html(regio.html()+'. Total traveller kilometers (mld km): '+totalKm[code]+'');
+    regio.html(regio.html() +'. Total traveller kilometers (mld km): '+totalKm[code]+'');
   },
   //show right datachart upon clicking on province
   onRegionClick: function(e, regio, code) {
     createBarChart(listProvince, values, data, regio)
   }
   });
+
+  // linear gradient legend
+  var divWidth = 100;
+  var svg = d3.select("#legend")
+  var mapDim = svg.node().getBoundingClientRect();
+  var mapHeight = mapDim.height;
+  var mapWidth = mapDim.width;
+  var defs = svg.append("defs");
+  var legendWidth = divWidth * 0.3;
+  var legendHeight = 12;
+
+  // linear gradient specification
+  var linearGradient = defs.append("linearGradient")
+                           .attr("id", "linear-gradient")
+                           .attr("x1", "0%")
+                           .attr("y1", "0%")
+                           .attr("x2", "100%")
+                           .attr("y2", "0%");
+
+  // beginning of legend is lightblue
+  linearGradient.append("stop")
+                .attr("offset", "0%")
+                .attr("stop-color", "#C8EEFF");
+
+  // linear gradient continues with darker blue
+  linearGradient.append("stop")
+                .attr("offset", "5%")
+                .attr("stop-color", "#0071A4");
+
+  // to dark blue-grey which represents the max value
+  linearGradient.append("stop")
+      .attr("offset", "100%")
+      .attr("stop-color", "#37474F");
+
+  // color legend container
+  var legendsvg = svg.append("g")
+                     .attr("class", "legendWrapper")
+                     .attr("transform", "translate(" + (divWidth / 2 - 10) + "," + (mapHeight - 50) + ")");
+
+  // draw linear gradient rectangle
+  legendsvg.append("rect")
+            .attr("class", "legendRect")
+            .attr("x", -legendWidth / 2)
+            .attr("y", 10)
+            .attr("width", legendWidth)
+            .attr("height", legendHeight)
+            .style("fill", "url(#linear-gradient)");
+
+  // legend title
+  legendsvg.append("text")
+           .attr("class", "legendTitle")
+           .style("fill", "#0071A4")
+           .style("font-size", "0.9em")
+           .style("text-anchor", "middle")
+           .attr("x", 0)
+           .text("Amount of kilometers");
+
+   // assign axis class and position in the middle of the gradient bar
+   legendsvg.append("g")
+            .attr("class", "axis")
+            .attr("transform", "translate(" + (-legendWidth / 2) + "," + (10 + legendHeight) + ")");
+
+   // set scale for x axis
+   var xScale = d3.scaleLinear()
+                  .range([0, legendWidth])
+                  .domain([0, 40]);
+
+   // specify axis properties
+   var xAxis = d3.axisBottom()
+                 .tickPadding(17)
+                 .ticks(5)
+                 .tickSize(0)
+                 .tickFormat(d3.format(".0f"))
+                 .scale(xScale);
+
+   // add the x axis to svg
+   legendsvg.append("g")
+            .attr("class", "legendAxis")
+            .attr("x", 200)
+            .attr("y", 200)
+            .call(xAxis);
+
+  // create title
+  var svg2 = d3.select("#title")
+
+  svg2.append("text")
+      .attr("x", (width / 2))
+      .attr("y", topOfChart - titlePadding)
+      .attr("text-anchor", "middle")
+      .style("font-size", "20px")
+      .style("text-decoration", "bold")
+      .text("Total amount of traveller km per province");
 
   // set height of svg
   d3.select(".jvectormap-container")
@@ -150,7 +239,7 @@ function createBarChart(listProvince, values, data, regio) {
 
   // create scales for axis
   var yScale = d3.scaleLinear()
-                 .domain([0, 30])
+                 .domain([0, 40])
                  .range([height - bottomOfChart, topOfChart]);
   var xScale = d3.scaleBand()
                  .domain(xValues)
@@ -187,17 +276,16 @@ function createBarChart(listProvince, values, data, regio) {
          .attr("fill", "pink")
        return (tool.style("visibility", "visible")
                       .text("Value = " + d));
-
-     // return to normal rectangle
      })
+     // return to normal rectangle
      .on("mouseout", function(){
        return (tool.style("visibility", "hidden"),
                bars.attr("fill", "blue"));
      })
      .on("mousemove", function(d, i){
-       return tool.style("top" - 60, event.clientY + "px")
-
-     });
+       return tool.style("top", event.clientY - 40 + "px")
+                  .style("left", event.clientX + "px");
+    })
 
   // plot x-axis
   svg.append("g")
@@ -209,7 +297,7 @@ function createBarChart(listProvince, values, data, regio) {
      .attr("font-size", "8px")
      .attr("dx", "-.5em")
      .attr("dy", ".8em")
-     .attr("transform", "rotate(-25)")
+     .attr("transform", "rotate(-25)");
 
   // plot y-axis
   svg.append("g")
@@ -233,5 +321,5 @@ function createBarChart(listProvince, values, data, regio) {
      .attr("text-anchor", "middle")
      .style("font-size", "20px")
      .style("text-decoration", "bold")
-     .text("Distribution mode of transport in the province");
+     .text("Distribution mode of transport in " + tt[regio]);
 };

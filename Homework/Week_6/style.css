@@ -2,11 +2,16 @@
 10989137
 CSS for D3 linked views*/
 
-.jvectormap-legend-icons {
-  background: black;
-  border: black 1px solid;
+html * {
+  font-family: sans-serif;
+  background-color: lightGray;
 }
 
-.jvectormap-legend-icons {
-  color: black;
+h4 {
+  text-align: center;
 }
+
+p {
+  text-align: center;
+  font-size: 10px;
+};
