@@ -192,6 +192,7 @@ function createBarChart(listProvince, values, data, regio) {
   var rightSideChart = 50;
   var labelPadding = 40;
   var titlePadding = 30;
+  var barcolor = "#0071A4"
 
   // create a tooltip
   var tool = d3.select("#barChart")
@@ -251,7 +252,7 @@ function createBarChart(listProvince, values, data, regio) {
      .data(yValues)
      .enter()
      .append("rect")
-     .attr("fill", "blue")
+     .attr("fill", barcolor)
      .attr("width", (width - leftSideChart - rightSideChart) /
            xValues.length - barPadding + "px")
      .attr("y", function(d) {
@@ -277,7 +278,7 @@ function createBarChart(listProvince, values, data, regio) {
      // return to normal rectangle
      .on("mouseout", function(){
        return (tool.style("visibility", "hidden"),
-               bars.attr("fill", "blue"));
+               bars.attr("fill", barcolor));
      })
      .on("mousemove", function(d, i){
        return tool.style("top", event.clientY - 40 + "px")
